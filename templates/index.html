@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCK Match Prediction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .accuracy-badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .match-setup {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 30px;
+            align-items: start;
+            margin-bottom: 30px;
+        }
+
+        .team-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #e9ecef;
+        }
+
+        .blue-team {
+            border-left: 5px solid #007bff;
+        }
+
+        .red-team {
+            border-left: 5px solid #dc3545;
+        }
+
+        .team-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .team-header h3 {
+            color: #495057;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .vs-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+        }
+
+        .vs-circle {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .predict-btn {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            margin: 30px auto;
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .predict-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .predict-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .results {
+            margin-top: 30px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            display: none;
+        }
+
+        .results.show {
+            display: block;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .result-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .winner-prediction {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .probabilities {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .prob-card {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+        }
+
+        .prob-card.blue {
+            border-left: 5px solid #007bff;
+        }
+
+        .prob-card.red {
+            border-left: 5px solid #dc3545;
+        }
+
+        .prob-percentage {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .prob-label {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .confidence {
+            text-align: center;
+            margin-top: 15px;
+            padding: 10px;
+            background: #e3f2fd;
+            border-radius: 8px;
+            border-left: 4px solid #2196f3;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #f5c6cb;
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .match-setup {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .vs-section {
+                order: 2;
+                margin: 0;
+            }
+
+            .probabilities {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏆 LCK Match Prediction</h1>
+            <p>Advanced AI-powered League of Legends match outcome prediction</p>
+            <div class="accuracy-badge">Model Accuracy: 79.88%</div>
+        </div>
+
+        <div class="match-setup">
+            <div class="team-section blue-team">
+                <div class="team-header">
+                    <h3>💙 Blue Team</h3>
+                </div>
+                
+                <div class="form-group">
+                    <label for="blue_team">Team:</label>
+                    <select class="form-control" id="blue_team" name="blue_team">
+                        <option value="">Select Team</option>
+                        {% for team in teams %}
+                        <option value="{{ team }}">{{ team }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_top">Top Laner:</label>
+                    <select class="form-control player-select" id="blue_top" name="blue_top" data-position="top">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_jng">Jungler:</label>
+                    <select class="form-control player-select" id="blue_jng" name="blue_jng" data-position="jng">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_mid">Mid Laner:</label>
+                    <select class="form-control player-select" id="blue_mid" name="blue_mid" data-position="mid">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_bot">Bot Laner:</label>
+                    <select class="form-control player-select" id="blue_bot" name="blue_bot" data-position="bot">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_sup">Support:</label>
+                    <select class="form-control player-select" id="blue_sup" name="blue_sup" data-position="sup">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <h4 style="margin: 20px 0 10px 0; color: #495057;">Champions:</h4>
+                
+                <div class="form-group">
+                    <label for="blue_champ1">Top Champion:</label>
+                    <select class="form-control" id="blue_champ1" name="blue_champ1">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_champ2">Jungle Champion:</label>
+                    <select class="form-control" id="blue_champ2" name="blue_champ2">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_champ3">Mid Champion:</label>
+                    <select class="form-control" id="blue_champ3" name="blue_champ3">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_champ4">Bot Champion:</label>
+                    <select class="form-control" id="blue_champ4" name="blue_champ4">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="blue_champ5">Support Champion:</label>
+                    <select class="form-control" id="blue_champ5" name="blue_champ5">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+
+            <div class="vs-section">
+                <div class="vs-circle">VS</div>
+            </div>
+
+            <div class="team-section red-team">
+                <div class="team-header">
+                    <h3>❤️ Red Team</h3>
+                </div>
+                
+                <div class="form-group">
+                    <label for="red_team">Team:</label>
+                    <select class="form-control" id="red_team" name="red_team">
+                        <option value="">Select Team</option>
+                        {% for team in teams %}
+                        <option value="{{ team }}">{{ team }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_top">Top Laner:</label>
+                    <select class="form-control player-select" id="red_top" name="red_top" data-position="top">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_jng">Jungler:</label>
+                    <select class="form-control player-select" id="red_jng" name="red_jng" data-position="jng">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_mid">Mid Laner:</label>
+                    <select class="form-control player-select" id="red_mid" name="red_mid" data-position="mid">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_bot">Bot Laner:</label>
+                    <select class="form-control player-select" id="red_bot" name="red_bot" data-position="bot">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_sup">Support:</label>
+                    <select class="form-control player-select" id="red_sup" name="red_sup" data-position="sup">
+                        <option value="">Select Player</option>
+                    </select>
+                </div>
+
+                <h4 style="margin: 20px 0 10px 0; color: #495057;">Champions:</h4>
+                
+                <div class="form-group">
+                    <label for="red_champ1">Top Champion:</label>
+                    <select class="form-control" id="red_champ1" name="red_champ1">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_champ2">Jungle Champion:</label>
+                    <select class="form-control" id="red_champ2" name="red_champ2">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_champ3">Mid Champion:</label>
+                    <select class="form-control" id="red_champ3" name="red_champ3">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_champ4">Bot Champion:</label>
+                    <select class="form-control" id="red_champ4" name="red_champ4">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="red_champ5">Support Champion:</label>
+                    <select class="form-control" id="red_champ5" name="red_champ5">
+                        <option value="">Select Champion</option>
+                        {% for champion in champions %}
+                        <option value="{{ champion }}">{{ champion }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <button class="predict-btn" onclick="predictMatch()">
+            🔮 Predict Match Outcome
+        </button>
+
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Analyzing match data and generating prediction...</p>
+        </div>
+
+        <div class="error" id="error-message"></div>
+
+        <div class="results" id="results">
+            <div class="result-header">
+                <h3>🎯 Match Prediction Results</h3>
+            </div>
+
+            <div class="winner-prediction" id="winner-prediction">
+                <!-- Winner will be displayed here -->
+            </div>
+
+            <div class="probabilities">
+                <div class="prob-card blue">
+                    <div class="prob-percentage" id="blue-probability">--</div>
+                    <div class="prob-label">Blue Team Win Probability</div>
+                </div>
+                <div class="prob-card red">
+                    <div class="prob-percentage" id="red-probability">--</div>
+                    <div class="prob-label">Red Team Win Probability</div>
+                </div>
+            </div>
+
+            <div class="confidence">
+                <strong>Prediction Confidence:</strong> <span id="confidence-level">--</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allPlayers = {};
+        let teamRosters = {};
+
+        // Load all players on page load
+        async function loadAllPlayers() {
+            try {
+                const response = await fetch('/all-players');
+                allPlayers = await response.json();
+                
+                // Populate all player dropdowns
+                populatePlayerDropdowns();
+            } catch (error) {
+                console.error('Error loading players:', error);
+            }
+        }
+
+        function populatePlayerDropdowns() {
+            // Populate all player select dropdowns
+            document.querySelectorAll('.player-select').forEach(select => {
+                const position = select.getAttribute('data-position');
+                const currentValue = select.value;
+                
+                // Clear existing options except the first one
+                select.innerHTML = '<option value="">Select Player</option>';
+                
+                // Add players for this position
+                if (allPlayers[position]) {
+                    allPlayers[position].forEach(player => {
+                        const option = document.createElement('option');
+                        option.value = player;
+                        option.textContent = player;
+                        select.appendChild(option);
+                    });
+                }
+                
+                // Restore previous value if it exists
+                if (currentValue) {
+                    select.value = currentValue;
+                }
+            });
+        }
+
+        // Auto-fill players when team is selected
+        async function handleTeamChange(teamSelectId, side) {
+            const teamSelect = document.getElementById(teamSelectId);
+            const teamName = teamSelect.value;
+            
+            if (!teamName) return;
+            
+            try {
+                const response = await fetch(`/team-roster/${encodeURIComponent(teamName)}`);
+                const data = await response.json();
+                
+                if (data.success && data.roster) {
+                    // Auto-fill players for this team
+                    const positions = ['top', 'jng', 'mid', 'bot', 'sup'];
+                    positions.forEach(position => {
+                        const playerSelect = document.getElementById(`${side}_${position}`);
+                        if (playerSelect && data.roster[position]) {
+                            // Check if player exists in dropdown
+                            const options = Array.from(playerSelect.options);
+                            const playerExists = options.some(opt => opt.value === data.roster[position]);
+                            
+                            if (playerExists) {
+                                playerSelect.value = data.roster[position];
+                            } else {
+                                // Add the player if not in list
+                                const option = document.createElement('option');
+                                option.value = data.roster[position];
+                                option.textContent = data.roster[position];
+                                playerSelect.appendChild(option);
+                                playerSelect.value = data.roster[position];
+                            }
+                        }
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading team roster:', error);
+            }
+        }
+
+        // Add event listeners for team selection
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('LCK Match Prediction App initialized');
+            
+            // Load all players
+            loadAllPlayers();
+            
+            // Add team change listeners
+            document.getElementById('blue_team').addEventListener('change', function() {
+                handleTeamChange('blue_team', 'blue');
+            });
+            
+            document.getElementById('red_team').addEventListener('change', function() {
+                handleTeamChange('red_team', 'red');
+            });
+        });
+
+        async function predictMatch() {
+            // Collect form data
+            const formData = {};
+            const inputs = document.querySelectorAll('input, select');
+            
+            inputs.forEach(input => {
+                formData[input.name] = input.value;
+            });
+
+            // Basic validation
+            if (!formData.blue_team || !formData.red_team) {
+                showError('Please select both teams');
+                return;
+            }
+
+            // Show loading state
+            showLoading(true);
+            hideError();
+            hideResults();
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+
+                if (result.error) {
+                    showError(result.error);
+                } else {
+                    displayResults(result);
+                }
+            } catch (error) {
+                showError('Failed to get prediction. Please try again.');
+                console.error('Prediction error:', error);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function displayResults(result) {
+            // Update winner prediction
+            const winnerElement = document.getElementById('winner-prediction');
+            const isBlueWin = result.predicted_winner === 'Blue Team';
+            winnerElement.innerHTML = `
+                <span style="color: ${isBlueWin ? '#007bff' : '#dc3545'}">
+                    ${result.predicted_winner} is predicted to win!
+                </span>
+            `;
+
+            // Update probabilities
+            document.getElementById('blue-probability').textContent = 
+                `${(result.blue_win_probability * 100).toFixed(1)}%`;
+            document.getElementById('red-probability').textContent = 
+                `${(result.red_win_probability * 100).toFixed(1)}%`;
+
+            // Update confidence
+            document.getElementById('confidence-level').textContent = 
+                `${(result.confidence * 100).toFixed(1)}% (Model Accuracy: ${result.model_accuracy})`;
+
+            // Show results
+            showResults();
+        }
+
+        function showResults() {
+            document.getElementById('results').classList.add('show');
+        }
+
+        function hideResults() {
+            document.getElementById('results').classList.remove('show');
+        }
+
+        function showLoading(show) {
+            document.querySelector('.loading').style.display = show ? 'block' : 'none';
+            document.querySelector('.predict-btn').disabled = show;
+        }
+
+        function showError(message) {
+            const errorElement = document.getElementById('error-message');
+            errorElement.textContent = message;
+            errorElement.style.display = 'block';
+        }
+
+        function hideError() {
+            document.getElementById('error-message').style.display = 'none';
+        }
+
+        // Auto-hide results when form is changed
+        document.addEventListener('change', function(e) {
+            if (e.target.matches('input, select')) {
+                hideResults();
+            }
+        });
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('LCK Match Prediction App initialized');
+        });
+    </script>
+</body>
+</html>

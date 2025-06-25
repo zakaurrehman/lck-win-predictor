@@ -1,0 +1,3048 @@
+{
+  "jungle_mid": {
+    "Azir_Sejuani": {
+      "winrate": 0.46511627906976744,
+      "games": 172,
+      "synergy": -0.034883720930232565
+    },
+    "Taliyah_Vi": {
+      "winrate": 0.5675675675675675,
+      "games": 111,
+      "synergy": 0.06756756756756754
+    },
+    "Azir_Nidalee": {
+      "winrate": 0.5789473684210527,
+      "games": 38,
+      "synergy": 0.07894736842105265
+    },
+    "Sejuani_Smolder": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Corki_Zyra": {
+      "winrate": 0.41379310344827586,
+      "games": 29,
+      "synergy": -0.08620689655172414
+    },
+    "Azir_Nocturne": {
+      "winrate": 0.5333333333333333,
+      "games": 15,
+      "synergy": 0.033333333333333326
+    },
+    "Ahri_Vi": {
+      "winrate": 0.5056179775280899,
+      "games": 89,
+      "synergy": 0.005617977528089901
+    },
+    "Sejuani_Yone": {
+      "winrate": 0.4880952380952381,
+      "games": 84,
+      "synergy": -0.011904761904761918
+    },
+    "Corki_Sejuani": {
+      "winrate": 0.48148148148148145,
+      "games": 54,
+      "synergy": -0.018518518518518545
+    },
+    "Azir_Viego": {
+      "winrate": 0.49523809523809526,
+      "games": 105,
+      "synergy": -0.004761904761904745
+    },
+    "Azir_Maokai": {
+      "winrate": 0.532608695652174,
+      "games": 92,
+      "synergy": 0.03260869565217395
+    },
+    "Taliyah_Viego": {
+      "winrate": 0.5172413793103449,
+      "games": 29,
+      "synergy": 0.017241379310344862
+    },
+    "Vex_Viego": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Sejuani_Sylas": {
+      "winrate": 0.48936170212765956,
+      "games": 47,
+      "synergy": -0.010638297872340441
+    },
+    "Azir_Poppy": {
+      "winrate": 0.4807692307692308,
+      "games": 104,
+      "synergy": -0.019230769230769218
+    },
+    "LeBlanc_Vi": {
+      "winrate": 0.5714285714285714,
+      "games": 28,
+      "synergy": 0.0714285714285714
+    },
+    "Azir_Skarner": {
+      "winrate": 0.5833333333333334,
+      "games": 12,
+      "synergy": 0.08333333333333337
+    },
+    "Neeko_Viego": {
+      "winrate": 0.6818181818181818,
+      "games": 22,
+      "synergy": 0.18181818181818177
+    },
+    "Azir_Xin Zhao": {
+      "winrate": 0.41818181818181815,
+      "games": 55,
+      "synergy": -0.08181818181818185
+    },
+    "Yone_Zyra": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Annie_Vi": {
+      "winrate": 0.625,
+      "games": 16,
+      "synergy": 0.125
+    },
+    "Lee Sin_Sylas": {
+      "winrate": 0.5454545454545454,
+      "games": 44,
+      "synergy": 0.045454545454545414
+    },
+    "Corki_Maokai": {
+      "winrate": 0.5740740740740741,
+      "games": 54,
+      "synergy": 0.07407407407407407
+    },
+    "Akali_Wukong": {
+      "winrate": 0.475,
+      "games": 40,
+      "synergy": -0.025000000000000022
+    },
+    "Ahri_Viego": {
+      "winrate": 0.4861111111111111,
+      "games": 72,
+      "synergy": -0.013888888888888895
+    },
+    "Sylas_Xin Zhao": {
+      "winrate": 0.36363636363636365,
+      "games": 11,
+      "synergy": -0.13636363636363635
+    },
+    "Hwei_Sejuani": {
+      "winrate": 0.2,
+      "games": 10,
+      "synergy": -0.3
+    },
+    "Corki_Viego": {
+      "winrate": 0.6428571428571429,
+      "games": 42,
+      "synergy": 0.1428571428571429
+    },
+    "Sylas_Viego": {
+      "winrate": 0.35714285714285715,
+      "games": 28,
+      "synergy": -0.14285714285714285
+    },
+    "Hwei_Viego": {
+      "winrate": 0.25,
+      "games": 12,
+      "synergy": -0.25
+    },
+    "Corki_Vi": {
+      "winrate": 0.5714285714285714,
+      "games": 14,
+      "synergy": 0.0714285714285714
+    },
+    "Corki_Lillia": {
+      "winrate": 0.4375,
+      "games": 16,
+      "synergy": -0.0625
+    },
+    "Taliyah_Xin Zhao": {
+      "winrate": 0.43478260869565216,
+      "games": 23,
+      "synergy": -0.06521739130434784
+    },
+    "Azir_Vi": {
+      "winrate": 0.5060240963855421,
+      "games": 83,
+      "synergy": 0.0060240963855421326
+    },
+    "Lillia_Yone": {
+      "winrate": 0.6470588235294118,
+      "games": 17,
+      "synergy": 0.1470588235294118
+    },
+    "Maokai_Tristana": {
+      "winrate": 0.6153846153846154,
+      "games": 117,
+      "synergy": 0.11538461538461542
+    },
+    "Maokai_Yone": {
+      "winrate": 0.5882352941176471,
+      "games": 51,
+      "synergy": 0.08823529411764708
+    },
+    "Nidalee_Tristana": {
+      "winrate": 0.42857142857142855,
+      "games": 28,
+      "synergy": -0.07142857142857145
+    },
+    "LeBlanc_Lee Sin": {
+      "winrate": 0.4462809917355372,
+      "games": 121,
+      "synergy": -0.0537190082644628
+    },
+    "Orianna_Viego": {
+      "winrate": 0.391304347826087,
+      "games": 23,
+      "synergy": -0.10869565217391303
+    },
+    "Jarvan IV_Orianna": {
+      "winrate": 0.21052631578947367,
+      "games": 19,
+      "synergy": -0.2894736842105263
+    },
+    "Azir_Lillia": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Ivern_Tristana": {
+      "winrate": 0.45714285714285713,
+      "games": 35,
+      "synergy": -0.04285714285714287
+    },
+    "Corki_Lee Sin": {
+      "winrate": 0.5652173913043478,
+      "games": 23,
+      "synergy": 0.06521739130434778
+    },
+    "Lucian_Nidalee": {
+      "winrate": 0.6923076923076923,
+      "games": 13,
+      "synergy": 0.1923076923076923
+    },
+    "LeBlanc_Viego": {
+      "winrate": 0.5121951219512195,
+      "games": 41,
+      "synergy": 0.012195121951219523
+    },
+    "Akali_Viego": {
+      "winrate": 0.6,
+      "games": 20,
+      "synergy": 0.09999999999999998
+    },
+    "Orianna_Xin Zhao": {
+      "winrate": 0.36363636363636365,
+      "games": 22,
+      "synergy": -0.13636363636363635
+    },
+    "Corki_Nidalee": {
+      "winrate": 0.38461538461538464,
+      "games": 26,
+      "synergy": -0.11538461538461536
+    },
+    "Annie_Viego": {
+      "winrate": 0.509090909090909,
+      "games": 55,
+      "synergy": 0.009090909090909038
+    },
+    "Lillia_Lucian": {
+      "winrate": 0.6842105263157895,
+      "games": 19,
+      "synergy": 0.1842105263157895
+    },
+    "Sejuani_Tristana": {
+      "winrate": 0.5098039215686274,
+      "games": 51,
+      "synergy": 0.009803921568627416
+    },
+    "Azir_Lee Sin": {
+      "winrate": 0.4044943820224719,
+      "games": 89,
+      "synergy": -0.0955056179775281
+    },
+    "Lucian_Zyra": {
+      "winrate": 0.6470588235294118,
+      "games": 17,
+      "synergy": 0.1470588235294118
+    },
+    "Nidalee_Yone": {
+      "winrate": 0.42105263157894735,
+      "games": 19,
+      "synergy": -0.07894736842105265
+    },
+    "Akali_Vi": {
+      "winrate": 0.3448275862068966,
+      "games": 29,
+      "synergy": -0.15517241379310343
+    },
+    "Jayce_Maokai": {
+      "winrate": 0.4657534246575342,
+      "games": 73,
+      "synergy": -0.03424657534246578
+    },
+    "Wukong_Yone": {
+      "winrate": 0.5833333333333334,
+      "games": 12,
+      "synergy": 0.08333333333333337
+    },
+    "Brand_Corki": {
+      "winrate": 0.4583333333333333,
+      "games": 24,
+      "synergy": -0.041666666666666685
+    },
+    "Corki_Poppy": {
+      "winrate": 0.6428571428571429,
+      "games": 28,
+      "synergy": 0.1428571428571429
+    },
+    "Corki_Xin Zhao": {
+      "winrate": 0.47058823529411764,
+      "games": 17,
+      "synergy": -0.02941176470588236
+    },
+    "Lee Sin_Syndra": {
+      "winrate": 0.5614035087719298,
+      "games": 57,
+      "synergy": 0.06140350877192979
+    },
+    "Lee Sin_Taliyah": {
+      "winrate": 0.5952380952380952,
+      "games": 42,
+      "synergy": 0.09523809523809523
+    },
+    "Jayce_Sejuani": {
+      "winrate": 0.5517241379310345,
+      "games": 29,
+      "synergy": 0.051724137931034475
+    },
+    "Lucian_Sejuani": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Hwei_Lee Sin": {
+      "winrate": 0.38461538461538464,
+      "games": 13,
+      "synergy": -0.11538461538461536
+    },
+    "Lee Sin_Orianna": {
+      "winrate": 0.5454545454545454,
+      "games": 44,
+      "synergy": 0.045454545454545414
+    },
+    "Maokai_Taliyah": {
+      "winrate": 0.5,
+      "games": 18,
+      "synergy": 0.0
+    },
+    "LeBlanc_Wukong": {
+      "winrate": 0.35294117647058826,
+      "games": 17,
+      "synergy": -0.14705882352941174
+    },
+    "Ivern_Jayce": {
+      "winrate": 0.5333333333333333,
+      "games": 15,
+      "synergy": 0.033333333333333326
+    },
+    "Azir_Volibear": {
+      "winrate": 0.5384615384615384,
+      "games": 26,
+      "synergy": 0.038461538461538436
+    },
+    "Sejuani_Taliyah": {
+      "winrate": 0.5208333333333334,
+      "games": 48,
+      "synergy": 0.02083333333333337
+    },
+    "LeBlanc_Sejuani": {
+      "winrate": 0.42857142857142855,
+      "games": 21,
+      "synergy": -0.07142857142857145
+    },
+    "Lee Sin_Twisted Fate": {
+      "winrate": 0.5161290322580645,
+      "games": 31,
+      "synergy": 0.016129032258064502
+    },
+    "Brand_Tristana": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Viktor_Xin Zhao": {
+      "winrate": 0.5675675675675675,
+      "games": 37,
+      "synergy": 0.06756756756756754
+    },
+    "Akali_Sejuani": {
+      "winrate": 0.3611111111111111,
+      "games": 36,
+      "synergy": -0.1388888888888889
+    },
+    "Azir_Wukong": {
+      "winrate": 0.5394736842105263,
+      "games": 76,
+      "synergy": 0.03947368421052633
+    },
+    "Orianna_Vi": {
+      "winrate": 0.4117647058823529,
+      "games": 17,
+      "synergy": -0.08823529411764708
+    },
+    "LeBlanc_Xin Zhao": {
+      "winrate": 0.45454545454545453,
+      "games": 33,
+      "synergy": -0.04545454545454547
+    },
+    "Annie_Lee Sin": {
+      "winrate": 0.48484848484848486,
+      "games": 33,
+      "synergy": -0.015151515151515138
+    },
+    "Jarvan IV_Sylas": {
+      "winrate": 0.6363636363636364,
+      "games": 11,
+      "synergy": 0.13636363636363635
+    },
+    "Ahri_Xin Zhao": {
+      "winrate": 0.4230769230769231,
+      "games": 26,
+      "synergy": -0.07692307692307693
+    },
+    "Poppy_Taliyah": {
+      "winrate": 0.5,
+      "games": 22,
+      "synergy": 0.0
+    },
+    "Azir_Kha'Zix": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Lee Sin_Viktor": {
+      "winrate": 0.4827586206896552,
+      "games": 29,
+      "synergy": -0.017241379310344807
+    },
+    "Azir_Rell": {
+      "winrate": 0.53125,
+      "games": 32,
+      "synergy": 0.03125
+    },
+    "Orianna_Rell": {
+      "winrate": 0.6428571428571429,
+      "games": 14,
+      "synergy": 0.1428571428571429
+    },
+    "Ahri_Volibear": {
+      "winrate": 0.2608695652173913,
+      "games": 23,
+      "synergy": -0.2391304347826087
+    },
+    "Rell_Taliyah": {
+      "winrate": 0.75,
+      "games": 12,
+      "synergy": 0.25
+    },
+    "Sylas_Volibear": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Ahri_Lee Sin": {
+      "winrate": 0.5079365079365079,
+      "games": 63,
+      "synergy": 0.007936507936507908
+    },
+    "Veigar_Viego": {
+      "winrate": 0.6363636363636364,
+      "games": 11,
+      "synergy": 0.13636363636363635
+    },
+    "Corki_Rell": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Sylas_Vi": {
+      "winrate": 0.4230769230769231,
+      "games": 26,
+      "synergy": -0.07692307692307693
+    },
+    "Lee Sin_Veigar": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Ahri_Wukong": {
+      "winrate": 0.47692307692307695,
+      "games": 65,
+      "synergy": -0.02307692307692305
+    },
+    "Ahri_Sejuani": {
+      "winrate": 0.45,
+      "games": 20,
+      "synergy": -0.04999999999999999
+    },
+    "Karma_Lee Sin": {
+      "winrate": 0.25,
+      "games": 16,
+      "synergy": -0.25
+    },
+    "Syndra_Xin Zhao": {
+      "winrate": 0.375,
+      "games": 16,
+      "synergy": -0.125
+    },
+    "Ahri_Nocturne": {
+      "winrate": 0.4117647058823529,
+      "games": 17,
+      "synergy": -0.08823529411764708
+    },
+    "Rell_Tristana": {
+      "winrate": 0.5294117647058824,
+      "games": 17,
+      "synergy": 0.02941176470588236
+    },
+    "Syndra_Viego": {
+      "winrate": 0.38095238095238093,
+      "games": 21,
+      "synergy": -0.11904761904761907
+    },
+    "Karma_Sejuani": {
+      "winrate": 0.3333333333333333,
+      "games": 12,
+      "synergy": -0.16666666666666669
+    },
+    "Nocturne_Orianna": {
+      "winrate": 0.5294117647058824,
+      "games": 17,
+      "synergy": 0.02941176470588236
+    },
+    "Karma_Xin Zhao": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Ahri_Poppy": {
+      "winrate": 0.5,
+      "games": 16,
+      "synergy": 0.0
+    },
+    "Neeko_Nocturne": {
+      "winrate": 0.5,
+      "games": 12,
+      "synergy": 0.0
+    },
+    "LeBlanc_Poppy": {
+      "winrate": 0.4,
+      "games": 10,
+      "synergy": -0.09999999999999998
+    },
+    "Jarvan IV_LeBlanc": {
+      "winrate": 0.4583333333333333,
+      "games": 24,
+      "synergy": -0.041666666666666685
+    },
+    "Orianna_Sejuani": {
+      "winrate": 0.5,
+      "games": 12,
+      "synergy": 0.0
+    },
+    "Lee Sin_Lissandra": {
+      "winrate": 0.5357142857142857,
+      "games": 28,
+      "synergy": 0.0357142857142857
+    },
+    "Orianna_Poppy": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Orianna_Volibear": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Maokai_Sylas": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    },
+    "Ryze_Xin Zhao": {
+      "winrate": 0.5,
+      "games": 44,
+      "synergy": 0.0
+    },
+    "Poppy_Viktor": {
+      "winrate": 0.38095238095238093,
+      "games": 21,
+      "synergy": -0.11904761904761907
+    },
+    "Akali_Lee Sin": {
+      "winrate": 0.5531914893617021,
+      "games": 47,
+      "synergy": 0.05319148936170215
+    },
+    "Azir_Olaf": {
+      "winrate": 0.5833333333333334,
+      "games": 24,
+      "synergy": 0.08333333333333337
+    },
+    "Sylas_Wukong": {
+      "winrate": 0.6666666666666666,
+      "games": 45,
+      "synergy": 0.16666666666666663
+    },
+    "Azir_Jarvan IV": {
+      "winrate": 0.5,
+      "games": 30,
+      "synergy": 0.0
+    },
+    "Corki_Jarvan IV": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Gragas_Lee Sin": {
+      "winrate": 0.3684210526315789,
+      "games": 19,
+      "synergy": -0.13157894736842107
+    },
+    "Neeko_Vi": {
+      "winrate": 0.5714285714285714,
+      "games": 14,
+      "synergy": 0.0714285714285714
+    },
+    "Corki_Trundle": {
+      "winrate": 0.4482758620689655,
+      "games": 29,
+      "synergy": -0.051724137931034475
+    },
+    "Azir_Trundle": {
+      "winrate": 0.5769230769230769,
+      "games": 52,
+      "synergy": 0.07692307692307687
+    },
+    "Gragas_Yasuo": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Azir_Graves": {
+      "winrate": 0.2857142857142857,
+      "games": 14,
+      "synergy": -0.2142857142857143
+    },
+    "Akali_Xin Zhao": {
+      "winrate": 0.6,
+      "games": 15,
+      "synergy": 0.09999999999999998
+    },
+    "Maokai_Syndra": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Ahri_Maokai": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Annie_Kha'Zix": {
+      "winrate": 0.9230769230769231,
+      "games": 13,
+      "synergy": 0.42307692307692313
+    },
+    "Annie_Sejuani": {
+      "winrate": 0.5625,
+      "games": 16,
+      "synergy": 0.0625
+    },
+    "Lissandra_Viego": {
+      "winrate": 0.45,
+      "games": 20,
+      "synergy": -0.04999999999999999
+    },
+    "Annie_Wukong": {
+      "winrate": 0.375,
+      "games": 24,
+      "synergy": -0.125
+    },
+    "Diana_Yasuo": {
+      "winrate": 0.5555555555555556,
+      "games": 18,
+      "synergy": 0.05555555555555558
+    },
+    "Twisted Fate_Viego": {
+      "winrate": 0.5714285714285714,
+      "games": 14,
+      "synergy": 0.0714285714285714
+    },
+    "Sejuani_Veigar": {
+      "winrate": 0.36363636363636365,
+      "games": 11,
+      "synergy": -0.13636363636363635
+    },
+    "Vi_Viktor": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Sejuani_Syndra": {
+      "winrate": 0.3684210526315789,
+      "games": 19,
+      "synergy": -0.13157894736842107
+    },
+    "Lissandra_Vi": {
+      "winrate": 0.7142857142857143,
+      "games": 14,
+      "synergy": 0.2142857142857143
+    },
+    "Azir_Elise": {
+      "winrate": 0.4666666666666667,
+      "games": 15,
+      "synergy": -0.033333333333333326
+    },
+    "Azir_Rek'Sai": {
+      "winrate": 0.3333333333333333,
+      "games": 12,
+      "synergy": -0.16666666666666669
+    },
+    "Gragas_Viego": {
+      "winrate": 0.23076923076923078,
+      "games": 13,
+      "synergy": -0.2692307692307692
+    },
+    "Gragas_Wukong": {
+      "winrate": 0.42857142857142855,
+      "games": 14,
+      "synergy": -0.07142857142857145
+    },
+    "Ryze_Sejuani": {
+      "winrate": 0.56,
+      "games": 25,
+      "synergy": 0.06000000000000005
+    },
+    "Syndra_Wukong": {
+      "winrate": 0.6666666666666666,
+      "games": 12,
+      "synergy": 0.16666666666666663
+    },
+    "Elise_Jayce": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Lissandra_Wukong": {
+      "winrate": 0.4444444444444444,
+      "games": 18,
+      "synergy": -0.05555555555555558
+    },
+    "Lee Sin_Ryze": {
+      "winrate": 0.49122807017543857,
+      "games": 57,
+      "synergy": -0.00877192982456143
+    },
+    "Ryze_Wukong": {
+      "winrate": 0.43333333333333335,
+      "games": 30,
+      "synergy": -0.06666666666666665
+    },
+    "Taliyah_Wukong": {
+      "winrate": 0.34375,
+      "games": 32,
+      "synergy": -0.15625
+    },
+    "Galio_Lee Sin": {
+      "winrate": 0.42857142857142855,
+      "games": 21,
+      "synergy": -0.07142857142857145
+    },
+    "Viktor_Wukong": {
+      "winrate": 0.4074074074074074,
+      "games": 27,
+      "synergy": -0.09259259259259262
+    },
+    "Elise_Viktor": {
+      "winrate": 0.7,
+      "games": 10,
+      "synergy": 0.19999999999999996
+    },
+    "Ryze_Viego": {
+      "winrate": 0.4444444444444444,
+      "games": 36,
+      "synergy": -0.05555555555555558
+    },
+    "Sejuani_Viktor": {
+      "winrate": 0.5,
+      "games": 20,
+      "synergy": 0.0
+    },
+    "Ryze_Trundle": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Lee Sin_Zoe": {
+      "winrate": 0.5405405405405406,
+      "games": 37,
+      "synergy": 0.04054054054054057
+    },
+    "Swain_Wukong": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Nidalee_Sett": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Poppy_Ryze": {
+      "winrate": 0.5,
+      "games": 18,
+      "synergy": 0.0
+    },
+    "Galio_Wukong": {
+      "winrate": 0.4375,
+      "games": 16,
+      "synergy": -0.0625
+    },
+    "Jarvan IV_Viktor": {
+      "winrate": 0.5806451612903226,
+      "games": 31,
+      "synergy": 0.08064516129032262
+    },
+    "Viego_Viktor": {
+      "winrate": 0.2631578947368421,
+      "games": 19,
+      "synergy": -0.2368421052631579
+    },
+    "Nidalee_Twisted Fate": {
+      "winrate": 0.6923076923076923,
+      "games": 13,
+      "synergy": 0.1923076923076923
+    },
+    "Sylas_Trundle": {
+      "winrate": 0.5,
+      "games": 20,
+      "synergy": 0.0
+    },
+    "Taliyah_Trundle": {
+      "winrate": 0.5333333333333333,
+      "games": 15,
+      "synergy": 0.033333333333333326
+    },
+    "Ahri_Trundle": {
+      "winrate": 0.5833333333333334,
+      "games": 12,
+      "synergy": 0.08333333333333337
+    },
+    "Trundle_Zoe": {
+      "winrate": 0.4838709677419355,
+      "games": 31,
+      "synergy": -0.016129032258064502
+    },
+    "LeBlanc_Trundle": {
+      "winrate": 0.6296296296296297,
+      "games": 27,
+      "synergy": 0.12962962962962965
+    },
+    "Swain_Viego": {
+      "winrate": 0.875,
+      "games": 16,
+      "synergy": 0.375
+    },
+    "Vex_Xin Zhao": {
+      "winrate": 0.6521739130434783,
+      "games": 23,
+      "synergy": 0.15217391304347827
+    },
+    "Orianna_Trundle": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Azir_Hecarim": {
+      "winrate": 0.4,
+      "games": 10,
+      "synergy": -0.09999999999999998
+    },
+    "Ahri_Hecarim": {
+      "winrate": 0.625,
+      "games": 16,
+      "synergy": 0.125
+    },
+    "Trundle_Twisted Fate": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Xin Zhao_Zoe": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Diana_Ryze": {
+      "winrate": 0.6666666666666666,
+      "games": 12,
+      "synergy": 0.16666666666666663
+    },
+    "Hecarim_Orianna": {
+      "winrate": 0.23076923076923078,
+      "games": 13,
+      "synergy": -0.2692307692307692
+    },
+    "Twisted Fate_Xin Zhao": {
+      "winrate": 0.7142857142857143,
+      "games": 14,
+      "synergy": 0.2142857142857143
+    },
+    "Hecarim_Zoe": {
+      "winrate": 0.38461538461538464,
+      "games": 13,
+      "synergy": -0.11538461538461536
+    },
+    "Jarvan IV_Ryze": {
+      "winrate": 0.5789473684210527,
+      "games": 19,
+      "synergy": 0.07894736842105265
+    },
+    "Lee Sin_Vex": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Ryze_Volibear": {
+      "winrate": 0.5555555555555556,
+      "games": 18,
+      "synergy": 0.05555555555555558
+    },
+    "Akali_Volibear": {
+      "winrate": 0.6923076923076923,
+      "games": 13,
+      "synergy": 0.1923076923076923
+    },
+    "Hecarim_Ryze": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Hecarim_Viktor": {
+      "winrate": 0.6666666666666666,
+      "games": 12,
+      "synergy": 0.16666666666666663
+    },
+    "Rek'Sai_Ryze": {
+      "winrate": 0.4666666666666667,
+      "games": 15,
+      "synergy": -0.033333333333333326
+    },
+    "Galio_Jarvan IV": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Olaf_Ryze": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Jarvan IV_Zoe": {
+      "winrate": 0.6,
+      "games": 20,
+      "synergy": 0.09999999999999998
+    },
+    "Nidalee_Renekton": {
+      "winrate": 0.4090909090909091,
+      "games": 22,
+      "synergy": -0.09090909090909088
+    },
+    "Jarvan IV_Syndra": {
+      "winrate": 0.35294117647058826,
+      "games": 17,
+      "synergy": -0.14705882352941174
+    },
+    "Rek'Sai_Syndra": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Graves_Zoe": {
+      "winrate": 0.5,
+      "games": 20,
+      "synergy": 0.0
+    },
+    "Diana_Lucian": {
+      "winrate": 0.5714285714285714,
+      "games": 14,
+      "synergy": 0.0714285714285714
+    },
+    "Corki_Olaf": {
+      "winrate": 0.7,
+      "games": 10,
+      "synergy": 0.19999999999999996
+    },
+    "Olaf_Viktor": {
+      "winrate": 0.2857142857142857,
+      "games": 14,
+      "synergy": -0.2142857142857143
+    },
+    "Nidalee_Zoe": {
+      "winrate": 0.5,
+      "games": 14,
+      "synergy": 0.0
+    },
+    "Nidalee_Orianna": {
+      "winrate": 0.2857142857142857,
+      "games": 21,
+      "synergy": -0.2142857142857143
+    },
+    "Nidalee_Syndra": {
+      "winrate": 0.6363636363636364,
+      "games": 22,
+      "synergy": 0.13636363636363635
+    },
+    "Diana_Sett": {
+      "winrate": 0.5652173913043478,
+      "games": 23,
+      "synergy": 0.06521739130434778
+    },
+    "Syndra_Trundle": {
+      "winrate": 0.38461538461538464,
+      "games": 13,
+      "synergy": -0.11538461538461536
+    },
+    "Olaf_Orianna": {
+      "winrate": 0.5172413793103449,
+      "games": 29,
+      "synergy": 0.017241379310344862
+    },
+    "Lee Sin_Rumble": {
+      "winrate": 0.36363636363636365,
+      "games": 11,
+      "synergy": -0.13636363636363635
+    },
+    "Rumble_Sett": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    },
+    "Orianna_Udyr": {
+      "winrate": 0.5263157894736842,
+      "games": 19,
+      "synergy": 0.02631578947368418
+    },
+    "Azir_Udyr": {
+      "winrate": 0.5625,
+      "games": 16,
+      "synergy": 0.0625
+    },
+    "Udyr_Zoe": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    },
+    "Udyr_Viktor": {
+      "winrate": 0.6,
+      "games": 15,
+      "synergy": 0.09999999999999998
+    },
+    "Graves_Syndra": {
+      "winrate": 0.65,
+      "games": 20,
+      "synergy": 0.15000000000000002
+    },
+    "Olaf_Syndra": {
+      "winrate": 0.46875,
+      "games": 32,
+      "synergy": -0.03125
+    },
+    "Olaf_Twisted Fate": {
+      "winrate": 0.25,
+      "games": 12,
+      "synergy": -0.25
+    },
+    "Syndra_Udyr": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Lillia_Viktor": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Graves_Orianna": {
+      "winrate": 0.6,
+      "games": 15,
+      "synergy": 0.09999999999999998
+    },
+    "Olaf_Zoe": {
+      "winrate": 0.5121951219512195,
+      "games": 41,
+      "synergy": 0.012195121951219523
+    },
+    "Lillia_Orianna": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Galio_Olaf": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Rek'Sai_Zoe": {
+      "winrate": 0.6923076923076923,
+      "games": 13,
+      "synergy": 0.1923076923076923
+    },
+    "Jarvan IV_Rumble": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    }
+  },
+  "bot_support": {
+    "Jhin_Rell": {
+      "winrate": 0.45,
+      "games": 20,
+      "synergy": -0.04999999999999999
+    },
+    "Rell_Varus": {
+      "winrate": 0.47368421052631576,
+      "games": 38,
+      "synergy": -0.026315789473684237
+    },
+    "Ashe_Braum": {
+      "winrate": 0.5409836065573771,
+      "games": 61,
+      "synergy": 0.040983606557377095
+    },
+    "Maokai_Xayah": {
+      "winrate": 0.3,
+      "games": 10,
+      "synergy": -0.2
+    },
+    "Kai'Sa_Nautilus": {
+      "winrate": 0.4393939393939394,
+      "games": 132,
+      "synergy": -0.06060606060606061
+    },
+    "Alistar_Ashe": {
+      "winrate": 0.4782608695652174,
+      "games": 23,
+      "synergy": -0.021739130434782594
+    },
+    "Ashe_Leona": {
+      "winrate": 0.5333333333333333,
+      "games": 45,
+      "synergy": 0.033333333333333326
+    },
+    "Ezreal_Leona": {
+      "winrate": 0.5,
+      "games": 126,
+      "synergy": 0.0
+    },
+    "Ashe_Nautilus": {
+      "winrate": 0.6842105263157895,
+      "games": 19,
+      "synergy": 0.1842105263157895
+    },
+    "Rakan_Varus": {
+      "winrate": 0.4634146341463415,
+      "games": 41,
+      "synergy": -0.036585365853658514
+    },
+    "Kai'Sa_Leona": {
+      "winrate": 0.4444444444444444,
+      "games": 90,
+      "synergy": -0.05555555555555558
+    },
+    "Alistar_Varus": {
+      "winrate": 0.5555555555555556,
+      "games": 36,
+      "synergy": 0.05555555555555558
+    },
+    "Nautilus_Zeri": {
+      "winrate": 0.5384615384615384,
+      "games": 78,
+      "synergy": 0.038461538461538436
+    },
+    "Rakan_Xayah": {
+      "winrate": 0.5017667844522968,
+      "games": 283,
+      "synergy": 0.0017667844522968323
+    },
+    "Neeko_Varus": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Braum_Caitlyn": {
+      "winrate": 0.56,
+      "games": 25,
+      "synergy": 0.06000000000000005
+    },
+    "Ashe_Seraphine": {
+      "winrate": 0.45454545454545453,
+      "games": 22,
+      "synergy": -0.04545454545454547
+    },
+    "Jinx_Nautilus": {
+      "winrate": 0.5316455696202531,
+      "games": 79,
+      "synergy": 0.03164556962025311
+    },
+    "Braum_Varus": {
+      "winrate": 0.5,
+      "games": 52,
+      "synergy": 0.0
+    },
+    "Kalista_Renata Glasc": {
+      "winrate": 0.4787234042553192,
+      "games": 94,
+      "synergy": -0.021276595744680826
+    },
+    "Ezreal_Rell": {
+      "winrate": 0.46875,
+      "games": 32,
+      "synergy": -0.03125
+    },
+    "Leona_Ziggs": {
+      "winrate": 0.47619047619047616,
+      "games": 42,
+      "synergy": -0.023809523809523836
+    },
+    "Jhin_Rakan": {
+      "winrate": 0.45714285714285713,
+      "games": 35,
+      "synergy": -0.04285714285714287
+    },
+    "Jinx_Leona": {
+      "winrate": 0.5,
+      "games": 54,
+      "synergy": 0.0
+    },
+    "Alistar_Kai'Sa": {
+      "winrate": 0.4742268041237113,
+      "games": 97,
+      "synergy": -0.02577319587628868
+    },
+    "Nautilus_Varus": {
+      "winrate": 0.518796992481203,
+      "games": 133,
+      "synergy": 0.018796992481203034
+    },
+    "Braum_Ezreal": {
+      "winrate": 0.46551724137931033,
+      "games": 58,
+      "synergy": -0.03448275862068967
+    },
+    "Miss Fortune_Rell": {
+      "winrate": 0.56,
+      "games": 25,
+      "synergy": 0.06000000000000005
+    },
+    "Ashe_Renata Glasc": {
+      "winrate": 0.631578947368421,
+      "games": 19,
+      "synergy": 0.13157894736842102
+    },
+    "Ezreal_Karma": {
+      "winrate": 0.45081967213114754,
+      "games": 122,
+      "synergy": -0.04918032786885246
+    },
+    "Kalista_Neeko": {
+      "winrate": 0.5714285714285714,
+      "games": 21,
+      "synergy": 0.0714285714285714
+    },
+    "Renata Glasc_Varus": {
+      "winrate": 0.6176470588235294,
+      "games": 34,
+      "synergy": 0.11764705882352944
+    },
+    "Alistar_Ezreal": {
+      "winrate": 0.6530612244897959,
+      "games": 49,
+      "synergy": 0.15306122448979587
+    },
+    "Draven_Renata Glasc": {
+      "winrate": 0.3888888888888889,
+      "games": 18,
+      "synergy": -0.1111111111111111
+    },
+    "Miss Fortune_Nautilus": {
+      "winrate": 0.4,
+      "games": 50,
+      "synergy": -0.09999999999999998
+    },
+    "Kai'Sa_Rakan": {
+      "winrate": 0.47474747474747475,
+      "games": 99,
+      "synergy": -0.02525252525252525
+    },
+    "Rell_Ziggs": {
+      "winrate": 0.4666666666666667,
+      "games": 15,
+      "synergy": -0.033333333333333326
+    },
+    "Alistar_Miss Fortune": {
+      "winrate": 0.36,
+      "games": 25,
+      "synergy": -0.14
+    },
+    "Alistar_Ziggs": {
+      "winrate": 0.7333333333333333,
+      "games": 15,
+      "synergy": 0.23333333333333328
+    },
+    "Alistar_Jhin": {
+      "winrate": 0.5517241379310345,
+      "games": 29,
+      "synergy": 0.051724137931034475
+    },
+    "Rell_Smolder": {
+      "winrate": 0.3333333333333333,
+      "games": 12,
+      "synergy": -0.16666666666666669
+    },
+    "Bard_Jhin": {
+      "winrate": 0.5,
+      "games": 12,
+      "synergy": 0.0
+    },
+    "Jhin_Nautilus": {
+      "winrate": 0.5185185185185185,
+      "games": 27,
+      "synergy": 0.01851851851851849
+    },
+    "Lucian_Nami": {
+      "winrate": 0.5032051282051282,
+      "games": 312,
+      "synergy": 0.0032051282051281937
+    },
+    "Ornn_Senna": {
+      "winrate": 0.5833333333333334,
+      "games": 36,
+      "synergy": 0.08333333333333337
+    },
+    "Lulu_Zeri": {
+      "winrate": 0.4583333333333333,
+      "games": 240,
+      "synergy": -0.041666666666666685
+    },
+    "Ezreal_Rakan": {
+      "winrate": 0.59375,
+      "games": 32,
+      "synergy": 0.09375
+    },
+    "Ezreal_Nautilus": {
+      "winrate": 0.3888888888888889,
+      "games": 36,
+      "synergy": -0.1111111111111111
+    },
+    "Leona_Miss Fortune": {
+      "winrate": 0.5172413793103449,
+      "games": 29,
+      "synergy": 0.017241379310344862
+    },
+    "Kai'Sa_Rell": {
+      "winrate": 0.5151515151515151,
+      "games": 132,
+      "synergy": 0.015151515151515138
+    },
+    "Jhin_Karma": {
+      "winrate": 0.23684210526315788,
+      "games": 38,
+      "synergy": -0.26315789473684215
+    },
+    "Ashe_Rell": {
+      "winrate": 0.5333333333333333,
+      "games": 15,
+      "synergy": 0.033333333333333326
+    },
+    "Leona_Zeri": {
+      "winrate": 0.6,
+      "games": 50,
+      "synergy": 0.09999999999999998
+    },
+    "Caitlyn_Lux": {
+      "winrate": 0.6382978723404256,
+      "games": 94,
+      "synergy": 0.13829787234042556
+    },
+    "Lee Sin_Senna": {
+      "winrate": 0.75,
+      "games": 12,
+      "synergy": 0.25
+    },
+    "Alistar_Zeri": {
+      "winrate": 0.6271186440677966,
+      "games": 59,
+      "synergy": 0.1271186440677966
+    },
+    "Braum_Miss Fortune": {
+      "winrate": 0.5,
+      "games": 26,
+      "synergy": 0.0
+    },
+    "Lucian_Milio": {
+      "winrate": 0.36,
+      "games": 50,
+      "synergy": -0.14
+    },
+    "Rakan_Zeri": {
+      "winrate": 0.4716981132075472,
+      "games": 106,
+      "synergy": -0.028301886792452824
+    },
+    "Jhin_Leona": {
+      "winrate": 0.5,
+      "games": 58,
+      "synergy": 0.0
+    },
+    "Rell_Zeri": {
+      "winrate": 0.5121951219512195,
+      "games": 41,
+      "synergy": 0.012195121951219523
+    },
+    "Rell_Samira": {
+      "winrate": 0.5,
+      "games": 34,
+      "synergy": 0.0
+    },
+    "Leona_Xayah": {
+      "winrate": 0.47368421052631576,
+      "games": 38,
+      "synergy": -0.026315789473684237
+    },
+    "Jinx_Rakan": {
+      "winrate": 0.6071428571428571,
+      "games": 28,
+      "synergy": 0.1071428571428571
+    },
+    "Rell_Xayah": {
+      "winrate": 0.5428571428571428,
+      "games": 35,
+      "synergy": 0.042857142857142816
+    },
+    "Alistar_Xayah": {
+      "winrate": 0.4444444444444444,
+      "games": 36,
+      "synergy": -0.05555555555555558
+    },
+    "Ashe_Kalista": {
+      "winrate": 0.6428571428571429,
+      "games": 14,
+      "synergy": 0.1428571428571429
+    },
+    "Miss Fortune_Rakan": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Nautilus_Senna": {
+      "winrate": 0.6428571428571429,
+      "games": 56,
+      "synergy": 0.1428571428571429
+    },
+    "Aphelios_Leona": {
+      "winrate": 0.4691358024691358,
+      "games": 81,
+      "synergy": -0.030864197530864224
+    },
+    "Nautilus_Smolder": {
+      "winrate": 0.4482758620689655,
+      "games": 29,
+      "synergy": -0.051724137931034475
+    },
+    "Jinx_Tahm Kench": {
+      "winrate": 0.4772727272727273,
+      "games": 88,
+      "synergy": -0.022727272727272707
+    },
+    "Alistar_Kalista": {
+      "winrate": 0.5555555555555556,
+      "games": 36,
+      "synergy": 0.05555555555555558
+    },
+    "Braum_Zeri": {
+      "winrate": 0.4444444444444444,
+      "games": 18,
+      "synergy": -0.05555555555555558
+    },
+    "Nautilus_Xayah": {
+      "winrate": 0.5423728813559322,
+      "games": 59,
+      "synergy": 0.0423728813559322
+    },
+    "Kalista_Nautilus": {
+      "winrate": 0.47368421052631576,
+      "games": 38,
+      "synergy": -0.026315789473684237
+    },
+    "Braum_Xayah": {
+      "winrate": 0.4444444444444444,
+      "games": 18,
+      "synergy": -0.05555555555555558
+    },
+    "Bard_Ezreal": {
+      "winrate": 0.55,
+      "games": 40,
+      "synergy": 0.050000000000000044
+    },
+    "Aphelios_Renata Glasc": {
+      "winrate": 0.5238095238095238,
+      "games": 42,
+      "synergy": 0.023809523809523836
+    },
+    "Alistar_Aphelios": {
+      "winrate": 0.5454545454545454,
+      "games": 44,
+      "synergy": 0.045454545454545414
+    },
+    "Rakan_Smolder": {
+      "winrate": 0.5,
+      "games": 12,
+      "synergy": 0.0
+    },
+    "Senna_Seraphine": {
+      "winrate": 0.52,
+      "games": 25,
+      "synergy": 0.020000000000000018
+    },
+    "Renata Glasc_Xayah": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Jinx_Rell": {
+      "winrate": 0.2857142857142857,
+      "games": 14,
+      "synergy": -0.2142857142857143
+    },
+    "Maokai_Senna": {
+      "winrate": 0.8,
+      "games": 15,
+      "synergy": 0.30000000000000004
+    },
+    "Jinx_Lulu": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Ashe_Caitlyn": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    },
+    "Braum_Jinx": {
+      "winrate": 0.5333333333333333,
+      "games": 30,
+      "synergy": 0.033333333333333326
+    },
+    "Heimerdinger_Jhin": {
+      "winrate": 0.47058823529411764,
+      "games": 17,
+      "synergy": -0.02941176470588236
+    },
+    "Senna_Tahm Kench": {
+      "winrate": 0.5328947368421053,
+      "games": 152,
+      "synergy": 0.03289473684210531
+    },
+    "Jinx_Thresh": {
+      "winrate": 0.5617977528089888,
+      "games": 89,
+      "synergy": 0.061797752808988804
+    },
+    "Kalista_Taric": {
+      "winrate": 0.5384615384615384,
+      "games": 52,
+      "synergy": 0.038461538461538436
+    },
+    "Kalista_Leona": {
+      "winrate": 0.4,
+      "games": 25,
+      "synergy": -0.09999999999999998
+    },
+    "Aphelios_Rell": {
+      "winrate": 0.32142857142857145,
+      "games": 28,
+      "synergy": -0.17857142857142855
+    },
+    "Blitzcrank_Kai'Sa": {
+      "winrate": 0.5,
+      "games": 18,
+      "synergy": 0.0
+    },
+    "Kai'Sa_Maokai": {
+      "winrate": 0.7,
+      "games": 10,
+      "synergy": 0.19999999999999996
+    },
+    "Aphelios_Nautilus": {
+      "winrate": 0.5,
+      "games": 196,
+      "synergy": 0.0
+    },
+    "Karma_Varus": {
+      "winrate": 0.43636363636363634,
+      "games": 55,
+      "synergy": -0.06363636363636366
+    },
+    "Gragas_Kai'Sa": {
+      "winrate": 0.5416666666666666,
+      "games": 24,
+      "synergy": 0.04166666666666663
+    },
+    "Aphelios_Thresh": {
+      "winrate": 0.5060240963855421,
+      "games": 166,
+      "synergy": 0.0060240963855421326
+    },
+    "Leona_Varus": {
+      "winrate": 0.5106382978723404,
+      "games": 47,
+      "synergy": 0.010638297872340385
+    },
+    "Aphelios_Rakan": {
+      "winrate": 0.5272727272727272,
+      "games": 55,
+      "synergy": 0.027272727272727226
+    },
+    "Aphelios_Lulu": {
+      "winrate": 0.5393258426966292,
+      "games": 89,
+      "synergy": 0.0393258426966292
+    },
+    "Senna_Sett": {
+      "winrate": 0.7272727272727273,
+      "games": 11,
+      "synergy": 0.2272727272727273
+    },
+    "Alistar_Jinx": {
+      "winrate": 0.5263157894736842,
+      "games": 19,
+      "synergy": 0.02631578947368418
+    },
+    "Aphelios_Milio": {
+      "winrate": 0.46153846153846156,
+      "games": 65,
+      "synergy": -0.038461538461538436
+    },
+    "Kalista_Rell": {
+      "winrate": 0.42105263157894735,
+      "games": 19,
+      "synergy": -0.07894736842105265
+    },
+    "Tahm Kench_Varus": {
+      "winrate": 0.5957446808510638,
+      "games": 47,
+      "synergy": 0.0957446808510638
+    },
+    "Yuumi_Zeri": {
+      "winrate": 0.47959183673469385,
+      "games": 98,
+      "synergy": -0.020408163265306145
+    },
+    "Ashe_Varus": {
+      "winrate": 0.5238095238095238,
+      "games": 21,
+      "synergy": 0.023809523809523836
+    },
+    "Ashe_Jhin": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Alistar_Smolder": {
+      "winrate": 0.5714285714285714,
+      "games": 14,
+      "synergy": 0.0714285714285714
+    },
+    "Thresh_Varus": {
+      "winrate": 0.42857142857142855,
+      "games": 28,
+      "synergy": -0.07142857142857145
+    },
+    "Sivir_Yuumi": {
+      "winrate": 0.59375,
+      "games": 32,
+      "synergy": 0.09375
+    },
+    "Kalista_Rakan": {
+      "winrate": 0.5882352941176471,
+      "games": 17,
+      "synergy": 0.08823529411764708
+    },
+    "Rakan_Tristana": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Ashe_Sivir": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Caitlyn_Karma": {
+      "winrate": 0.43478260869565216,
+      "games": 23,
+      "synergy": -0.06521739130434784
+    },
+    "Bard_Caitlyn": {
+      "winrate": 0.8181818181818182,
+      "games": 11,
+      "synergy": 0.31818181818181823
+    },
+    "Draven_Nautilus": {
+      "winrate": 0.38095238095238093,
+      "games": 21,
+      "synergy": -0.11904761904761907
+    },
+    "Ashe_Tahm Kench": {
+      "winrate": 0.32,
+      "games": 25,
+      "synergy": -0.18
+    },
+    "Aphelios_Tahm Kench": {
+      "winrate": 0.5061728395061729,
+      "games": 81,
+      "synergy": 0.006172839506172867
+    },
+    "Ashe_Milio": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Jhin_Pyke": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Aphelios_Braum": {
+      "winrate": 0.547945205479452,
+      "games": 73,
+      "synergy": 0.047945205479452024
+    },
+    "Alistar_Samira": {
+      "winrate": 0.3333333333333333,
+      "games": 24,
+      "synergy": -0.16666666666666669
+    },
+    "Rakan_Sivir": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Nautilus_Sivir": {
+      "winrate": 0.7,
+      "games": 20,
+      "synergy": 0.19999999999999996
+    },
+    "Rell_Tristana": {
+      "winrate": 0.375,
+      "games": 24,
+      "synergy": -0.125
+    },
+    "Alistar_Tristana": {
+      "winrate": 0.43478260869565216,
+      "games": 23,
+      "synergy": -0.06521739130434784
+    },
+    "Heimerdinger_Varus": {
+      "winrate": 0.5957446808510638,
+      "games": 47,
+      "synergy": 0.0957446808510638
+    },
+    "Nautilus_Samira": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Galio_Kai'Sa": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Aphelios_Blitzcrank": {
+      "winrate": 0.625,
+      "games": 16,
+      "synergy": 0.125
+    },
+    "Ashe_Heimerdinger": {
+      "winrate": 0.5714285714285714,
+      "games": 14,
+      "synergy": 0.0714285714285714
+    },
+    "Aphelios_Sett": {
+      "winrate": 0.5,
+      "games": 16,
+      "synergy": 0.0
+    },
+    "Aphelios_Yuumi": {
+      "winrate": 0.38461538461538464,
+      "games": 39,
+      "synergy": -0.11538461538461536
+    },
+    "Renata Glasc_Zeri": {
+      "winrate": 0.5909090909090909,
+      "games": 22,
+      "synergy": 0.09090909090909094
+    },
+    "Jinx_Renata Glasc": {
+      "winrate": 0.18181818181818182,
+      "games": 11,
+      "synergy": -0.3181818181818182
+    },
+    "Miss Fortune_Yuumi": {
+      "winrate": 0.55,
+      "games": 20,
+      "synergy": 0.050000000000000044
+    },
+    "Ezreal_Yuumi": {
+      "winrate": 0.425531914893617,
+      "games": 47,
+      "synergy": -0.07446808510638298
+    },
+    "Twitch_Yuumi": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Kog'Maw_Lulu": {
+      "winrate": 0.4444444444444444,
+      "games": 18,
+      "synergy": -0.05555555555555558
+    },
+    "Ashe_Pantheon": {
+      "winrate": 0.4375,
+      "games": 16,
+      "synergy": -0.0625
+    },
+    "Kai'Sa_Sett": {
+      "winrate": 0.38095238095238093,
+      "games": 21,
+      "synergy": -0.11904761904761907
+    },
+    "Lucian_Yuumi": {
+      "winrate": 0.4375,
+      "games": 16,
+      "synergy": -0.0625
+    },
+    "Jhin_Yuumi": {
+      "winrate": 0.42857142857142855,
+      "games": 21,
+      "synergy": -0.07142857142857145
+    },
+    "Ashe_Karma": {
+      "winrate": 0.4666666666666667,
+      "games": 15,
+      "synergy": -0.033333333333333326
+    },
+    "Ezreal_Tahm Kench": {
+      "winrate": 0.42857142857142855,
+      "games": 42,
+      "synergy": -0.07142857142857145
+    },
+    "Aphelios_Karma": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Tahm Kench_Zeri": {
+      "winrate": 0.8181818181818182,
+      "games": 11,
+      "synergy": 0.31818181818181823
+    },
+    "Amumu_Kalista": {
+      "winrate": 0.5517241379310345,
+      "games": 29,
+      "synergy": 0.051724137931034475
+    },
+    "Gragas_Kalista": {
+      "winrate": 0.5,
+      "games": 28,
+      "synergy": 0.0
+    },
+    "Jhin_Tahm Kench": {
+      "winrate": 0.5,
+      "games": 14,
+      "synergy": 0.0
+    },
+    "Leona_Samira": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Kalista_Sett": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Taric_Varus": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Kalista_Thresh": {
+      "winrate": 0.375,
+      "games": 16,
+      "synergy": -0.125
+    },
+    "Ashe_Thresh": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Aphelios_Taric": {
+      "winrate": 0.4,
+      "games": 10,
+      "synergy": -0.09999999999999998
+    },
+    "Miss Fortune_Thresh": {
+      "winrate": 0.25,
+      "games": 12,
+      "synergy": -0.25
+    },
+    "Miss Fortune_Taric": {
+      "winrate": 0.35714285714285715,
+      "games": 14,
+      "synergy": -0.14285714285714285
+    }
+  },
+  "top_jungle": {
+    "K'Sante_Viego": {
+      "winrate": 0.3246753246753247,
+      "games": 77,
+      "synergy": -0.17532467532467533
+    },
+    "Jax_Sejuani": {
+      "winrate": 0.488,
+      "games": 125,
+      "synergy": -0.01200000000000001
+    },
+    "Jax_Lee Sin": {
+      "winrate": 0.6428571428571429,
+      "games": 28,
+      "synergy": 0.1428571428571429
+    },
+    "Nocturne_Rumble": {
+      "winrate": 0.5555555555555556,
+      "games": 18,
+      "synergy": 0.05555555555555558
+    },
+    "Jax_Vi": {
+      "winrate": 0.6304347826086957,
+      "games": 46,
+      "synergy": 0.13043478260869568
+    },
+    "K'Sante_Nocturne": {
+      "winrate": 0.5151515151515151,
+      "games": 33,
+      "synergy": 0.015151515151515138
+    },
+    "Gnar_Nidalee": {
+      "winrate": 0.40540540540540543,
+      "games": 37,
+      "synergy": -0.09459459459459457
+    },
+    "Renekton_Zyra": {
+      "winrate": 0.4444444444444444,
+      "games": 18,
+      "synergy": -0.05555555555555558
+    },
+    "K'Sante_Zyra": {
+      "winrate": 0.55,
+      "games": 20,
+      "synergy": 0.050000000000000044
+    },
+    "Renekton_Vi": {
+      "winrate": 0.5,
+      "games": 50,
+      "synergy": 0.0
+    },
+    "K'Sante_Vi": {
+      "winrate": 0.45098039215686275,
+      "games": 102,
+      "synergy": -0.04901960784313725
+    },
+    "K'Sante_Sejuani": {
+      "winrate": 0.41818181818181815,
+      "games": 110,
+      "synergy": -0.08181818181818185
+    },
+    "Kennen_Sejuani": {
+      "winrate": 0.5,
+      "games": 22,
+      "synergy": 0.0
+    },
+    "Rumble_Viego": {
+      "winrate": 0.6285714285714286,
+      "games": 35,
+      "synergy": 0.12857142857142856
+    },
+    "Gnar_Nocturne": {
+      "winrate": 0.5833333333333334,
+      "games": 12,
+      "synergy": 0.08333333333333337
+    },
+    "K'Sante_Maokai": {
+      "winrate": 0.5480769230769231,
+      "games": 104,
+      "synergy": 0.04807692307692313
+    },
+    "Gnar_Viego": {
+      "winrate": 0.4857142857142857,
+      "games": 70,
+      "synergy": -0.01428571428571429
+    },
+    "Renekton_Viego": {
+      "winrate": 0.5833333333333334,
+      "games": 60,
+      "synergy": 0.08333333333333337
+    },
+    "Gnar_Vi": {
+      "winrate": 0.576271186440678,
+      "games": 59,
+      "synergy": 0.07627118644067798
+    },
+    "Gragas_Vi": {
+      "winrate": 0.48148148148148145,
+      "games": 27,
+      "synergy": -0.018518518518518545
+    },
+    "Maokai_Renekton": {
+      "winrate": 0.4943820224719101,
+      "games": 89,
+      "synergy": -0.005617977528089901
+    },
+    "Udyr_Viego": {
+      "winrate": 0.2,
+      "games": 10,
+      "synergy": -0.3
+    },
+    "Rumble_Sejuani": {
+      "winrate": 0.5333333333333333,
+      "games": 30,
+      "synergy": 0.033333333333333326
+    },
+    "Renekton_Sejuani": {
+      "winrate": 0.4946236559139785,
+      "games": 93,
+      "synergy": -0.005376344086021501
+    },
+    "Gragas_Sejuani": {
+      "winrate": 0.4375,
+      "games": 16,
+      "synergy": -0.0625
+    },
+    "Gnar_Sejuani": {
+      "winrate": 0.4636363636363636,
+      "games": 110,
+      "synergy": -0.036363636363636376
+    },
+    "Jax_Nocturne": {
+      "winrate": 0.36363636363636365,
+      "games": 11,
+      "synergy": -0.13636363636363635
+    },
+    "Jax_Viego": {
+      "winrate": 0.53125,
+      "games": 32,
+      "synergy": 0.03125
+    },
+    "Poppy_Rumble": {
+      "winrate": 0.5714285714285714,
+      "games": 14,
+      "synergy": 0.0714285714285714
+    },
+    "Rumble_Vi": {
+      "winrate": 0.5161290322580645,
+      "games": 31,
+      "synergy": 0.016129032258064502
+    },
+    "K'Sante_Nidalee": {
+      "winrate": 0.4827586206896552,
+      "games": 29,
+      "synergy": -0.017241379310344807
+    },
+    "K'Sante_Xin Zhao": {
+      "winrate": 0.391304347826087,
+      "games": 23,
+      "synergy": -0.10869565217391303
+    },
+    "Gnar_Poppy": {
+      "winrate": 0.5714285714285714,
+      "games": 35,
+      "synergy": 0.0714285714285714
+    },
+    "Ornn_Xin Zhao": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Lillia_Renekton": {
+      "winrate": 0.53125,
+      "games": 32,
+      "synergy": 0.03125
+    },
+    "Jax_Maokai": {
+      "winrate": 0.5510204081632653,
+      "games": 49,
+      "synergy": 0.05102040816326525
+    },
+    "Ivern_Renekton": {
+      "winrate": 0.4375,
+      "games": 16,
+      "synergy": -0.0625
+    },
+    "Poppy_Renekton": {
+      "winrate": 0.4117647058823529,
+      "games": 34,
+      "synergy": -0.08823529411764708
+    },
+    "Camille_Nidalee": {
+      "winrate": 0.6875,
+      "games": 16,
+      "synergy": 0.1875
+    },
+    "Jax_Poppy": {
+      "winrate": 0.5789473684210527,
+      "games": 19,
+      "synergy": 0.07894736842105265
+    },
+    "Gnar_Lee Sin": {
+      "winrate": 0.5,
+      "games": 92,
+      "synergy": 0.0
+    },
+    "Aatrox_Maokai": {
+      "winrate": 0.5357142857142857,
+      "games": 56,
+      "synergy": 0.0357142857142857
+    },
+    "Kennen_Vi": {
+      "winrate": 0.75,
+      "games": 16,
+      "synergy": 0.25
+    },
+    "Kennen_Viego": {
+      "winrate": 0.6818181818181818,
+      "games": 22,
+      "synergy": 0.18181818181818177
+    },
+    "Aatrox_Sejuani": {
+      "winrate": 0.5245901639344263,
+      "games": 61,
+      "synergy": 0.024590163934426257
+    },
+    "Jarvan IV_Rumble": {
+      "winrate": 0.6363636363636364,
+      "games": 11,
+      "synergy": 0.13636363636363635
+    },
+    "Jayce_Nidalee": {
+      "winrate": 0.7222222222222222,
+      "games": 18,
+      "synergy": 0.2222222222222222
+    },
+    "Lee Sin_Udyr": {
+      "winrate": 0.4444444444444444,
+      "games": 18,
+      "synergy": -0.05555555555555558
+    },
+    "Camille_Sejuani": {
+      "winrate": 0.5833333333333334,
+      "games": 24,
+      "synergy": 0.08333333333333337
+    },
+    "Gangplank_Maokai": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Kennen_Lee Sin": {
+      "winrate": 0.49056603773584906,
+      "games": 53,
+      "synergy": -0.009433962264150941
+    },
+    "Aatrox_Xin Zhao": {
+      "winrate": 0.55,
+      "games": 20,
+      "synergy": 0.050000000000000044
+    },
+    "Gnar_Lillia": {
+      "winrate": 0.5517241379310345,
+      "games": 29,
+      "synergy": 0.051724137931034475
+    },
+    "Ornn_Sejuani": {
+      "winrate": 0.5,
+      "games": 14,
+      "synergy": 0.0
+    },
+    "Ornn_Viego": {
+      "winrate": 0.5,
+      "games": 34,
+      "synergy": 0.0
+    },
+    "Rumble_Xin Zhao": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Nidalee_Renekton": {
+      "winrate": 0.48,
+      "games": 75,
+      "synergy": -0.020000000000000018
+    },
+    "Maokai_Sion": {
+      "winrate": 0.5333333333333333,
+      "games": 15,
+      "synergy": 0.033333333333333326
+    },
+    "Malphite_Viego": {
+      "winrate": 0.5,
+      "games": 12,
+      "synergy": 0.0
+    },
+    "K'Sante_Lillia": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    },
+    "Camille_Lillia": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Sejuani_Udyr": {
+      "winrate": 0.4,
+      "games": 10,
+      "synergy": -0.09999999999999998
+    },
+    "Gnar_Maokai": {
+      "winrate": 0.5254237288135594,
+      "games": 59,
+      "synergy": 0.025423728813559365
+    },
+    "Ivern_K'Sante": {
+      "winrate": 0.625,
+      "games": 24,
+      "synergy": 0.125
+    },
+    "Lee Sin_Rumble": {
+      "winrate": 0.5714285714285714,
+      "games": 35,
+      "synergy": 0.0714285714285714
+    },
+    "Gangplank_Viego": {
+      "winrate": 0.5789473684210527,
+      "games": 38,
+      "synergy": 0.07894736842105265
+    },
+    "Udyr_Vi": {
+      "winrate": 0.4375,
+      "games": 16,
+      "synergy": -0.0625
+    },
+    "Maokai_Ornn": {
+      "winrate": 0.7,
+      "games": 10,
+      "synergy": 0.19999999999999996
+    },
+    "Jayce_Viego": {
+      "winrate": 0.42105263157894735,
+      "games": 19,
+      "synergy": -0.07894736842105265
+    },
+    "K'Sante_Poppy": {
+      "winrate": 0.5263157894736842,
+      "games": 38,
+      "synergy": 0.02631578947368418
+    },
+    "Jayce_Sejuani": {
+      "winrate": 0.45,
+      "games": 40,
+      "synergy": -0.04999999999999999
+    },
+    "Kennen_Wukong": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Aatrox_Nidalee": {
+      "winrate": 0.5625,
+      "games": 16,
+      "synergy": 0.0625
+    },
+    "Brand_K'Sante": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "K'Sante_Lee Sin": {
+      "winrate": 0.5393258426966292,
+      "games": 89,
+      "synergy": 0.0393258426966292
+    },
+    "Jax_Wukong": {
+      "winrate": 0.4,
+      "games": 30,
+      "synergy": -0.09999999999999998
+    },
+    "Lee Sin_Renekton": {
+      "winrate": 0.47619047619047616,
+      "games": 84,
+      "synergy": -0.023809523809523836
+    },
+    "Lee Sin_Sejuani": {
+      "winrate": 0.3,
+      "games": 10,
+      "synergy": -0.2
+    },
+    "Poppy_Vi": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Maokai_Udyr": {
+      "winrate": 0.5,
+      "games": 12,
+      "synergy": 0.0
+    },
+    "Aatrox_Vi": {
+      "winrate": 0.4838709677419355,
+      "games": 31,
+      "synergy": -0.016129032258064502
+    },
+    "Jayce_Lee Sin": {
+      "winrate": 0.6031746031746031,
+      "games": 63,
+      "synergy": 0.10317460317460314
+    },
+    "Maokai_Rumble": {
+      "winrate": 0.5945945945945946,
+      "games": 37,
+      "synergy": 0.09459459459459463
+    },
+    "Jayce_Vi": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Gnar_Xin Zhao": {
+      "winrate": 0.5384615384615384,
+      "games": 39,
+      "synergy": 0.038461538461538436
+    },
+    "Skarner_Viego": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Gwen_Lee Sin": {
+      "winrate": 0.4805194805194805,
+      "games": 77,
+      "synergy": -0.019480519480519487
+    },
+    "Aatrox_Viego": {
+      "winrate": 0.3333333333333333,
+      "games": 24,
+      "synergy": -0.16666666666666669
+    },
+    "Kennen_Xin Zhao": {
+      "winrate": 0.3333333333333333,
+      "games": 15,
+      "synergy": -0.16666666666666669
+    },
+    "Aatrox_Poppy": {
+      "winrate": 0.625,
+      "games": 16,
+      "synergy": 0.125
+    },
+    "Gwen_Viego": {
+      "winrate": 0.45652173913043476,
+      "games": 46,
+      "synergy": -0.043478260869565244
+    },
+    "Gragas_Graves": {
+      "winrate": 0.6,
+      "games": 20,
+      "synergy": 0.09999999999999998
+    },
+    "Camille_Xin Zhao": {
+      "winrate": 0.6363636363636364,
+      "games": 11,
+      "synergy": 0.13636363636363635
+    },
+    "Gragas_Viego": {
+      "winrate": 0.4318181818181818,
+      "games": 44,
+      "synergy": -0.06818181818181818
+    },
+    "Aatrox_Wukong": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Aatrox_Lee Sin": {
+      "winrate": 0.3728813559322034,
+      "games": 59,
+      "synergy": -0.1271186440677966
+    },
+    "Aatrox_Nocturne": {
+      "winrate": 0.5882352941176471,
+      "games": 17,
+      "synergy": 0.08823529411764708
+    },
+    "Renekton_Taliyah": {
+      "winrate": 0.7647058823529411,
+      "games": 17,
+      "synergy": 0.2647058823529411
+    },
+    "Camille_Volibear": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Jayce_Xin Zhao": {
+      "winrate": 0.5862068965517241,
+      "games": 29,
+      "synergy": 0.08620689655172409
+    },
+    "Renekton_Xin Zhao": {
+      "winrate": 0.47058823529411764,
+      "games": 17,
+      "synergy": -0.02941176470588236
+    },
+    "Camille_Lee Sin": {
+      "winrate": 0.5,
+      "games": 30,
+      "synergy": 0.0
+    },
+    "K'Sante_Wukong": {
+      "winrate": 0.45,
+      "games": 60,
+      "synergy": -0.04999999999999999
+    },
+    "Gwen_Xin Zhao": {
+      "winrate": 0.375,
+      "games": 64,
+      "synergy": -0.125
+    },
+    "Graves_Ornn": {
+      "winrate": 0.6842105263157895,
+      "games": 19,
+      "synergy": 0.1842105263157895
+    },
+    "K'Sante_Kha'Zix": {
+      "winrate": 0.6666666666666666,
+      "games": 12,
+      "synergy": 0.16666666666666663
+    },
+    "Gwen_Sejuani": {
+      "winrate": 0.3076923076923077,
+      "games": 13,
+      "synergy": -0.1923076923076923
+    },
+    "Aatrox_Rell": {
+      "winrate": 0.5365853658536586,
+      "games": 41,
+      "synergy": 0.03658536585365857
+    },
+    "K'Sante_Rell": {
+      "winrate": 0.6060606060606061,
+      "games": 33,
+      "synergy": 0.10606060606060608
+    },
+    "Renekton_Volibear": {
+      "winrate": 0.625,
+      "games": 16,
+      "synergy": 0.125
+    },
+    "Gnar_Volibear": {
+      "winrate": 0.2727272727272727,
+      "games": 22,
+      "synergy": -0.2272727272727273
+    },
+    "Sion_Viego": {
+      "winrate": 0.5789473684210527,
+      "games": 19,
+      "synergy": 0.07894736842105265
+    },
+    "Rell_Rumble": {
+      "winrate": 0.4,
+      "games": 10,
+      "synergy": -0.09999999999999998
+    },
+    "Aatrox_Gragas": {
+      "winrate": 0.3888888888888889,
+      "games": 18,
+      "synergy": -0.1111111111111111
+    },
+    "Renekton_Wukong": {
+      "winrate": 0.391304347826087,
+      "games": 46,
+      "synergy": -0.10869565217391303
+    },
+    "Jayce_Maokai": {
+      "winrate": 0.26666666666666666,
+      "games": 15,
+      "synergy": -0.23333333333333334
+    },
+    "Lee Sin_Volibear": {
+      "winrate": 0.6363636363636364,
+      "games": 11,
+      "synergy": 0.13636363636363635
+    },
+    "Udyr_Xin Zhao": {
+      "winrate": 0.23076923076923078,
+      "games": 13,
+      "synergy": -0.2692307692307692
+    },
+    "Rell_Renekton": {
+      "winrate": 0.6923076923076923,
+      "games": 13,
+      "synergy": 0.1923076923076923
+    },
+    "Jayce_Poppy": {
+      "winrate": 0.4,
+      "games": 10,
+      "synergy": -0.09999999999999998
+    },
+    "Gnar_Wukong": {
+      "winrate": 0.6195652173913043,
+      "games": 92,
+      "synergy": 0.11956521739130432
+    },
+    "Gwen_Vi": {
+      "winrate": 0.46153846153846156,
+      "games": 26,
+      "synergy": -0.038461538461538436
+    },
+    "Nocturne_Udyr": {
+      "winrate": 0.3,
+      "games": 10,
+      "synergy": -0.2
+    },
+    "Jarvan IV_Jayce": {
+      "winrate": 0.23529411764705882,
+      "games": 17,
+      "synergy": -0.2647058823529412
+    },
+    "Jayce_Volibear": {
+      "winrate": 0.6363636363636364,
+      "games": 11,
+      "synergy": 0.13636363636363635
+    },
+    "Gwen_Poppy": {
+      "winrate": 0.4642857142857143,
+      "games": 28,
+      "synergy": -0.0357142857142857
+    },
+    "Lee Sin_Poppy": {
+      "winrate": 0.7,
+      "games": 10,
+      "synergy": 0.19999999999999996
+    },
+    "Jax_Rell": {
+      "winrate": 0.3,
+      "games": 10,
+      "synergy": -0.2
+    },
+    "Gragas_Poppy": {
+      "winrate": 0.4230769230769231,
+      "games": 26,
+      "synergy": -0.07692307692307693
+    },
+    "Gwen_Jarvan IV": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Gragas_Lee Sin": {
+      "winrate": 0.5,
+      "games": 38,
+      "synergy": 0.0
+    },
+    "Aatrox_Jarvan IV": {
+      "winrate": 0.391304347826087,
+      "games": 23,
+      "synergy": -0.10869565217391303
+    },
+    "Gnar_Jarvan IV": {
+      "winrate": 0.5833333333333334,
+      "games": 12,
+      "synergy": 0.08333333333333337
+    },
+    "Aatrox_Graves": {
+      "winrate": 0.4,
+      "games": 10,
+      "synergy": -0.09999999999999998
+    },
+    "Jarvan IV_Ornn": {
+      "winrate": 0.4166666666666667,
+      "games": 24,
+      "synergy": -0.08333333333333331
+    },
+    "Kennen_Volibear": {
+      "winrate": 0.2727272727272727,
+      "games": 11,
+      "synergy": -0.2272727272727273
+    },
+    "Fiora_Sejuani": {
+      "winrate": 0.4782608695652174,
+      "games": 23,
+      "synergy": -0.021739130434782594
+    },
+    "Renekton_Rumble": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Lee Sin_Ornn": {
+      "winrate": 0.4666666666666667,
+      "games": 30,
+      "synergy": -0.033333333333333326
+    },
+    "Kha'Zix_Renekton": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Fiora_Lee Sin": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Gragas_Maokai": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Ornn_Vi": {
+      "winrate": 0.6470588235294118,
+      "games": 17,
+      "synergy": 0.1470588235294118
+    },
+    "Malphite_Wukong": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Diana_Renekton": {
+      "winrate": 0.5,
+      "games": 20,
+      "synergy": 0.0
+    },
+    "Poppy_Sejuani": {
+      "winrate": 0.6666666666666666,
+      "games": 15,
+      "synergy": 0.16666666666666663
+    },
+    "Gragas_Wukong": {
+      "winrate": 0.40625,
+      "games": 32,
+      "synergy": -0.09375
+    },
+    "Elise_Renekton": {
+      "winrate": 0.5625,
+      "games": 16,
+      "synergy": 0.0625
+    },
+    "Gwen_Wukong": {
+      "winrate": 0.5121951219512195,
+      "games": 41,
+      "synergy": 0.012195121951219523
+    },
+    "Sion_Wukong": {
+      "winrate": 0.3333333333333333,
+      "games": 12,
+      "synergy": -0.16666666666666669
+    },
+    "Sejuani_Sion": {
+      "winrate": 0.4,
+      "games": 10,
+      "synergy": -0.09999999999999998
+    },
+    "Lee Sin_Sion": {
+      "winrate": 0.5,
+      "games": 18,
+      "synergy": 0.0
+    },
+    "Elise_Gnar": {
+      "winrate": 0.7692307692307693,
+      "games": 26,
+      "synergy": 0.2692307692307693
+    },
+    "Ornn_Wukong": {
+      "winrate": 0.6153846153846154,
+      "games": 26,
+      "synergy": 0.11538461538461542
+    },
+    "Jayce_Wukong": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Aatrox_Elise": {
+      "winrate": 0.5384615384615384,
+      "games": 13,
+      "synergy": 0.038461538461538436
+    },
+    "Nidalee_Sion": {
+      "winrate": 0.38461538461538464,
+      "games": 13,
+      "synergy": -0.11538461538461536
+    },
+    "Akali_Lee Sin": {
+      "winrate": 0.5263157894736842,
+      "games": 19,
+      "synergy": 0.02631578947368418
+    },
+    "Sejuani_Viego": {
+      "winrate": 0.6363636363636364,
+      "games": 33,
+      "synergy": 0.13636363636363635
+    },
+    "Sejuani_Wukong": {
+      "winrate": 0.5172413793103449,
+      "games": 29,
+      "synergy": 0.017241379310344862
+    },
+    "Elise_Jayce": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Camille_Wukong": {
+      "winrate": 0.2727272727272727,
+      "games": 11,
+      "synergy": -0.2272727272727273
+    },
+    "Jayce_Trundle": {
+      "winrate": 0.6428571428571429,
+      "games": 28,
+      "synergy": 0.1428571428571429
+    },
+    "Gangplank_Wukong": {
+      "winrate": 0.45454545454545453,
+      "games": 22,
+      "synergy": -0.04545454545454547
+    },
+    "Ornn_Trundle": {
+      "winrate": 0.38235294117647056,
+      "games": 34,
+      "synergy": -0.11764705882352944
+    },
+    "Sejuani_Trundle": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    },
+    "Aatrox_Trundle": {
+      "winrate": 0.5909090909090909,
+      "games": 22,
+      "synergy": 0.09090909090909094
+    },
+    "Gragas_Trundle": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Ornn_Poppy": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Olaf_Wukong": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Gragas_Xin Zhao": {
+      "winrate": 0.6,
+      "games": 20,
+      "synergy": 0.09999999999999998
+    },
+    "Renekton_Trundle": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Lee Sin_Viego": {
+      "winrate": 0.5,
+      "games": 14,
+      "synergy": 0.0
+    },
+    "Gangplank_Trundle": {
+      "winrate": 0.42857142857142855,
+      "games": 21,
+      "synergy": -0.07142857142857145
+    },
+    "Gangplank_Poppy": {
+      "winrate": 0.5833333333333334,
+      "games": 12,
+      "synergy": 0.08333333333333337
+    },
+    "Lee Sin_Tryndamere": {
+      "winrate": 0.46153846153846156,
+      "games": 13,
+      "synergy": -0.038461538461538436
+    },
+    "Gwen_Trundle": {
+      "winrate": 0.42857142857142855,
+      "games": 14,
+      "synergy": -0.07142857142857145
+    },
+    "Gnar_Trundle": {
+      "winrate": 0.4838709677419355,
+      "games": 31,
+      "synergy": -0.016129032258064502
+    },
+    "Gangplank_Lee Sin": {
+      "winrate": 0.35294117647058826,
+      "games": 17,
+      "synergy": -0.14705882352941174
+    },
+    "Diana_Gnar": {
+      "winrate": 0.42105263157894735,
+      "games": 19,
+      "synergy": -0.07894736842105265
+    },
+    "Tryndamere_Viego": {
+      "winrate": 0.36363636363636365,
+      "games": 11,
+      "synergy": -0.13636363636363635
+    },
+    "Gnar_Hecarim": {
+      "winrate": 0.4444444444444444,
+      "games": 18,
+      "synergy": -0.05555555555555558
+    },
+    "Mordekaiser_Trundle": {
+      "winrate": 0.36363636363636365,
+      "games": 11,
+      "synergy": -0.13636363636363635
+    },
+    "Lee Sin_Sett": {
+      "winrate": 0.2,
+      "games": 10,
+      "synergy": -0.3
+    },
+    "Graves_Sion": {
+      "winrate": 0.5789473684210527,
+      "games": 19,
+      "synergy": 0.07894736842105265
+    },
+    "Gragas_Jarvan IV": {
+      "winrate": 0.38461538461538464,
+      "games": 13,
+      "synergy": -0.11538461538461536
+    },
+    "Graves_Viego": {
+      "winrate": 0.375,
+      "games": 16,
+      "synergy": -0.125
+    },
+    "Graves_Jarvan IV": {
+      "winrate": 0.5714285714285714,
+      "games": 14,
+      "synergy": 0.0714285714285714
+    },
+    "Gwen_Hecarim": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Hecarim_Jayce": {
+      "winrate": 0.5,
+      "games": 10,
+      "synergy": 0.0
+    },
+    "Graves_Xin Zhao": {
+      "winrate": 0.4444444444444444,
+      "games": 18,
+      "synergy": -0.05555555555555558
+    },
+    "Tryndamere_Xin Zhao": {
+      "winrate": 0.5,
+      "games": 16,
+      "synergy": 0.0
+    },
+    "Gragas_Hecarim": {
+      "winrate": 0.5,
+      "games": 14,
+      "synergy": 0.0
+    },
+    "Akali_Hecarim": {
+      "winrate": 0.5,
+      "games": 12,
+      "synergy": 0.0
+    },
+    "Hecarim_Tryndamere": {
+      "winrate": 0.35714285714285715,
+      "games": 14,
+      "synergy": -0.14285714285714285
+    },
+    "Graves_Volibear": {
+      "winrate": 0.42857142857142855,
+      "games": 14,
+      "synergy": -0.07142857142857145
+    },
+    "Akali_Xin Zhao": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    },
+    "Jayce_Rek'Sai": {
+      "winrate": 0.38461538461538464,
+      "games": 13,
+      "synergy": -0.11538461538461536
+    },
+    "Graves_Lee Sin": {
+      "winrate": 0.5833333333333334,
+      "games": 24,
+      "synergy": 0.08333333333333337
+    },
+    "Jayce_Olaf": {
+      "winrate": 0.875,
+      "games": 16,
+      "synergy": 0.375
+    },
+    "Diana_Jayce": {
+      "winrate": 0.5555555555555556,
+      "games": 18,
+      "synergy": 0.05555555555555558
+    },
+    "Gnar_Udyr": {
+      "winrate": 0.625,
+      "games": 16,
+      "synergy": 0.125
+    },
+    "Kennen_Olaf": {
+      "winrate": 0.625,
+      "games": 24,
+      "synergy": 0.125
+    },
+    "Akali_Jarvan IV": {
+      "winrate": 0.6153846153846154,
+      "games": 13,
+      "synergy": 0.11538461538461542
+    },
+    "Lee Sin_Urgot": {
+      "winrate": 0.45454545454545453,
+      "games": 11,
+      "synergy": -0.04545454545454547
+    },
+    "Camille_Diana": {
+      "winrate": 0.7272727272727273,
+      "games": 11,
+      "synergy": 0.2272727272727273
+    },
+    "Gragas_Olaf": {
+      "winrate": 0.2727272727272727,
+      "games": 11,
+      "synergy": -0.2272727272727273
+    },
+    "Jarvan IV_Kennen": {
+      "winrate": 0.47058823529411764,
+      "games": 17,
+      "synergy": -0.02941176470588236
+    },
+    "Camille_Olaf": {
+      "winrate": 0.5454545454545454,
+      "games": 11,
+      "synergy": 0.045454545454545414
+    },
+    "Jarvan IV_Sett": {
+      "winrate": 0.36363636363636365,
+      "games": 11,
+      "synergy": -0.13636363636363635
+    },
+    "Gnar_Rumble": {
+      "winrate": 0.42857142857142855,
+      "games": 14,
+      "synergy": -0.07142857142857145
+    },
+    "Trundle_Wukong": {
+      "winrate": 0.8333333333333334,
+      "games": 12,
+      "synergy": 0.33333333333333337
+    },
+    "Rumble_Sett": {
+      "winrate": 0.2727272727272727,
+      "games": 11,
+      "synergy": -0.2272727272727273
+    },
+    "Olaf_Renekton": {
+      "winrate": 0.47368421052631576,
+      "games": 19,
+      "synergy": -0.026315789473684237
+    },
+    "Diana_Sett": {
+      "winrate": 0.8,
+      "games": 10,
+      "synergy": 0.30000000000000004
+    },
+    "Gnar_Olaf": {
+      "winrate": 0.3181818181818182,
+      "games": 22,
+      "synergy": -0.18181818181818182
+    },
+    "Sion_Udyr": {
+      "winrate": 0.6,
+      "games": 10,
+      "synergy": 0.09999999999999998
+    },
+    "Olaf_Ornn": {
+      "winrate": 0.7272727272727273,
+      "games": 22,
+      "synergy": 0.2272727272727273
+    },
+    "Aatrox_Olaf": {
+      "winrate": 0.3939393939393939,
+      "games": 33,
+      "synergy": -0.10606060606060608
+    },
+    "Lee Sin_Mordekaiser": {
+      "winrate": 0.2727272727272727,
+      "games": 11,
+      "synergy": -0.2272727272727273
+    },
+    "Kennen_Trundle": {
+      "winrate": 0.35714285714285715,
+      "games": 14,
+      "synergy": -0.14285714285714285
+    },
+    "Jarvan IV_Mordekaiser": {
+      "winrate": 0.4166666666666667,
+      "games": 12,
+      "synergy": -0.08333333333333331
+    },
+    "Ornn_Rek'Sai": {
+      "winrate": 0.6842105263157895,
+      "games": 19,
+      "synergy": 0.1842105263157895
+    },
+    "Sejuani_Sett": {
+      "winrate": 0.6923076923076923,
+      "games": 13,
+      "synergy": 0.1923076923076923
+    }
+  }
+}

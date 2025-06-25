@@ -1,0 +1,2287 @@
+{
+  "K'Sante_vs_Jax": {
+    "winrate": 0.39473684210526316,
+    "advantage": -0.10526315789473684,
+    "games": 38
+  },
+  "Rumble_vs_Jax": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Jax_vs_Rumble": {
+    "winrate": 0.6923076923076923,
+    "advantage": 0.1923076923076923,
+    "games": 13
+  },
+  "Jax_vs_K'Sante": {
+    "winrate": 0.574468085106383,
+    "advantage": 0.07446808510638303,
+    "games": 47
+  },
+  "Taliyah_vs_Sylas": {
+    "winrate": 0.7692307692307693,
+    "advantage": 0.2692307692307693,
+    "games": 13
+  },
+  "Gnar_vs_Jax": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 20
+  },
+  "Azir_vs_Yone": {
+    "winrate": 0.4666666666666667,
+    "advantage": -0.033333333333333326,
+    "games": 45
+  },
+  "Ahri_vs_Azir": {
+    "winrate": 0.5151515151515151,
+    "advantage": 0.015151515151515138,
+    "games": 33
+  },
+  "Renekton_vs_K'Sante": {
+    "winrate": 0.6153846153846154,
+    "advantage": 0.11538461538461542,
+    "games": 78
+  },
+  "Taliyah_vs_Corki": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 16
+  },
+  "Yone_vs_Ahri": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 10
+  },
+  "Corki_vs_Azir": {
+    "winrate": 0.6976744186046512,
+    "advantage": 0.19767441860465118,
+    "games": 43
+  },
+  "K'Sante_vs_Gnar": {
+    "winrate": 0.55,
+    "advantage": 0.050000000000000044,
+    "games": 80
+  },
+  "Azir_vs_Taliyah": {
+    "winrate": 0.49019607843137253,
+    "advantage": -0.009803921568627472,
+    "games": 51
+  },
+  "Sylas_vs_Azir": {
+    "winrate": 0.6785714285714286,
+    "advantage": 0.1785714285714286,
+    "games": 28
+  },
+  "Gragas_vs_Renekton": {
+    "winrate": 0.48148148148148145,
+    "advantage": -0.018518518518518545,
+    "games": 27
+  },
+  "Gnar_vs_K'Sante": {
+    "winrate": 0.6111111111111112,
+    "advantage": 0.11111111111111116,
+    "games": 72
+  },
+  "Syndra_vs_Yone": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Aurora_vs_Corki": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "K'Sante_vs_Udyr": {
+    "winrate": 0.6470588235294118,
+    "advantage": 0.1470588235294118,
+    "games": 17
+  },
+  "Azir_vs_Corki": {
+    "winrate": 0.5283018867924528,
+    "advantage": 0.028301886792452824,
+    "games": 53
+  },
+  "Gragas_vs_Jax": {
+    "winrate": 0.7222222222222222,
+    "advantage": 0.2222222222222222,
+    "games": 18
+  },
+  "Ahri_vs_Sylas": {
+    "winrate": 0.6111111111111112,
+    "advantage": 0.11111111111111116,
+    "games": 18
+  },
+  "Rumble_vs_K'Sante": {
+    "winrate": 0.6774193548387096,
+    "advantage": 0.17741935483870963,
+    "games": 31
+  },
+  "Renekton_vs_Rumble": {
+    "winrate": 0.75,
+    "advantage": 0.25,
+    "games": 8
+  },
+  "Ahri_vs_Taliyah": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 24
+  },
+  "K'Sante_vs_Poppy": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 15
+  },
+  "Orianna_vs_Taliyah": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Gnar_vs_Maokai": {
+    "winrate": 0.8333333333333334,
+    "advantage": 0.33333333333333337,
+    "games": 6
+  },
+  "Renekton_vs_Ornn": {
+    "winrate": 0.4594594594594595,
+    "advantage": -0.040540540540540515,
+    "games": 37
+  },
+  "Renekton_vs_Gragas": {
+    "winrate": 0.6363636363636364,
+    "advantage": 0.13636363636363635,
+    "games": 33
+  },
+  "Corki_vs_Yone": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 14
+  },
+  "Jax_vs_Udyr": {
+    "winrate": 0.2857142857142857,
+    "advantage": -0.2142857142857143,
+    "games": 7
+  },
+  "Tristana_vs_Corki": {
+    "winrate": 0.5217391304347826,
+    "advantage": 0.021739130434782594,
+    "games": 46
+  },
+  "Camille_vs_Jax": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Yone_vs_Corki": {
+    "winrate": 0.2777777777777778,
+    "advantage": -0.2222222222222222,
+    "games": 18
+  },
+  "Ornn_vs_Renekton": {
+    "winrate": 0.6923076923076923,
+    "advantage": 0.1923076923076923,
+    "games": 39
+  },
+  "Tristana_vs_Yone": {
+    "winrate": 0.16666666666666666,
+    "advantage": -0.33333333333333337,
+    "games": 6
+  },
+  "Jax_vs_Gnar": {
+    "winrate": 0.5416666666666666,
+    "advantage": 0.04166666666666663,
+    "games": 24
+  },
+  "Gnar_vs_Aatrox": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 20
+  },
+  "Corki_vs_Zeri": {
+    "winrate": 0.5833333333333334,
+    "advantage": 0.08333333333333337,
+    "games": 12
+  },
+  "LeBlanc_vs_Orianna": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "K'Sante_vs_Renekton": {
+    "winrate": 0.5211267605633803,
+    "advantage": 0.021126760563380254,
+    "games": 71
+  },
+  "Zeri_vs_Corki": {
+    "winrate": 0.5833333333333334,
+    "advantage": 0.08333333333333337,
+    "games": 12
+  },
+  "Kennen_vs_Gnar": {
+    "winrate": 0.4375,
+    "advantage": -0.0625,
+    "games": 16
+  },
+  "Udyr_vs_Jax": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Yasuo_vs_Corki": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Aatrox_vs_Yone": {
+    "winrate": 0.4444444444444444,
+    "advantage": -0.05555555555555558,
+    "games": 9
+  },
+  "LeBlanc_vs_Corki": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 10
+  },
+  "Yone_vs_LeBlanc": {
+    "winrate": 1.0,
+    "advantage": 0.5,
+    "games": 6
+  },
+  "K'Sante_vs_Malphite": {
+    "winrate": 0.42105263157894735,
+    "advantage": -0.07894736842105265,
+    "games": 19
+  },
+  "Gnar_vs_Renekton": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 57
+  },
+  "Jax_vs_Aatrox": {
+    "winrate": 0.4166666666666667,
+    "advantage": -0.08333333333333331,
+    "games": 12
+  },
+  "Renekton_vs_Gangplank": {
+    "winrate": 0.6875,
+    "advantage": 0.1875,
+    "games": 16
+  },
+  "Tristana_vs_Lucian": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Corki_vs_Smolder": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Renekton_vs_Aatrox": {
+    "winrate": 0.6785714285714286,
+    "advantage": 0.1785714285714286,
+    "games": 28
+  },
+  "Rumble_vs_Ornn": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 14
+  },
+  "Camille_vs_Gnar": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 18
+  },
+  "Renekton_vs_Kennen": {
+    "winrate": 0.4444444444444444,
+    "advantage": -0.05555555555555558,
+    "games": 9
+  },
+  "Orianna_vs_Azir": {
+    "winrate": 0.52,
+    "advantage": 0.020000000000000018,
+    "games": 25
+  },
+  "Gangplank_vs_Renekton": {
+    "winrate": 0.4166666666666667,
+    "advantage": -0.08333333333333331,
+    "games": 12
+  },
+  "Annie_vs_LeBlanc": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Kennen_vs_Renekton": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 12
+  },
+  "Corki_vs_Tristana": {
+    "winrate": 0.4230769230769231,
+    "advantage": -0.07692307692307693,
+    "games": 26
+  },
+  "Lucian_vs_Corki": {
+    "winrate": 0.5833333333333334,
+    "advantage": 0.08333333333333337,
+    "games": 12
+  },
+  "Gnar_vs_Jayce": {
+    "winrate": 0.48148148148148145,
+    "advantage": -0.018518518518518545,
+    "games": 27
+  },
+  "Renekton_vs_Poppy": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Rumble_vs_Kennen": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 10
+  },
+  "Aatrox_vs_Camille": {
+    "winrate": 0.4375,
+    "advantage": -0.0625,
+    "games": 16
+  },
+  "Gnar_vs_Kennen": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 24
+  },
+  "LeBlanc_vs_Vex": {
+    "winrate": 0.25,
+    "advantage": -0.25,
+    "games": 12
+  },
+  "Kennen_vs_Gangplank": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Gnar_vs_Gangplank": {
+    "winrate": 0.5476190476190477,
+    "advantage": 0.04761904761904767,
+    "games": 42
+  },
+  "Corki_vs_LeBlanc": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 8
+  },
+  "LeBlanc_vs_Azir": {
+    "winrate": 0.45714285714285713,
+    "advantage": -0.04285714285714287,
+    "games": 35
+  },
+  "Kennen_vs_Jayce": {
+    "winrate": 0.46153846153846156,
+    "advantage": -0.038461538461538436,
+    "games": 13
+  },
+  "Lucian_vs_Tristana": {
+    "winrate": 0.375,
+    "advantage": -0.125,
+    "games": 8
+  },
+  "Jayce_vs_Aatrox": {
+    "winrate": 0.6363636363636364,
+    "advantage": 0.13636363636363635,
+    "games": 11
+  },
+  "K'Sante_vs_Rumble": {
+    "winrate": 0.5238095238095238,
+    "advantage": 0.023809523809523836,
+    "games": 21
+  },
+  "Tristana_vs_Azir": {
+    "winrate": 0.6136363636363636,
+    "advantage": 0.11363636363636365,
+    "games": 44
+  },
+  "Renekton_vs_Gnar": {
+    "winrate": 0.44642857142857145,
+    "advantage": -0.05357142857142855,
+    "games": 56
+  },
+  "Yone_vs_Akali": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Azir_vs_Tristana": {
+    "winrate": 0.46153846153846156,
+    "advantage": -0.038461538461538436,
+    "games": 39
+  },
+  "Yone_vs_Azir": {
+    "winrate": 0.5789473684210527,
+    "advantage": 0.07894736842105265,
+    "games": 38
+  },
+  "Rumble_vs_Udyr": {
+    "winrate": 1.0,
+    "advantage": 0.5,
+    "games": 6
+  },
+  "Azir_vs_Akali": {
+    "winrate": 0.475,
+    "advantage": -0.025000000000000022,
+    "games": 40
+  },
+  "Yone_vs_Tristana": {
+    "winrate": 0.375,
+    "advantage": -0.125,
+    "games": 8
+  },
+  "Corki_vs_Lucian": {
+    "winrate": 0.5454545454545454,
+    "advantage": 0.045454545454545414,
+    "games": 11
+  },
+  "Jax_vs_Jayce": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Kennen_vs_Sylas": {
+    "winrate": 0.45454545454545453,
+    "advantage": -0.04545454545454547,
+    "games": 11
+  },
+  "Rumble_vs_Aatrox": {
+    "winrate": 0.5909090909090909,
+    "advantage": 0.09090909090909094,
+    "games": 22
+  },
+  "Tristana_vs_Jayce": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 28
+  },
+  "Jayce_vs_Tristana": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Jax_vs_Kennen": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Taliyah_vs_Ahri": {
+    "winrate": 0.4782608695652174,
+    "advantage": -0.021739130434782594,
+    "games": 23
+  },
+  "Tristana_vs_LeBlanc": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Lee Sin_vs_Gnar": {
+    "winrate": 0.375,
+    "advantage": -0.125,
+    "games": 8
+  },
+  "Azir_vs_Ahri": {
+    "winrate": 0.6296296296296297,
+    "advantage": 0.12962962962962965,
+    "games": 54
+  },
+  "Udyr_vs_Renekton": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Taliyah_vs_Hwei": {
+    "winrate": 0.8333333333333334,
+    "advantage": 0.33333333333333337,
+    "games": 6
+  },
+  "Poppy_vs_Renekton": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Corki_vs_Ahri": {
+    "winrate": 0.7272727272727273,
+    "advantage": 0.2272727272727273,
+    "games": 11
+  },
+  "Yone_vs_Lucian": {
+    "winrate": 0.14285714285714285,
+    "advantage": -0.35714285714285715,
+    "games": 7
+  },
+  "Jayce_vs_Gnar": {
+    "winrate": 0.6875,
+    "advantage": 0.1875,
+    "games": 16
+  },
+  "Jax_vs_Poppy": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 10
+  },
+  "Yone_vs_Taliyah": {
+    "winrate": 0.5454545454545454,
+    "advantage": 0.045454545454545414,
+    "games": 11
+  },
+  "Gnar_vs_Camille": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 21
+  },
+  "Sylas_vs_Ahri": {
+    "winrate": 0.7857142857142857,
+    "advantage": 0.2857142857142857,
+    "games": 14
+  },
+  "Jax_vs_Renekton": {
+    "winrate": 0.5652173913043478,
+    "advantage": 0.06521739130434778,
+    "games": 46
+  },
+  "Corki_vs_Taliyah": {
+    "winrate": 0.4166666666666667,
+    "advantage": -0.08333333333333331,
+    "games": 12
+  },
+  "Aatrox_vs_Udyr": {
+    "winrate": 0.7,
+    "advantage": 0.19999999999999996,
+    "games": 10
+  },
+  "K'Sante_vs_Aatrox": {
+    "winrate": 0.41025641025641024,
+    "advantage": -0.08974358974358976,
+    "games": 39
+  },
+  "K'Sante_vs_Kennen": {
+    "winrate": 0.0,
+    "advantage": -0.5,
+    "games": 5
+  },
+  "Aurelion Sol_vs_Azir": {
+    "winrate": 0.5454545454545454,
+    "advantage": 0.045454545454545414,
+    "games": 11
+  },
+  "Renekton_vs_Jayce": {
+    "winrate": 0.5454545454545454,
+    "advantage": 0.045454545454545414,
+    "games": 22
+  },
+  "Taliyah_vs_Azir": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 42
+  },
+  "LeBlanc_vs_Yone": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Malphite_vs_K'Sante": {
+    "winrate": 0.4444444444444444,
+    "advantage": -0.05555555555555558,
+    "games": 9
+  },
+  "Udyr_vs_K'Sante": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 14
+  },
+  "Taliyah_vs_Tristana": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 16
+  },
+  "Lucian_vs_Azir": {
+    "winrate": 0.8333333333333334,
+    "advantage": 0.33333333333333337,
+    "games": 6
+  },
+  "LeBlanc_vs_Tristana": {
+    "winrate": 0.6363636363636364,
+    "advantage": 0.13636363636363635,
+    "games": 11
+  },
+  "Ornn_vs_Rumble": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Aatrox_vs_Gnar": {
+    "winrate": 0.6363636363636364,
+    "advantage": 0.13636363636363635,
+    "games": 11
+  },
+  "Azir_vs_Aurelion Sol": {
+    "winrate": 0.6428571428571429,
+    "advantage": 0.1428571428571429,
+    "games": 14
+  },
+  "Camille_vs_Aatrox": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 10
+  },
+  "Renekton_vs_Jax": {
+    "winrate": 0.41935483870967744,
+    "advantage": -0.08064516129032256,
+    "games": 31
+  },
+  "Gnar_vs_Ornn": {
+    "winrate": 0.46153846153846156,
+    "advantage": -0.038461538461538436,
+    "games": 13
+  },
+  "Gwen_vs_Aatrox": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Poppy_vs_K'Sante": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Yone_vs_Aatrox": {
+    "winrate": 0.8571428571428571,
+    "advantage": 0.3571428571428571,
+    "games": 7
+  },
+  "Aatrox_vs_Jayce": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 14
+  },
+  "Aatrox_vs_Kennen": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 14
+  },
+  "Hwei_vs_Taliyah": {
+    "winrate": 0.36363636363636365,
+    "advantage": -0.13636363636363635,
+    "games": 11
+  },
+  "Jax_vs_Gragas": {
+    "winrate": 0.5517241379310345,
+    "advantage": 0.051724137931034475,
+    "games": 29
+  },
+  "Aatrox_vs_K'Sante": {
+    "winrate": 0.45454545454545453,
+    "advantage": -0.04545454545454547,
+    "games": 55
+  },
+  "LeBlanc_vs_Viktor": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Tristana_vs_Taliyah": {
+    "winrate": 0.4444444444444444,
+    "advantage": -0.05555555555555558,
+    "games": 9
+  },
+  "Renekton_vs_Quinn": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 9
+  },
+  "Gwen_vs_K'Sante": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 18
+  },
+  "Jayce_vs_Renekton": {
+    "winrate": 0.4375,
+    "advantage": -0.0625,
+    "games": 16
+  },
+  "Corki_vs_Hwei": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Taliyah_vs_Akali": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Hwei_vs_Azir": {
+    "winrate": 0.4666666666666667,
+    "advantage": -0.033333333333333326,
+    "games": 15
+  },
+  "Taliyah_vs_Yone": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Yone_vs_Orianna": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Skarner_vs_Twisted Fate": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Gangplank_vs_Jax": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Skarner_vs_K'Sante": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 18
+  },
+  "Rumble_vs_Skarner": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 12
+  },
+  "K'Sante_vs_Skarner": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Aatrox_vs_Jax": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 16
+  },
+  "LeBlanc_vs_Annie": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 10
+  },
+  "Udyr_vs_Rumble": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 10
+  },
+  "Camille_vs_Fiora": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Skarner_vs_Aatrox": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Ahri_vs_Corki": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 9
+  },
+  "Ornn_vs_Mordekaiser": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Sylas_vs_Taliyah": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 15
+  },
+  "K'Sante_vs_Gwen": {
+    "winrate": 0.5142857142857142,
+    "advantage": 0.014285714285714235,
+    "games": 35
+  },
+  "Aatrox_vs_Rumble": {
+    "winrate": 0.5384615384615384,
+    "advantage": 0.038461538461538436,
+    "games": 13
+  },
+  "Akali_vs_Azir": {
+    "winrate": 0.4827586206896552,
+    "advantage": -0.017241379310344807,
+    "games": 29
+  },
+  "Lucian_vs_LeBlanc": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Camille_vs_Mordekaiser": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "K'Sante_vs_Twisted Fate": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Orianna_vs_Hwei": {
+    "winrate": 0.8571428571428571,
+    "advantage": 0.3571428571428571,
+    "games": 7
+  },
+  "Azir_vs_Hwei": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 8
+  },
+  "Renekton_vs_Camille": {
+    "winrate": 0.0,
+    "advantage": -0.5,
+    "games": 5
+  },
+  "Twisted Fate_vs_Jax": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Yone_vs_Sylas": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Corki_vs_Viktor": {
+    "winrate": 0.16666666666666666,
+    "advantage": -0.33333333333333337,
+    "games": 6
+  },
+  "Zac_vs_K'Sante": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "K'Sante_vs_Rek'Sai": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Aatrox_vs_Renekton": {
+    "winrate": 0.5185185185185185,
+    "advantage": 0.01851851851851849,
+    "games": 27
+  },
+  "Azir_vs_Orianna": {
+    "winrate": 0.52,
+    "advantage": 0.020000000000000018,
+    "games": 25
+  },
+  "Rek'Sai_vs_Aatrox": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Sion_vs_K'Sante": {
+    "winrate": 0.36363636363636365,
+    "advantage": -0.13636363636363635,
+    "games": 11
+  },
+  "Veigar_vs_Azir": {
+    "winrate": 0.75,
+    "advantage": 0.25,
+    "games": 8
+  },
+  "Jayce_vs_K'Sante": {
+    "winrate": 0.2727272727272727,
+    "advantage": -0.2272727272727273,
+    "games": 11
+  },
+  "Gragas_vs_Jayce": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Ahri_vs_Tristana": {
+    "winrate": 0.75,
+    "advantage": 0.25,
+    "games": 8
+  },
+  "Corki_vs_Sylas": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Azir_vs_Sylas": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 35
+  },
+  "Ahri_vs_Annie": {
+    "winrate": 0.8181818181818182,
+    "advantage": 0.31818181818181823,
+    "games": 11
+  },
+  "Taliyah_vs_Karma": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Akali_vs_Taliyah": {
+    "winrate": 0.16666666666666666,
+    "advantage": -0.33333333333333337,
+    "games": 6
+  },
+  "Syndra_vs_Taliyah": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Gnar_vs_Udyr": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Taliyah_vs_Orianna": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Aatrox_vs_Twisted Fate": {
+    "winrate": 0.0,
+    "advantage": -0.5,
+    "games": 6
+  },
+  "Karma_vs_Orianna": {
+    "winrate": 0.18181818181818182,
+    "advantage": -0.3181818181818182,
+    "games": 11
+  },
+  "Quinn_vs_Renekton": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Karma_vs_Hwei": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Syndra_vs_Orianna": {
+    "winrate": 0.8125,
+    "advantage": 0.3125,
+    "games": 16
+  },
+  "Volibear_vs_Renekton": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Orianna_vs_Karma": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Karma_vs_Taliyah": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Tristana_vs_Orianna": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Annie_vs_Tristana": {
+    "winrate": 0.16666666666666666,
+    "advantage": -0.33333333333333337,
+    "games": 6
+  },
+  "Akali_vs_Orianna": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Neeko_vs_LeBlanc": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Ahri_vs_Karma": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Annie_vs_Ahri": {
+    "winrate": 0.47058823529411764,
+    "advantage": -0.02941176470588236,
+    "games": 17
+  },
+  "Hwei_vs_Karma": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Aatrox_vs_Gwen": {
+    "winrate": 0.7777777777777778,
+    "advantage": 0.2777777777777778,
+    "games": 9
+  },
+  "Rumble_vs_Renekton": {
+    "winrate": 0.7,
+    "advantage": 0.19999999999999996,
+    "games": 10
+  },
+  "Aatrox_vs_Irelia": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Jayce_vs_Rumble": {
+    "winrate": 0.375,
+    "advantage": -0.125,
+    "games": 8
+  },
+  "Camille_vs_Kennen": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Lissandra_vs_Ahri": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 14
+  },
+  "Jayce_vs_Ahri": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 10
+  },
+  "Neeko_vs_Orianna": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "K'Sante_vs_Jayce": {
+    "winrate": 0.8181818181818182,
+    "advantage": 0.31818181818181823,
+    "games": 11
+  },
+  "Jayce_vs_Malphite": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Karma_vs_Azir": {
+    "winrate": 0.0,
+    "advantage": -0.5,
+    "games": 7
+  },
+  "Azir_vs_Karma": {
+    "winrate": 0.8571428571428571,
+    "advantage": 0.3571428571428571,
+    "games": 7
+  },
+  "Orianna_vs_Viktor": {
+    "winrate": 0.47058823529411764,
+    "advantage": -0.02941176470588236,
+    "games": 17
+  },
+  "Sylas_vs_Yone": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Orianna_vs_Akali": {
+    "winrate": 0.5454545454545454,
+    "advantage": 0.045454545454545414,
+    "games": 11
+  },
+  "Jayce_vs_Azir": {
+    "winrate": 0.47058823529411764,
+    "advantage": -0.02941176470588236,
+    "games": 17
+  },
+  "Sylas_vs_Corki": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 9
+  },
+  "Neeko_vs_Azir": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Taliyah_vs_LeBlanc": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Azir_vs_Jayce": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 22
+  },
+  "Jayce_vs_Gragas": {
+    "winrate": 0.3157894736842105,
+    "advantage": -0.1842105263157895,
+    "games": 19
+  },
+  "Orianna_vs_Syndra": {
+    "winrate": 0.5652173913043478,
+    "advantage": 0.06521739130434778,
+    "games": 23
+  },
+  "Azir_vs_Neeko": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Kennen_vs_Jax": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Sylas_vs_Akali": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 21
+  },
+  "Azir_vs_Xerath": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "K'Sante_vs_Gragas": {
+    "winrate": 1.0,
+    "advantage": 0.5,
+    "games": 6
+  },
+  "Annie_vs_Azir": {
+    "winrate": 0.6923076923076923,
+    "advantage": 0.1923076923076923,
+    "games": 26
+  },
+  "Neeko_vs_Jayce": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Ahri_vs_Lissandra": {
+    "winrate": 0.43478260869565216,
+    "advantage": -0.06521739130434784,
+    "games": 23
+  },
+  "Azir_vs_Annie": {
+    "winrate": 0.4166666666666667,
+    "advantage": -0.08333333333333331,
+    "games": 12
+  },
+  "Xerath_vs_Azir": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Aatrox_vs_Ornn": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 15
+  },
+  "Jayce_vs_Annie": {
+    "winrate": 0.16666666666666666,
+    "advantage": -0.33333333333333337,
+    "games": 6
+  },
+  "Azir_vs_Syndra": {
+    "winrate": 0.42105263157894735,
+    "advantage": -0.07894736842105265,
+    "games": 19
+  },
+  "Ahri_vs_Swain": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Annie_vs_Jayce": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Fiora_vs_K'Sante": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 9
+  },
+  "Seraphine_vs_Azir": {
+    "winrate": 0.375,
+    "advantage": -0.125,
+    "games": 8
+  },
+  "LeBlanc_vs_Neeko": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Neeko_vs_Annie": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Ahri_vs_Jayce": {
+    "winrate": 0.25,
+    "advantage": -0.25,
+    "games": 8
+  },
+  "LeBlanc_vs_Lissandra": {
+    "winrate": 0.5789473684210527,
+    "advantage": 0.07894736842105265,
+    "games": 19
+  },
+  "Tristana_vs_Annie": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Azir_vs_LeBlanc": {
+    "winrate": 0.6111111111111112,
+    "advantage": 0.11111111111111116,
+    "games": 18
+  },
+  "Fiora_vs_Jax": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 9
+  },
+  "Gwen_vs_Renekton": {
+    "winrate": 0.6923076923076923,
+    "advantage": 0.1923076923076923,
+    "games": 13
+  },
+  "Sejuani_vs_Gangplank": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Syndra_vs_Azir": {
+    "winrate": 0.5333333333333333,
+    "advantage": 0.033333333333333326,
+    "games": 15
+  },
+  "Renekton_vs_Sion": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 18
+  },
+  "Sion_vs_Renekton": {
+    "winrate": 0.3,
+    "advantage": -0.2,
+    "games": 10
+  },
+  "Veigar_vs_Ahri": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 9
+  },
+  "K'Sante_vs_Fiora": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Gragas_vs_K'Sante": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 10
+  },
+  "Ahri_vs_LeBlanc": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 14
+  },
+  "Renekton_vs_Volibear": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Renekton_vs_Gwen": {
+    "winrate": 0.8461538461538461,
+    "advantage": 0.34615384615384615,
+    "games": 13
+  },
+  "Gnar_vs_Gragas": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Kennen_vs_Gragas": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Sion_vs_Gnar": {
+    "winrate": 0.6470588235294118,
+    "advantage": 0.1470588235294118,
+    "games": 17
+  },
+  "Sion_vs_Ornn": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Gragas_vs_Aatrox": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 21
+  },
+  "Sion_vs_Gwen": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Annie_vs_Syndra": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "LeBlanc_vs_Ahri": {
+    "winrate": 0.47058823529411764,
+    "advantage": -0.02941176470588236,
+    "games": 17
+  },
+  "Annie_vs_Gragas": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 10
+  },
+  "Gragas_vs_Gnar": {
+    "winrate": 0.4782608695652174,
+    "advantage": -0.021739130434782594,
+    "games": 23
+  },
+  "Swain_vs_Ahri": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Ornn_vs_Gragas": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Ahri_vs_Gragas": {
+    "winrate": 0.75,
+    "advantage": 0.25,
+    "games": 8
+  },
+  "Sion_vs_Gragas": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "K'Sante_vs_Sion": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 8
+  },
+  "Gragas_vs_Sion": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Gragas_vs_Ornn": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 12
+  },
+  "Jayce_vs_Sion": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 15
+  },
+  "Gnar_vs_Gwen": {
+    "winrate": 0.6176470588235294,
+    "advantage": 0.11764705882352944,
+    "games": 34
+  },
+  "LeBlanc_vs_Syndra": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 9
+  },
+  "Jayce_vs_Ornn": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 12
+  },
+  "Lissandra_vs_LeBlanc": {
+    "winrate": 0.7,
+    "advantage": 0.19999999999999996,
+    "games": 10
+  },
+  "Annie_vs_Ryze": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Twisted Fate_vs_Galio": {
+    "winrate": 0.6153846153846154,
+    "advantage": 0.11538461538461542,
+    "games": 13
+  },
+  "Jayce_vs_Kennen": {
+    "winrate": 0.8333333333333334,
+    "advantage": 0.33333333333333337,
+    "games": 6
+  },
+  "Viktor_vs_Syndra": {
+    "winrate": 0.3125,
+    "advantage": -0.1875,
+    "games": 16
+  },
+  "Orianna_vs_Ryze": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Ryze_vs_Syndra": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 15
+  },
+  "Gnar_vs_Fiora": {
+    "winrate": 1.0,
+    "advantage": 0.5,
+    "games": 5
+  },
+  "Gnar_vs_Lee Sin": {
+    "winrate": 0.4166666666666667,
+    "advantage": -0.08333333333333331,
+    "games": 12
+  },
+  "Syndra_vs_Akali": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 8
+  },
+  "Syndra_vs_Ryze": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Ryze_vs_Sylas": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Jayce_vs_Irelia": {
+    "winrate": 0.75,
+    "advantage": 0.25,
+    "games": 12
+  },
+  "Azir_vs_Viktor": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 24
+  },
+  "Gragas_vs_Sylas": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Akali_vs_LeBlanc": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Gnar_vs_Sylas": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 10
+  },
+  "Renekton_vs_Sejuani": {
+    "winrate": 1.0,
+    "advantage": 0.5,
+    "games": 5
+  },
+  "Ryze_vs_LeBlanc": {
+    "winrate": 0.5384615384615384,
+    "advantage": 0.038461538461538436,
+    "games": 13
+  },
+  "Ryze_vs_Taliyah": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Ornn_vs_Jayce": {
+    "winrate": 0.21428571428571427,
+    "advantage": -0.2857142857142857,
+    "games": 14
+  },
+  "Ryze_vs_Viktor": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 21
+  },
+  "Gragas_vs_Akali": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Azir_vs_Ryze": {
+    "winrate": 0.6153846153846154,
+    "advantage": 0.11538461538461542,
+    "games": 13
+  },
+  "Ryze_vs_Ahri": {
+    "winrate": 0.4444444444444444,
+    "advantage": -0.05555555555555558,
+    "games": 18
+  },
+  "Gangplank_vs_Gnar": {
+    "winrate": 0.6111111111111112,
+    "advantage": 0.11111111111111116,
+    "games": 36
+  },
+  "Ahri_vs_Ryze": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 15
+  },
+  "Ryze_vs_Azir": {
+    "winrate": 0.6818181818181818,
+    "advantage": 0.18181818181818177,
+    "games": 22
+  },
+  "Akali_vs_Sylas": {
+    "winrate": 0.36363636363636365,
+    "advantage": -0.13636363636363635,
+    "games": 11
+  },
+  "Viktor_vs_Azir": {
+    "winrate": 0.47058823529411764,
+    "advantage": -0.02941176470588236,
+    "games": 17
+  },
+  "Viktor_vs_Akali": {
+    "winrate": 0.4375,
+    "advantage": -0.0625,
+    "games": 16
+  },
+  "Jayce_vs_Camille": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 10
+  },
+  "Sion_vs_Jayce": {
+    "winrate": 1.0,
+    "advantage": 0.5,
+    "games": 8
+  },
+  "Akali_vs_Ryze": {
+    "winrate": 0.8333333333333334,
+    "advantage": 0.33333333333333337,
+    "games": 6
+  },
+  "Jayce_vs_Akali": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Zoe_vs_Ryze": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Viktor_vs_Sylas": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 10
+  },
+  "Irelia_vs_Gnar": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 9
+  },
+  "Zoe_vs_Akali": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Camille_vs_Gragas": {
+    "winrate": 0.7,
+    "advantage": 0.19999999999999996,
+    "games": 10
+  },
+  "Syndra_vs_Viktor": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 20
+  },
+  "Viktor_vs_Ryze": {
+    "winrate": 0.47368421052631576,
+    "advantage": -0.026315789473684237,
+    "games": 19
+  },
+  "Azir_vs_Kassadin": {
+    "winrate": 0.9,
+    "advantage": 0.4,
+    "games": 10
+  },
+  "Sion_vs_Camille": {
+    "winrate": 0.0,
+    "advantage": -0.5,
+    "games": 5
+  },
+  "Galio_vs_Ryze": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 10
+  },
+  "Sylas_vs_LeBlanc": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Ornn_vs_Aatrox": {
+    "winrate": 0.72,
+    "advantage": 0.21999999999999997,
+    "games": 25
+  },
+  "Gnar_vs_Irelia": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 14
+  },
+  "Ryze_vs_Cassiopeia": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "LeBlanc_vs_Sylas": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 9
+  },
+  "Azir_vs_Swain": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Syndra_vs_Galio": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Swain_vs_Azir": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Gwen_vs_Akali": {
+    "winrate": 0.3076923076923077,
+    "advantage": -0.1923076923076923,
+    "games": 13
+  },
+  "Akali_vs_Viktor": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 9
+  },
+  "Ryze_vs_Twisted Fate": {
+    "winrate": 0.36363636363636365,
+    "advantage": -0.13636363636363635,
+    "games": 11
+  },
+  "Galio_vs_Azir": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 9
+  },
+  "Gwen_vs_Gnar": {
+    "winrate": 0.5161290322580645,
+    "advantage": 0.016129032258064502,
+    "games": 31
+  },
+  "Ryze_vs_Akali": {
+    "winrate": 0.125,
+    "advantage": -0.375,
+    "games": 8
+  },
+  "Akali_vs_Syndra": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Gwen_vs_Jax": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Ornn_vs_Sejuani": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Sejuani_vs_Ornn": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Jax_vs_Gwen": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Gwen_vs_Tryndamere": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 10
+  },
+  "Akali_vs_Gwen": {
+    "winrate": 0.6923076923076923,
+    "advantage": 0.1923076923076923,
+    "games": 13
+  },
+  "Gnar_vs_Sejuani": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 21
+  },
+  "Gwen_vs_Gragas": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Ornn_vs_Sylas": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 12
+  },
+  "Sejuani_vs_Aatrox": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Ornn_vs_Gnar": {
+    "winrate": 0.45454545454545453,
+    "advantage": -0.04545454545454547,
+    "games": 11
+  },
+  "Gragas_vs_Camille": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Gwen_vs_Kennen": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Tryndamere_vs_Gwen": {
+    "winrate": 0.375,
+    "advantage": -0.125,
+    "games": 8
+  },
+  "Ornn_vs_Camille": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Vex_vs_Ahri": {
+    "winrate": 0.6363636363636364,
+    "advantage": 0.13636363636363635,
+    "games": 11
+  },
+  "Gwen_vs_Gangplank": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Ahri_vs_Vex": {
+    "winrate": 0.2857142857142857,
+    "advantage": -0.2142857142857143,
+    "games": 7
+  },
+  "Ryze_vs_Galio": {
+    "winrate": 0.4444444444444444,
+    "advantage": -0.05555555555555558,
+    "games": 9
+  },
+  "Twisted Fate_vs_Sylas": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 16
+  },
+  "Sejuani_vs_Gnar": {
+    "winrate": 0.5294117647058824,
+    "advantage": 0.02941176470588236,
+    "games": 17
+  },
+  "Ornn_vs_Gwen": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Ornn_vs_Gangplank": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Azir_vs_Seraphine": {
+    "winrate": 0.2857142857142857,
+    "advantage": -0.2142857142857143,
+    "games": 7
+  },
+  "Sylas_vs_Gnar": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Gangplank_vs_Sejuani": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Gnar_vs_Akali": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Camille_vs_Ornn": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Viktor_vs_Corki": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 9
+  },
+  "Gwen_vs_Lillia": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Kennen_vs_Gwen": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Swain_vs_Corki": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Gangplank_vs_Ornn": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Zoe_vs_Azir": {
+    "winrate": 0.29411764705882354,
+    "advantage": -0.20588235294117646,
+    "games": 17
+  },
+  "Gangplank_vs_Kayle": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Viktor_vs_Orianna": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 16
+  },
+  "Zoe_vs_Orianna": {
+    "winrate": 0.7368421052631579,
+    "advantage": 0.23684210526315785,
+    "games": 19
+  },
+  "Mordekaiser_vs_Camille": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Zoe_vs_Ahri": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Gragas_vs_Gwen": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 12
+  },
+  "Sylas_vs_Twisted Fate": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Twisted Fate_vs_Azir": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Twisted Fate_vs_Viktor": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Ryze_vs_Orianna": {
+    "winrate": 0.8461538461538461,
+    "advantage": 0.34615384615384615,
+    "games": 13
+  },
+  "Graves_vs_Gnar": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Graves_vs_Jayce": {
+    "winrate": 0.75,
+    "advantage": 0.25,
+    "games": 8
+  },
+  "Twisted Fate_vs_Ryze": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Graves_vs_Camille": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Jayce_vs_Graves": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Akali_vs_Kennen": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Vex_vs_LeBlanc": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "LeBlanc_vs_Ryze": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Aatrox_vs_Akali": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Tryndamere_vs_Fiora": {
+    "winrate": 0.25,
+    "advantage": -0.25,
+    "games": 8
+  },
+  "Graves_vs_Tryndamere": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 18
+  },
+  "Twisted Fate_vs_Orianna": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Camille_vs_Jayce": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Twisted Fate_vs_LeBlanc": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Graves_vs_Gwen": {
+    "winrate": 0.6153846153846154,
+    "advantage": 0.11538461538461542,
+    "games": 13
+  },
+  "Gwen_vs_Jayce": {
+    "winrate": 0.4090909090909091,
+    "advantage": -0.09090909090909088,
+    "games": 22
+  },
+  "Gwen_vs_Graves": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 10
+  },
+  "Akali_vs_Gangplank": {
+    "winrate": 0.375,
+    "advantage": -0.125,
+    "games": 8
+  },
+  "Syndra_vs_LeBlanc": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 10
+  },
+  "Zoe_vs_Viktor": {
+    "winrate": 0.7,
+    "advantage": 0.19999999999999996,
+    "games": 10
+  },
+  "Gnar_vs_Sion": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Jayce_vs_Gwen": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 8
+  },
+  "Zoe_vs_Twisted Fate": {
+    "winrate": 0.8571428571428571,
+    "advantage": 0.3571428571428571,
+    "games": 7
+  },
+  "Graves_vs_Akali": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Ryze_vs_Zoe": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "LeBlanc_vs_Zoe": {
+    "winrate": 0.5625,
+    "advantage": 0.0625,
+    "games": 16
+  },
+  "Corki_vs_Syndra": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Zoe_vs_Syndra": {
+    "winrate": 0.5625,
+    "advantage": 0.0625,
+    "games": 16
+  },
+  "Camille_vs_Gwen": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 8
+  },
+  "Renekton_vs_LeBlanc": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Syndra_vs_Zoe": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 15
+  },
+  "Lucian_vs_Ryze": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Ryze_vs_Lucian": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Orianna_vs_Zoe": {
+    "winrate": 0.6875,
+    "advantage": 0.1875,
+    "games": 16
+  },
+  "LeBlanc_vs_Galio": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Viktor_vs_Zoe": {
+    "winrate": 0.875,
+    "advantage": 0.375,
+    "games": 8
+  },
+  "Jayce_vs_Wukong": {
+    "winrate": 0.5833333333333334,
+    "advantage": 0.08333333333333337,
+    "games": 12
+  },
+  "Kennen_vs_Camille": {
+    "winrate": 0.375,
+    "advantage": -0.125,
+    "games": 8
+  },
+  "Renekton_vs_Sett": {
+    "winrate": 0.125,
+    "advantage": -0.375,
+    "games": 8
+  },
+  "Viego_vs_Gnar": {
+    "winrate": 0.5714285714285714,
+    "advantage": 0.0714285714285714,
+    "games": 7
+  },
+  "Lee Sin_vs_Ryze": {
+    "winrate": 0.2,
+    "advantage": -0.3,
+    "games": 5
+  },
+  "Gnar_vs_Sett": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Sett_vs_Gnar": {
+    "winrate": 0.625,
+    "advantage": 0.125,
+    "games": 8
+  },
+  "Ornn_vs_Sett": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Sett_vs_Aatrox": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 6
+  },
+  "Viego_vs_Renekton": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Nocturne_vs_Sett": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Akali_vs_Sett": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Lee Sin_vs_Viego": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Lee Sin_vs_Nocturne": {
+    "winrate": 0.6666666666666666,
+    "advantage": 0.16666666666666663,
+    "games": 6
+  },
+  "Azir_vs_Zoe": {
+    "winrate": 0.3157894736842105,
+    "advantage": -0.1842105263157895,
+    "games": 19
+  },
+  "Aatrox_vs_Gragas": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Galio_vs_Zoe": {
+    "winrate": 0.5333333333333333,
+    "advantage": 0.033333333333333326,
+    "games": 15
+  },
+  "Ornn_vs_Kayle": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Zoe_vs_Lucian": {
+    "winrate": 0.8,
+    "advantage": 0.30000000000000004,
+    "games": 5
+  },
+  "Zoe_vs_LeBlanc": {
+    "winrate": 0.3,
+    "advantage": -0.2,
+    "games": 10
+  },
+  "Azir_vs_Ekko": {
+    "winrate": 0.5555555555555556,
+    "advantage": 0.05555555555555558,
+    "games": 9
+  },
+  "Sett_vs_Ornn": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 8
+  },
+  "Ekko_vs_Azir": {
+    "winrate": 0.42857142857142855,
+    "advantage": -0.07142857142857145,
+    "games": 7
+  },
+  "Zoe_vs_Karma": {
+    "winrate": 1.0,
+    "advantage": 0.5,
+    "games": 5
+  },
+  "Wukong_vs_Renekton": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Mordekaiser_vs_Aatrox": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Sett_vs_Mordekaiser": {
+    "winrate": 0.3333333333333333,
+    "advantage": -0.16666666666666669,
+    "games": 9
+  },
+  "Jayce_vs_Poppy": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Aatrox_vs_Mordekaiser": {
+    "winrate": 0.5,
+    "advantage": 0.0,
+    "games": 6
+  },
+  "Kennen_vs_Aatrox": {
+    "winrate": 0.7142857142857143,
+    "advantage": 0.2142857142857143,
+    "games": 7
+  },
+  "Sylas_vs_Ornn": {
+    "winrate": 0.75,
+    "advantage": 0.25,
+    "games": 8
+  },
+  "Sett_vs_Renekton": {
+    "winrate": 0.4,
+    "advantage": -0.09999999999999998,
+    "games": 5
+  },
+  "Aatrox_vs_Lucian": {
+    "winrate": 0.6,
+    "advantage": 0.09999999999999998,
+    "games": 5
+  },
+  "Poppy_vs_Trundle": {
+    "winrate": 1.0,
+    "advantage": 0.5,
+    "games": 5
+  }
+}

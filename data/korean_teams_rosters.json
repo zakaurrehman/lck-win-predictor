@@ -1,0 +1,105 @@
+{
+  "last_updated": "2025-06-21T02:12:51.249670",
+  "teams": {
+    "T1": {
+      "league": "LCK",
+      "roster": {
+        "top": "Zeus",
+        "jng": "Oner",
+        "mid": "Faker",
+        "bot": "Gumayusi",
+        "sup": "Keria"
+      }
+    },
+    "Gen.G": {
+      "league": "LCK",
+      "roster": {
+        "top": "Kiin",
+        "jng": "Canyon",
+        "mid": "Chovy",
+        "bot": "Peyz",
+        "sup": "Lehends"
+      }
+    },
+    "Hanwha Life Esports": {
+      "league": "LCK",
+      "roster": {
+        "top": "Doran",
+        "jng": "Peanut",
+        "mid": "Zeka",
+        "bot": "Viper",
+        "sup": "Delight"
+      }
+    },
+    "Dplus KIA": {
+      "league": "LCK",
+      "roster": {
+        "top": "Canna",
+        "jng": "Lucid",
+        "mid": "ShowMaker",
+        "bot": "Aiming",
+        "sup": "Kellin"
+      }
+    },
+    "KT Rolster": {
+      "league": "LCK",
+      "roster": {
+        "top": "PerfecT",
+        "jng": "Pyosik",
+        "mid": "Bdd",
+        "bot": "Deft",
+        "sup": "BeryL"
+      }
+    },
+    "DRX": {
+      "league": "LCK",
+      "roster": {
+        "top": "Rascal",
+        "jng": "Juhan",
+        "mid": "SeTab",
+        "bot": "Teddy",
+        "sup": "Pleata"
+      }
+    },
+    "BRION": {
+      "league": "LCK",
+      "roster": {
+        "top": "Morgan",
+        "jng": "UmTi",
+        "mid": "Clozer",
+        "bot": "EnvyY",
+        "sup": "Effort"
+      }
+    },
+    "Nongshim RedForce": {
+      "league": "LCK",
+      "roster": {
+        "top": "DuDu",
+        "jng": "Sylvie",
+        "mid": "Jiwoo",
+        "bot": "Vital",
+        "sup": "Peter"
+      }
+    },
+    "FearX": {
+      "league": "LCK",
+      "roster": {
+        "top": "Clear",
+        "jng": "Willer",
+        "mid": "YoungJae",
+        "bot": "Hena",
+        "sup": "Andil"
+      }
+    },
+    "OK BRION": {
+      "league": "LCK",
+      "roster": {
+        "top": "Kingen",
+        "jng": "Gideon",
+        "mid": "Ucal",
+        "bot": "Envyy",
+        "sup": "Execute"
+      }
+    }
+  }
+}
