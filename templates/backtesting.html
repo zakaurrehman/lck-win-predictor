@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCK Backtesting Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .nav-back {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .nav-back:hover {
+            transform: translateX(-5px);
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .tab {
+            padding: 15px 30px;
+            background: none;
+            border: none;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #666;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s;
+        }
+        
+        .tab.active {
+            color: #667eea;
+        }
+        
+        .tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #667eea;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .config-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .config-group {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+        }
+        
+        .config-group h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .form-group input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .data-status {
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .data-status.error {
+            background: #ffebee;
+            color: #c62828;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .btn.loading {
+            position: relative;
+            color: transparent;
+        }
+        
+        .btn.loading::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 50%;
+            left: 50%;
+            margin-left: -10px;
+            margin-top: -10px;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spinner 0.8s linear infinite;
+        }
+        
+        @keyframes spinner {
+            to { transform: rotate(360deg); }
+        }
+        
+        .results-section {
+            margin-top: 40px;
+        }
+        
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .summary-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .summary-card h4 {
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+        
+        .summary-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        
+        .summary-card.positive {
+            background: linear-gradient(135deg, #43a047 0%, #66bb6a 100%);
+        }
+        
+        .summary-card.negative {
+            background: linear-gradient(135deg, #e53935 0%, #ef5350 100%);
+        }
+        
+        .chart-container {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .chart-container h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .bets-table {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+        
+        .bets-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .bets-table th {
+            background: #f8f9fa;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #555;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .bets-table td {
+            padding: 15px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .bets-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .outcome-win {
+            color: #43a047;
+            font-weight: 600;
+        }
+        
+        .outcome-loss {
+            color: #e53935;
+            font-weight: 600;
+        }
+        
+        .profit-positive {
+            color: #43a047;
+        }
+        
+        .profit-negative {
+            color: #e53935;
+        }
+        
+        #loading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #loading-overlay.active {
+            display: flex;
+        }
+        
+        .loading-content {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid #f0f0f0;
+            border-top-color: #667eea;
+            border-radius: 50%;
+            animation: spinner 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        .loading-text {
+            color: #666;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="nav-back">← Back to Predictions</a>
+        
+        <div class="header">
+            <h1>LCK Backtesting Dashboard</h1>
+            <p>Test your betting strategies with historical data</p>
+        </div>
+        
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('config', event)">Configuration</button>
+            <button class="tab" onclick="switchTab('results', event)">Results</button>
+            <button class="tab" onclick="switchTab('history', event)">Bet History</button>
+            <button class="tab" onclick="switchTab('data', event)">Data Status</button>
+        </div>
+        
+        <!-- Configuration Tab -->
+        <div id="config-tab" class="tab-content active">
+            <div id="data-validation" class="data-status">
+                <span id="data-status-text">Checking data files...</span>
+            </div>
+            
+            <div class="config-section">
+                <div class="config-group">
+                    <h3>Bankroll Settings</h3>
+                    <div class="form-group">
+                        <label for="initial-bankroll">Initial Bankroll ($)</label>
+                        <input type="number" id="initial-bankroll" value="1000" min="100" max="100000" step="100">
+                    </div>
+                    <div class="form-group">
+                        <label for="max-bet-size">Maximum Bet Size (%)</label>
+                        <input type="number" id="max-bet-size" value="25" min="1" max="100" step="1">
+                    </div>
+                </div>
+                
+                <div class="config-group">
+                    <h3>Betting Strategy</h3>
+                    <div class="form-group">
+                        <label for="min-edge">Minimum Edge (%)</label>
+                        <input type="number" id="min-edge" value="5" min="0" max="50" step="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="min-probability">Minimum Probability (%)</label>
+                        <input type="number" id="min-probability" value="55" min="50" max="90" step="1">
+                    </div>
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="use-kelly" checked>
+                            <span>Use Kelly Criterion</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="config-group">
+                    <h3>Date Range</h3>
+                    <div class="form-group">
+                        <label for="start-date">Start Date</label>
+                        <input type="date" id="start-date">
+                    </div>
+                    <div class="form-group">
+                        <label for="end-date">End Date</label>
+                        <input type="date" id="end-date">
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <button class="btn" id="run-backtest-btn" onclick="runBacktest()">
+                    <span>Run Backtest</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Results Tab -->
+        <div id="results-tab" class="tab-content">
+            <div id="results-content">
+                <p style="text-align: center; color: #666; padding: 40px;">
+                    No backtest results yet. Run a backtest to see results here.
+                </p>
+            </div>
+        </div>
+        
+        <!-- History Tab -->
+        <div id="history-tab" class="tab-content">
+            <div id="history-content">
+                <p style="text-align: center; color: #666; padding: 40px;">
+                    No betting history yet. Run a backtest to see bet details here.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Data Status Tab -->
+        <div id="data-tab" class="tab-content">
+            <div id="data-validation-details">
+                <p style="text-align: center; color: #666; padding: 40px;">
+                    Loading data validation details...
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Running backtest...</div>
+        </div>
+    </div>
+    
+    <script>
+        // Chart instances
+        let bankrollChart = null;
+        let winrateChart = null;
+        let profitChart = null;
+        
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            validateData();
+            setDefaultDates();
+        });
+        
+        function setDefaultDates() {
+            const today = new Date();
+            const threeMonthsAgo = new Date(today);
+            threeMonthsAgo.setMonth(today.getMonth() - 3);
+            
+            document.getElementById('end-date').value = today.toISOString().split('T')[0];
+            document.getElementById('start-date').value = threeMonthsAgo.toISOString().split('T')[0];
+        }
+        
+        function switchTab(tabName, event) {
+            // Update tab buttons
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(`${tabName}-tab`).classList.add('active');
+        }
+        
+        async function validateData() {
+            try {
+                const response = await fetch('/api/validate-data');
+                const data = await response.json();
+                
+                const statusElement = document.getElementById('data-status-text');
+                const validationElement = document.getElementById('data-validation');
+                
+                let statusText = '';
+                let allValid = true;
+                
+                // Check odds file
+                if (data.odds_file && data.odds_file.exists && data.odds_file.valid) {
+                    statusText += 'Odds data: ' + data.odds_file.records + ' records. ';
+                } else if (data.odds_file) {
+                    statusText += 'Odds data: ' + (data.odds_file.exists ? 'Invalid format' : 'File missing') + '. ';
+                    allValid = false;
+                } else {
+                    statusText += 'Odds data: Not checked. ';
+                    allValid = false;
+                }
+                
+                // Check matches file
+                if (data.matches_file && data.matches_file.exists && data.matches_file.valid) {
+                    statusText += 'Match data: ' + data.matches_file.records + ' records.';
+                } else if (data.matches_file) {
+                    statusText += 'Match data: ' + (data.matches_file.exists ? 'Invalid format' : 'File missing') + '.';
+                    allValid = false;
+                } else {
+                    statusText += 'Match data: Not checked.';
+                    allValid = false;
+                }
+                
+                if (!allValid) {
+                    statusText = 'Sample data will be created on first run. Click Run Backtest to start!';
+                    validationElement.className = 'data-status';
+                    allValid = true; // Allow running to create sample data
+                }
+                
+                statusElement.textContent = statusText;
+                document.getElementById('run-backtest-btn').disabled = !allValid;
+                
+                // Show detailed validation in data status tab
+                if (data.odds_file || data.matches_file) {
+                    showDataValidationDetails(data);
+                }
+                
+            } catch (error) {
+                console.error('Error validating data:', error);
+                document.getElementById('data-status-text').textContent = 'Ready to create sample data. Click Run Backtest!';
+                document.getElementById('data-validation').className = 'data-status';
+                document.getElementById('run-backtest-btn').disabled = false;
+            }
+        }
+        
+        function showDataValidationDetails(data) {
+            const detailsElement = document.getElementById('data-validation-details');
+            
+            let html = '<div class="config-section">';
+            
+            // Odds file details
+            if (data.odds_file) {
+                html += '<div class="config-group">';
+                html += '<h3>Odds Data</h3>';
+                html += '<p><strong>File exists:</strong> ' + (data.odds_file.exists ? 'Yes' : 'No') + '</p>';
+                html += '<p><strong>Valid format:</strong> ' + (data.odds_file.valid ? 'Yes' : 'No') + '</p>';
+                html += '<p><strong>Records:</strong> ' + data.odds_file.records + '</p>';
+                if (data.odds_file.issues && data.odds_file.issues.length > 0) {
+                    html += '<p><strong>Issues:</strong> ' + data.odds_file.issues.join(', ') + '</p>';
+                }
+                html += '</div>';
+            }
+            
+            // Matches file details
+            if (data.matches_file) {
+                html += '<div class="config-group">';
+                html += '<h3>Match Results Data</h3>';
+                html += '<p><strong>File exists:</strong> ' + (data.matches_file.exists ? 'Yes' : 'No') + '</p>';
+                html += '<p><strong>Valid format:</strong> ' + (data.matches_file.valid ? 'Yes' : 'No') + '</p>';
+                html += '<p><strong>Records:</strong> ' + data.matches_file.records + '</p>';
+                if (data.matches_file.issues && data.matches_file.issues.length > 0) {
+                    html += '<p><strong>Issues:</strong> ' + data.matches_file.issues.join(', ') + '</p>';
+                }
+                html += '</div>';
+            }
+            
+            html += '</div>';
+            
+            if ((!data.odds_file || !data.odds_file.exists) || (!data.matches_file || !data.matches_file.exists)) {
+                html += '<div class="data-status" style="margin-top: 20px;">';
+                html += '<p>Sample data will be automatically created when you run your first backtest.</p>';
+                html += '</div>';
+            }
+            
+            detailsElement.innerHTML = html;
+        }
+        
+        async function runBacktest() {
+            console.log('Running backtest...');
+            const btn = document.getElementById('run-backtest-btn');
+            btn.classList.add('loading');
+            btn.disabled = true;
+            
+            document.getElementById('loading-overlay').classList.add('active');
+            
+            const config = {
+                initial_bankroll: parseFloat(document.getElementById('initial-bankroll').value),
+                max_kelly: parseFloat(document.getElementById('max-bet-size').value) / 100,
+                min_edge: parseFloat(document.getElementById('min-edge').value) / 100,
+                min_probability: parseFloat(document.getElementById('min-probability').value) / 100,
+                use_kelly: document.getElementById('use-kelly').checked,
+                start_date: document.getElementById('start-date').value,
+                end_date: document.getElementById('end-date').value
+            };
+            
+            console.log('Config:', config);
+            
+            try {
+                const response = await fetch('/api/run-backtest', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(config)
+                });
+                
+                console.log('Response status:', response.status);
+                const data = await response.json();
+                console.log('Response data:', data);
+                
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                } else if (data.success) {
+                    displayResults(data);
+                    displayHistory(data);
+                    
+                    // Switch to results tab
+                    document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+                    document.querySelectorAll('.tab')[1].classList.add('active');
+                    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                    document.getElementById('results-tab').classList.add('active');
+                    
+                    // Refresh data validation
+                    validateData();
+                } else {
+                    alert('Unexpected response from server');
+                }
+                
+            } catch (error) {
+                console.error('Backtest error:', error);
+                alert('Error running backtest: ' + error.message);
+            } finally {
+                btn.classList.remove('loading');
+                btn.disabled = false;
+                document.getElementById('loading-overlay').classList.remove('active');
+            }
+        }
+        
+        function displayResults(data) {
+            const summary = data.summary;
+            const resultsContent = document.getElementById('results-content');
+            
+            let html = '<div class="summary-cards">';
+            
+            // Summary cards
+            html += '<div class="summary-card">';
+            html += '<h4>Total Bets</h4>';
+            html += '<div class="value">' + summary.total_bets + '</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card">';
+            html += '<h4>Win Rate</h4>';
+            html += '<div class="value">' + (summary.win_rate * 100).toFixed(1) + '%</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card ' + (summary.total_profit >= 0 ? 'positive' : 'negative') + '">';
+            html += '<h4>Total Profit</h4>';
+            html += '<div class="value">$' + summary.total_profit.toFixed(2) + '</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card ' + (summary.roi >= 0 ? 'positive' : 'negative') + '">';
+            html += '<h4>ROI</h4>';
+            html += '<div class="value">' + summary.roi.toFixed(1) + '%</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card">';
+            html += '<h4>Final Bankroll</h4>';
+            html += '<div class="value">$' + summary.final_bankroll.toFixed(2) + '</div>';
+            html += '</div>';
+            
+            html += '<div class="summary-card">';
+            html += '<h4>Avg Bet Size</h4>';
+            html += '<div class="value">$' + summary.avg_bet_size.toFixed(2) + '</div>';
+            html += '</div>';
+            
+            html += '</div>';
+            
+            // Charts
+            html += '<div class="chart-container">';
+            html += '<h3>Bankroll Growth</h3>';
+            html += '<canvas id="bankroll-chart"></canvas>';
+            html += '</div>';
+            
+            html += '<div class="chart-container">';
+            html += '<h3>Win Rate Over Time</h3>';
+            html += '<canvas id="winrate-chart"></canvas>';
+            html += '</div>';
+            
+            html += '<div class="chart-container">';
+            html += '<h3>Profit Distribution</h3>';
+            html += '<canvas id="profit-chart"></canvas>';
+            html += '</div>';
+            
+            resultsContent.innerHTML = html;
+            
+            // Create charts
+            setTimeout(() => {
+                if (data.charts) {
+                    createBankrollChart(data.charts.bankroll || {});
+                    createWinrateChart(data.charts.winrate || {});
+                    createProfitChart(data.charts.profit_distribution || {});
+                }
+            }, 100);
+        }
+        
+        function displayHistory(data) {
+            const historyContent = document.getElementById('history-content');
+            const bets = data.bets || [];
+            
+            if (bets.length === 0) {
+                historyContent.innerHTML = '<p style="text-align: center; color: #666; padding: 40px;">No bets placed in this backtest.</p>';
+                return;
+            }
+            
+            let html = '<div class="bets-table"><table>';
+            html += '<thead><tr>';
+            html += '<th>Date</th>';
+            html += '<th>Match</th>';
+            html += '<th>Bet On</th>';
+            html += '<th>Odds</th>';
+            html += '<th>Probability</th>';
+            html += '<th>Edge</th>';
+            html += '<th>Bet Size</th>';
+            html += '<th>Outcome</th>';
+            html += '<th>Profit</th>';
+            html += '</tr></thead><tbody>';
+            
+            // Show most recent bets first
+            const recentBets = bets.slice(-100).reverse();
+            
+            recentBets.forEach(bet => {
+                const outcomeClass = bet.outcome === 'Win' ? 'outcome-win' : 'outcome-loss';
+                const profitClass = bet.profit >= 0 ? 'profit-positive' : 'profit-negative';
+                
+                html += '<tr>';
+                html += '<td>' + new Date(bet.date).toLocaleDateString() + '</td>';
+                html += '<td>' + bet.team1 + ' vs ' + bet.team2 + '</td>';
+                html += '<td>' + bet.bet_on + '</td>';
+                html += '<td>' + bet.odds.toFixed(2) + '</td>';
+                html += '<td>' + (bet.probability * 100).toFixed(1) + '%</td>';
+                html += '<td>' + (bet.edge * 100).toFixed(1) + '%</td>';
+                html += '<td>$' + bet.bet_size.toFixed(2) + '</td>';
+                html += '<td class="' + outcomeClass + '">' + bet.outcome + '</td>';
+                html += '<td class="' + profitClass + '">$' + bet.profit.toFixed(2) + '</td>';
+                html += '</tr>';
+            });
+            
+            html += '</tbody></table></div>';
+            historyContent.innerHTML = html;
+        }
+        
+        function createBankrollChart(data) {
+            const ctx = document.getElementById('bankroll-chart');
+            if (!ctx) return;
+            
+            const chartCtx = ctx.getContext('2d');
+            
+            if (bankrollChart) {
+                bankrollChart.destroy();
+            }
+            
+            bankrollChart = new Chart(chartCtx, {
+                type: 'line',
+                data: {
+                    labels: data.labels || [],
+                    datasets: [{
+                        label: 'Bankroll',
+                        data: data.data || [],
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        function createProfitChart(data) {
+            const ctx = document.getElementById('profit-chart');
+            if (!ctx) return;
+            
+            const chartCtx = ctx.getContext('2d');
+            
+            if (profitChart) {
+                profitChart.destroy();
+            }
+            
+            profitChart = new Chart(chartCtx, {
+                type: 'bar',
+                data: {
+                    labels: data.labels || ['Large Loss', 'Medium Loss', 'Small Loss', 'Small Win', 'Medium Win', 'Large Win'],
+                    datasets: [{
+                        label: 'Number of Bets',
+                        data: data.data || [],
+                        backgroundColor: [
+                            '#e53935',
+                            '#ef5350',
+                            '#ff7043',
+                            '#66bb6a',
+                            '#43a047',
+                            '#2e7d32'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+              

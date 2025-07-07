@@ -17,3 +17,27 @@ lightgbm>=4.0.0
 # Visualization (optional for development)
 matplotlib>=3.8.0
 seaborn>=0.13.0
+
+# New requirements for betting/backtesting
+matplotlib==3.8.0
+seaborn==0.13.0
+schedule==1.2.0
+beautifulsoup4==4.12.2
+
+plotly==5.15.0
+yfinance==0.2.18
+python-dateutil
+pytz
+scipy
+
+# Optional: for database support
+SQLAlchemy
+Flask-SQLAlchemy
+
+# Optional: for advanced analytics
+# ta-lib
+# quantlib
+
+# # Optional: for web scraping
+selenium
+webdriver-manager

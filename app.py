@@ -665,7 +665,379 @@ def debug_info():
         'feature_creator_loaded': prediction_app.feature_creator is not None,
         'expected_features': len(REQUIRED_FEATURES)
     })
+# Add this to your app.py file after the existing routes
 
+# ==========================================
+# BACKTESTING ROUTES
+# ==========================================
+
+@app.route('/backtesting')
+def backtesting_page():
+    """Backtesting dashboard page"""
+    return render_template('backtesting.html')
+
+@app.route('/api/validate-data')
+def validate_backtest_data():
+    """Validate if data files exist and are valid"""
+    try:
+        from data_collection.data_validator import DataValidator
+        validator = DataValidator()
+        
+        odds_file = 'data/sample_odds.csv'
+        matches_file = 'data/sample_matches.csv'
+        
+        # Create sample data if it doesn't exist
+        create_sample_data_if_needed()
+        
+        # Check odds file
+        odds_valid = False
+        odds_records = 0
+        odds_issues = []
+        
+        if os.path.exists(odds_file):
+            try:
+                odds_df = pd.read_csv(odds_file)
+                odds_df, issues = validator.validate_odds_data(odds_df)
+                odds_valid = len(issues) == 0
+                odds_records = len(odds_df)
+                odds_issues = issues[:3]  # First 3 issues only
+            except Exception as e:
+                odds_issues = [str(e)]
+        
+        # Check matches file
+        matches_valid = False
+        matches_records = 0
+        matches_issues = []
+        
+        if os.path.exists(matches_file):
+            try:
+                matches_df = pd.read_csv(matches_file)
+                matches_df, issues = validator.validate_match_data(matches_df)
+                matches_valid = len(issues) == 0
+                matches_records = len(matches_df)
+                matches_issues = issues[:3]
+            except Exception as e:
+                matches_issues = [str(e)]
+        
+        return jsonify({
+            'odds_file': {
+                'exists': os.path.exists(odds_file),
+                'valid': odds_valid,
+                'records': odds_records,
+                'issues': odds_issues
+            },
+            'matches_file': {
+                'exists': os.path.exists(matches_file),
+                'valid': matches_valid,
+                'records': matches_records,
+                'issues': matches_issues
+            }
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/run-backtest', methods=['POST'])
+def run_backtest_api():
+    """Run backtesting with given parameters"""
+    try:
+        if not BACKTESTING_AVAILABLE:
+            # Simplified backtest without full module
+            config = request.json
+            results = run_simple_backtest(config)
+            return jsonify(results)
+        
+        from backtesting.backtest_engine import LCKBacktestEngine
+        from backtesting.performance_metrics import PerformanceAnalyzer
+        
+        config = request.json
+        
+        # Initialize backtest engine
+        engine = LCKBacktestEngine(
+            initial_bankroll=config.get('initial_bankroll', 1000),
+            min_edge=config.get('min_edge', 0.05),
+            min_probability=config.get('min_probability', 0.55),
+            use_kelly=config.get('use_kelly', True),
+            max_kelly=config.get('max_kelly', 0.25)
+        )
+        
+        # Load data
+        historical_data = engine.load_historical_data(
+            'data/sample_odds.csv',
+            'data/sample_matches.csv'
+        )
+        
+        # Run backtest
+        results = engine.run_backtest(
+            historical_data,
+            start_date=config.get('start_date'),
+            end_date=config.get('end_date')
+        )
+        
+        # Analyze results
+        analyzer = PerformanceAnalyzer()
+        analysis = analyzer.analyze_results(results)
+        
+        # Create response
+        response = {
+            'success': True,
+            'summary': analysis['summary'],
+            'bets': results['bets'][-100:],  # Last 100 bets
+            'bankroll_history': results['bankroll_history'][-100:],  # Last 100 points
+            'charts': {
+                'bankroll': create_bankroll_chart(results['bankroll_history']),
+                'winrate': create_winrate_chart(results['bets']),
+                'profit_distribution': create_profit_chart(results['bets'])
+            }
+        }
+        
+        return jsonify(response)
+        
+    except Exception as e:
+        logger.error(f"Backtest error: {str(e)}")
+        return jsonify({'error': str(e)}), 500
+
+def create_sample_data_if_needed():
+    """Create sample data files if they don't exist"""
+    import random
+    from datetime import datetime, timedelta
+    
+    # Create data directory if needed
+    os.makedirs('data', exist_ok=True)
+    
+    # Sample odds data
+    if not os.path.exists('data/sample_odds.csv'):
+        odds_data = []
+        teams = prediction_app.teams_list[:10] if prediction_app.teams_list else [
+            'T1', 'Gen.G', 'DWG KIA', 'DRX', 'KT Rolster', 
+            'Kwangdong Freecs', 'Nongshim RedForce', 'Fredit BRION'
+        ]
+        
+        base_date = datetime.now() - timedelta(days=90)
+        
+        for i in range(200):
+            date = base_date + timedelta(days=i//2)
+            team1, team2 = random.sample(teams, 2)
+            
+            # Generate realistic odds
+            team1_odds = round(random.uniform(1.3, 3.5), 2)
+            team2_odds = round(random.uniform(1.3, 3.5), 2)
+            
+            # Normalize to ensure house edge
+            total_prob = (1/team1_odds + 1/team2_odds)
+            if total_prob < 1.05:
+                factor = 1.08 / total_prob
+                team1_odds = round(team1_odds / factor, 2)
+                team2_odds = round(team2_odds / factor, 2)
+            
+            odds_data.append({
+                'bookmaker': 'Sample Bookmaker',
+                'commence_time': date.isoformat(),
+                'team1': team1,
+                'team2': team2,
+                'team1_odds': team1_odds,
+                'team2_odds': team2_odds
+            })
+        
+        pd.DataFrame(odds_data).to_csv('data/sample_odds.csv', index=False)
+    
+    # Sample match results
+    if not os.path.exists('data/sample_matches.csv'):
+        matches_data = []
+        
+        # Read odds to create corresponding matches
+        odds_df = pd.read_csv('data/sample_odds.csv')
+        
+        for _, odds_row in odds_df.iterrows():
+            # Simulate match result based on odds
+            team1_prob = 1 / odds_row['team1_odds']
+            winner = 1 if random.random() < team1_prob * 0.9 else 2  # Slight home advantage
+            
+            matches_data.append({
+                'date': odds_row['commence_time'],
+                'team1': odds_row['team1'],
+                'team2': odds_row['team2'],
+                'winner': winner,
+                'duration': random.randint(1500, 3000)  # 25-50 minutes
+            })
+        
+        pd.DataFrame(matches_data).to_csv('data/sample_matches.csv', index=False)
+
+def run_simple_backtest(config):
+    """Simple backtest implementation without full module"""
+    try:
+        # Load data
+        odds_df = pd.read_csv('data/sample_odds.csv')
+        matches_df = pd.read_csv('data/sample_matches.csv')
+        
+        # Initialize tracking
+        bankroll = config.get('initial_bankroll', 1000)
+        initial_bankroll = bankroll
+        min_edge = config.get('min_edge', 0.05)
+        min_probability = config.get('min_probability', 0.55)
+        use_kelly = config.get('use_kelly', True)
+        max_kelly = config.get('max_kelly', 0.25)
+        
+        bets = []
+        bankroll_history = [{'date': odds_df.iloc[0]['commence_time'], 'bankroll': bankroll}]
+        
+        # Process each potential bet
+        for idx, odds_row in odds_df.iterrows():
+            # Find corresponding match result
+            match = matches_df[
+                (matches_df['team1'] == odds_row['team1']) & 
+                (matches_df['team2'] == odds_row['team2']) &
+                (matches_df['date'] == odds_row['commence_time'])
+            ]
+            
+            if match.empty:
+                continue
+            
+            match_result = match.iloc[0]
+            
+            # Get model prediction (simplified for demo)
+            # In real implementation, this would call your actual model
+            model_prob = 0.5 + random.uniform(-0.2, 0.2)  # Simulated prediction
+            
+            # Check betting criteria
+            implied_prob = 1 / odds_row['team1_odds']
+            edge = model_prob - implied_prob
+            
+            if edge >= min_edge and model_prob >= min_probability:
+                # Calculate bet size
+                if use_kelly:
+                    kelly_fraction = (model_prob * (odds_row['team1_odds'] - 1) - (1 - model_prob)) / (odds_row['team1_odds'] - 1)
+                    kelly_fraction = max(0, min(kelly_fraction, max_kelly))
+                    bet_size = bankroll * kelly_fraction
+                else:
+                    bet_size = bankroll * 0.02  # Fixed 2% stake
+                
+                # Determine outcome
+                if match_result['winner'] == 1:
+                    profit = bet_size * (odds_row['team1_odds'] - 1)
+                    outcome = 'Win'
+                else:
+                    profit = -bet_size
+                    outcome = 'Loss'
+                
+                bankroll += profit
+                
+                # Record bet
+                bets.append({
+                    'date': odds_row['commence_time'],
+                    'team1': odds_row['team1'],
+                    'team2': odds_row['team2'],
+                    'bet_on': odds_row['team1'],
+                    'odds': odds_row['team1_odds'],
+                    'probability': model_prob,
+                    'edge': edge,
+                    'bet_size': bet_size,
+                    'outcome': outcome,
+                    'profit': profit,
+                    'bankroll': bankroll
+                })
+                
+                bankroll_history.append({
+                    'date': odds_row['commence_time'],
+                    'bankroll': bankroll
+                })
+        
+        # Calculate summary statistics
+        total_bets = len(bets)
+        winning_bets = sum(1 for bet in bets if bet['outcome'] == 'Win')
+        total_wagered = sum(bet['bet_size'] for bet in bets)
+        total_profit = bankroll - initial_bankroll
+        
+        summary = {
+            'total_bets': total_bets,
+            'winning_bets': winning_bets,
+            'losing_bets': total_bets - winning_bets,
+            'win_rate': winning_bets / total_bets if total_bets > 0 else 0,
+            'total_wagered': total_wagered,
+            'total_profit': total_profit,
+            'roi': (total_profit / total_wagered * 100) if total_wagered > 0 else 0,
+            'final_bankroll': bankroll,
+            'avg_bet_size': total_wagered / total_bets if total_bets > 0 else 0,
+            'avg_odds': sum(bet['odds'] for bet in bets) / total_bets if total_bets > 0 else 0,
+            'avg_edge': sum(bet['edge'] for bet in bets) / total_bets if total_bets > 0 else 0
+        }
+        
+        return {
+            'success': True,
+            'summary': summary,
+            'bets': bets[-100:],  # Last 100 bets
+            'bankroll_history': bankroll_history[-100:],  # Last 100 points
+            'charts': {
+                'bankroll': create_bankroll_chart(bankroll_history),
+                'winrate': create_winrate_chart(bets),
+                'profit_distribution': create_profit_chart(bets)
+            }
+        }
+        
+    except Exception as e:
+        logger.error(f"Simple backtest error: {str(e)}")
+        return {'error': str(e)}
+
+def create_bankroll_chart(bankroll_history):
+    """Create bankroll growth chart data"""
+    if not bankroll_history:
+        return {}
+    
+    return {
+        'labels': [item['date'][:10] for item in bankroll_history[::max(1, len(bankroll_history)//20)]],
+        'data': [item['bankroll'] for item in bankroll_history[::max(1, len(bankroll_history)//20)]]
+    }
+
+def create_winrate_chart(bets):
+    """Create win rate over time chart data"""
+    if not bets:
+        return {}
+    
+    # Calculate rolling win rate
+    window_size = min(20, len(bets))
+    win_rates = []
+    dates = []
+    
+    for i in range(window_size, len(bets) + 1, 5):
+        window_bets = bets[max(0, i-window_size):i]
+        wins = sum(1 for bet in window_bets if bet['outcome'] == 'Win')
+        win_rate = wins / len(window_bets) * 100
+        win_rates.append(win_rate)
+        dates.append(bets[i-1]['date'][:10])
+    
+    return {
+        'labels': dates,
+        'data': win_rates
+    }
+
+def create_profit_chart(bets):
+    """Create profit distribution chart data"""
+    if not bets:
+        return {}
+    
+    # Group profits into ranges
+    ranges = [
+        (-float('inf'), -100, 'Large Loss'),
+        (-100, -50, 'Medium Loss'),
+        (-50, 0, 'Small Loss'),
+        (0, 50, 'Small Win'),
+        (50, 100, 'Medium Win'),
+        (100, float('inf'), 'Large Win')
+    ]
+    
+    distribution = {label: 0 for _, _, label in ranges}
+    
+    for bet in bets:
+        profit = bet['profit']
+        for min_val, max_val, label in ranges:
+            if min_val < profit <= max_val:
+                distribution[label] += 1
+                break
+    
+    return {
+        'labels': list(distribution.keys()),
+        'data': list(distribution.values())
+    }
 @app.route('/health')
 def health_check():
     """Health check endpoint"""
@@ -677,4 +1049,4 @@ def health_check():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001)

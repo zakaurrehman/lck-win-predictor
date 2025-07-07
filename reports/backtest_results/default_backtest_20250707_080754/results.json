@@ -1,0 +1,4137 @@
+{
+  "config": {
+    "name": "default_backtest",
+    "odds_file": "data/odds/historical_odds.csv",
+    "matches_file": "data/matches/match_results.csv",
+    "initial_bankroll": 1000.0,
+    "min_edge": 0.05,
+    "min_probability": 0.55,
+    "use_kelly": true,
+    "max_kelly": 0.25,
+    "start_date": "2020-01-01",
+    "end_date": "2024-12-31"
+  },
+  "results": {
+    "performance_metrics": {
+      "total_bets": 131,
+      "winning_bets": 65,
+      "win_rate": 0.4961832061068702,
+      "total_profit": -996.8567066287673,
+      "total_wagered": 10702.673386167486,
+      "roi": -9.314090701087265,
+      "initial_bankroll": 1000.0,
+      "final_bankroll": 3.1432933712325344,
+      "total_return": -99.68567066287675,
+      "sharpe_ratio": -0.31915997178898287,
+      "max_drawdown": 99.85397376834115,
+      "avg_odds": 1.9738069681677783,
+      "avg_edge": 0.6111475006719531
+    },
+    "bets": [
+      {
+        "date": "2020-01-01",
+        "match": "T1 vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7275889591205529,
+        "market_odds": 2.059576944314872,
+        "bet_amount": 250.0,
+        "edge": 0.5734517173998839,
+        "won": true,
+        "profit": 264.894236078718,
+        "bankroll_after": 1264.894236078718
+      },
+      {
+        "date": "2020-01-04",
+        "match": "Kwangdong Freecs vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8612260473945553,
+        "market_odds": 2.6418017350383978,
+        "bet_amount": 316.2235590196795,
+        "edge": 1.3889478895805576,
+        "won": false,
+        "profit": -316.2235590196795,
+        "bankroll_after": 948.6706770590386
+      },
+      {
+        "date": "2020-01-07",
+        "match": "Hanwha Life Esports vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.7925890935749555,
+        "market_odds": 1.6291964810808528,
+        "bet_amount": 237.16766926475964,
+        "edge": 0.3558475303051494,
+        "won": true,
+        "profit": 149.22506292753428,
+        "bankroll_after": 1097.8957399865728
+      },
+      {
+        "date": "2020-01-10",
+        "match": "Hanwha Life Esports vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7690364307263002,
+        "market_odds": 2.2386544574284373,
+        "bet_amount": 274.4739349966432,
+        "edge": 0.8076871752488022,
+        "won": false,
+        "profit": -274.4739349966432,
+        "bankroll_after": 823.4218049899296
+      },
+      {
+        "date": "2020-01-13",
+        "match": "Gen.G vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7607709307525695,
+        "market_odds": 1.869473844301326,
+        "bet_amount": 205.8554512474824,
+        "edge": 0.4933534243740392,
+        "won": true,
+        "profit": 178.9859305665327,
+        "bankroll_after": 1002.4077355564623
+      },
+      {
+        "date": "2020-01-16",
+        "match": "T1 vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.6623637078444721,
+        "market_odds": 2.768222996100406,
+        "bet_amount": 250.60193388911557,
+        "edge": 0.9252489702292683,
+        "won": true,
+        "profit": 443.12010236996775,
+        "bankroll_after": 1445.52783792643
+      },
+      {
+        "date": "2020-01-19",
+        "match": "T1 vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7275889591205529,
+        "market_odds": 2.0490368429924475,
+        "bet_amount": 361.3819594816075,
+        "edge": 0.5653994129821656,
+        "won": true,
+        "profit": 379.10298988901013,
+        "bankroll_after": 1824.6308278154402
+      },
+      {
+        "date": "2020-01-22",
+        "match": "Gen.G vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.7603632193536234,
+        "market_odds": 1.8355349684023043,
+        "bet_amount": 456.15770695386004,
+        "edge": 0.4654569417010541,
+        "won": false,
+        "profit": -456.15770695386004,
+        "bankroll_after": 1368.4731208615801
+      },
+      {
+        "date": "2020-01-25",
+        "match": "Hanwha Life Esports vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7690364307263002,
+        "market_odds": 2.08695680767341,
+        "bet_amount": 342.11828021539503,
+        "edge": 0.6851931051757689,
+        "won": false,
+        "profit": -342.11828021539503,
+        "bankroll_after": 1026.354840646185
+      },
+      {
+        "date": "2020-01-31",
+        "match": "Kwangdong Freecs vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7538193835811712,
+        "market_odds": 1.5334940442912746,
+        "bet_amount": 256.58871016154626,
+        "edge": 0.21377641195269814,
+        "won": true,
+        "profit": 136.88854870356496,
+        "bankroll_after": 1163.24338934975
+      },
+      {
+        "date": "2020-02-03",
+        "match": "T1 vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.6895992078828901,
+        "market_odds": 1.8393033351748251,
+        "bet_amount": 290.8108473374375,
+        "edge": 0.33180122914256316,
+        "won": true,
+        "profit": 244.07851407532823,
+        "bankroll_after": 1407.3219034250783
+      },
+      {
+        "date": "2020-02-09",
+        "match": "T1 vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.740354675446089,
+        "market_odds": 1.682414932737367,
+        "bet_amount": 351.8304758562696,
+        "edge": 0.3078629495670484,
+        "won": true,
+        "profit": 240.09437051641203,
+        "bankroll_after": 1647.4162739414903
+      },
+      {
+        "date": "2020-02-12",
+        "match": "Hanwha Life Esports vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7690364307263002,
+        "market_odds": 1.5087199347160587,
+        "bet_amount": 411.8540684853726,
+        "edge": 0.21827362323763722,
+        "won": false,
+        "profit": -411.8540684853726,
+        "bankroll_after": 1235.5622054561177
+      },
+      {
+        "date": "2020-02-18",
+        "match": "Gen.G vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7607709307525695,
+        "market_odds": 2.254743630812566,
+        "bet_amount": 308.8905513640294,
+        "edge": 0.8011105811527892,
+        "won": true,
+        "profit": 387.5784519421977,
+        "bankroll_after": 1623.1406573983154
+      },
+      {
+        "date": "2020-02-21",
+        "match": "Gen.G vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.5518204383865511,
+        "market_odds": 2.403256360758395,
+        "bet_amount": 377.2747985669622,
+        "edge": 0.3924742774764136,
+        "won": true,
+        "profit": 529.4132608429319,
+        "bankroll_after": 2152.553918241247
+      },
+      {
+        "date": "2020-02-24",
+        "match": "Kwangdong Freecs vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.9236106707706855,
+        "market_odds": 2.307352597321633,
+        "bet_amount": 538.1384795603118,
+        "edge": 1.2376502541225527,
+        "won": false,
+        "profit": -538.1384795603118,
+        "bankroll_after": 1614.4154386809355
+      },
+      {
+        "date": "2020-02-27",
+        "match": "Hanwha Life Esports vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7610366599774293,
+        "market_odds": 2.1525318982780166,
+        "bet_amount": 403.6038596702339,
+        "edge": 0.7200634706783962,
+        "won": true,
+        "profit": 465.16632253806887,
+        "bankroll_after": 2079.5817612190044
+      },
+      {
+        "date": "2020-03-04",
+        "match": "KT Rolster vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.7722859039168549,
+        "market_odds": 1.997991500419248,
+        "bet_amount": 519.8954403047511,
+        "edge": 0.6201717055154461,
+        "won": false,
+        "profit": -519.8954403047511,
+        "bankroll_after": 1559.6863209142534
+      },
+      {
+        "date": "2020-03-07",
+        "match": "KT Rolster vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.7722859039168549,
+        "market_odds": 2.377069943440728,
+        "bet_amount": 389.92158022856336,
+        "edge": 0.9275664904408947,
+        "won": false,
+        "profit": -389.92158022856336,
+        "bankroll_after": 1169.76474068569
+      },
+      {
+        "date": "2020-03-10",
+        "match": "Kwangdong Freecs vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7538193835811712,
+        "market_odds": 1.4691975281849037,
+        "bet_amount": 268.0340424475975,
+        "edge": 0.1628850538080906,
+        "won": true,
+        "profit": 125.76091018582031,
+        "bankroll_after": 1295.5256508715102
+      },
+      {
+        "date": "2020-03-13",
+        "match": "T1 vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7275889591205529,
+        "market_odds": 2.1256884032843137,
+        "bet_amount": 323.88141271787754,
+        "edge": 0.6239587833982772,
+        "won": false,
+        "profit": -323.88141271787754,
+        "bankroll_after": 971.6442381536326
+      },
+      {
+        "date": "2020-03-16",
+        "match": "DRX vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8525666556258262,
+        "market_odds": 1.5992755707955677,
+        "bet_amount": 242.91105953840815,
+        "edge": 0.4316634760581244,
+        "won": false,
+        "profit": -242.91105953840815,
+        "bankroll_after": 728.7331786152245
+      },
+      {
+        "date": "2020-03-19",
+        "match": "Kwangdong Freecs vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.9236106707706855,
+        "market_odds": 2.0599281999389354,
+        "bet_amount": 182.18329465380612,
+        "edge": 0.9977002498093037,
+        "won": true,
+        "profit": 193.10121156135338,
+        "bankroll_after": 921.8343901765778
+      },
+      {
+        "date": "2020-03-22",
+        "match": "Kwangdong Freecs vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8612260473945553,
+        "market_odds": 1.6481346949685975,
+        "bet_amount": 230.45859754414445,
+        "edge": 0.49038735536771827,
+        "won": true,
+        "profit": 149.36821282216485,
+        "bankroll_after": 1071.2026029987426
+      },
+      {
+        "date": "2020-03-25",
+        "match": "T1 vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.6895992078828901,
+        "market_odds": 1.849328214849488,
+        "bet_amount": 267.80065074968564,
+        "edge": 0.33906003567947085,
+        "won": false,
+        "profit": -267.80065074968564,
+        "bankroll_after": 803.4019522490569
+      },
+      {
+        "date": "2020-03-28",
+        "match": "Hanwha Life Esports vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.7925890935749555,
+        "market_odds": 2.709874570236181,
+        "bet_amount": 200.85048806226422,
+        "edge": 1.2552078807915832,
+        "won": false,
+        "profit": -200.85048806226422,
+        "bankroll_after": 602.5514641867926
+      },
+      {
+        "date": "2020-03-31",
+        "match": "Hanwha Life Esports vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7610366599774293,
+        "market_odds": 1.7124095275634683,
+        "bet_amount": 150.63786604669815,
+        "edge": 0.36836674873895103,
+        "won": true,
+        "profit": 107.31585098349726,
+        "bankroll_after": 709.8673151702899
+      },
+      {
+        "date": "2020-04-03",
+        "match": "Hanwha Life Esports vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7610366599774293,
+        "market_odds": 2.2320153789529784,
+        "bet_amount": 177.46682879257247,
+        "edge": 0.7835778054674625,
+        "won": false,
+        "profit": -177.46682879257247,
+        "bankroll_after": 532.4004863777175
+      },
+      {
+        "date": "2020-04-06",
+        "match": "Kwangdong Freecs vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8612260473945553,
+        "market_odds": 1.678644277056242,
+        "bet_amount": 133.10012159442937,
+        "edge": 0.51797678449617,
+        "won": false,
+        "profit": -133.10012159442937,
+        "bankroll_after": 399.3003647832881
+      },
+      {
+        "date": "2020-04-09",
+        "match": "DRX vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.6864126291422286,
+        "market_odds": 1.604019456082756,
+        "bet_amount": 66.78097503896146,
+        "edge": 0.1560701726473046,
+        "won": false,
+        "profit": -66.78097503896146,
+        "bankroll_after": 332.51938974432665
+      },
+      {
+        "date": "2020-04-12",
+        "match": "Hanwha Life Esports vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.7925890935749555,
+        "market_odds": 2.278235436320315,
+        "bet_amount": 83.12984743608166,
+        "edge": 0.8959897873946352,
+        "won": true,
+        "profit": 106.25951680870106,
+        "bankroll_after": 438.7789065530277
+      },
+      {
+        "date": "2020-04-15",
+        "match": "KT Rolster vs Hanwha Life Esports",
+        "team_bet": "blue",
+        "predicted_prob": 0.6898192001405171,
+        "market_odds": 2.0432565364083284,
+        "bet_amount": 109.69472663825692,
+        "edge": 0.47995146910843034,
+        "won": false,
+        "profit": -109.69472663825692,
+        "bankroll_after": 329.08417991477074
+      },
+      {
+        "date": "2020-04-18",
+        "match": "KT Rolster vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7221234352078032,
+        "market_odds": 1.4991558601975932,
+        "bet_amount": 54.44054469979968,
+        "edge": 0.13670435866168518,
+        "won": true,
+        "profit": 27.174316919254032,
+        "bankroll_after": 356.25849683402475
+      },
+      {
+        "date": "2020-04-21",
+        "match": "T1 vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.6895992078828901,
+        "market_odds": 1.7791103249217168,
+        "bet_amount": 89.06462420850619,
+        "edge": 0.28821672434240164,
+        "won": true,
+        "profit": 69.39116830611987,
+        "bankroll_after": 425.64966514014463
+      },
+      {
+        "date": "2020-04-24",
+        "match": "KT Rolster vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7221234352078032,
+        "market_odds": 1.7304428685085629,
+        "bet_amount": 106.41241628503616,
+        "edge": 0.31207301607016036,
+        "won": false,
+        "profit": -106.41241628503616,
+        "bankroll_after": 319.2372488551085
+      },
+      {
+        "date": "2020-04-27",
+        "match": "DRX vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8525666556258262,
+        "market_odds": 2.509868484679085,
+        "bet_amount": 79.80931221377712,
+        "edge": 1.2468216890456834,
+        "won": false,
+        "profit": -79.80931221377712,
+        "bankroll_after": 239.42793664133137
+      },
+      {
+        "date": "2020-04-30",
+        "match": "Hanwha Life Esports vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8629945153211224,
+        "market_odds": 2.2387648172229317,
+        "bet_amount": 59.85698416033284,
+        "edge": 1.0286438462751497,
+        "won": false,
+        "profit": -59.85698416033284,
+        "bankroll_after": 179.57095248099853
+      },
+      {
+        "date": "2020-05-03",
+        "match": "T1 vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7275889591205529,
+        "market_odds": 1.392050257395116,
+        "bet_amount": 5.881293083140805,
+        "edge": 0.06348241771269092,
+        "won": false,
+        "profit": -5.881293083140805,
+        "bankroll_after": 173.68965939785772
+      },
+      {
+        "date": "2020-05-06",
+        "match": "T1 vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7275889591205529,
+        "market_odds": 2.8670489683840814,
+        "bet_amount": 43.42241484946443,
+        "edge": 1.1903348333869403,
+        "won": false,
+        "profit": -43.42241484946443,
+        "bankroll_after": 130.2672445483933
+      },
+      {
+        "date": "2020-05-09",
+        "match": "Kwangdong Freecs vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7538193835811712,
+        "market_odds": 1.5591591319783258,
+        "bet_amount": 32.56681113709833,
+        "edge": 0.23409059456149817,
+        "won": false,
+        "profit": -32.56681113709833,
+        "bankroll_after": 97.70043341129498
+      },
+      {
+        "date": "2020-05-12",
+        "match": "T1 vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.740354675446089,
+        "market_odds": 1.5266755348397445,
+        "bet_amount": 24.167718990058702,
+        "edge": 0.18679543861315162,
+        "won": false,
+        "profit": -24.167718990058702,
+        "bankroll_after": 73.53271442123628
+      },
+      {
+        "date": "2020-05-15",
+        "match": "DRX vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8672871890633083,
+        "market_odds": 3.0628010188328814,
+        "bet_amount": 18.38317860530907,
+        "edge": 1.7891444905979963,
+        "won": true,
+        "profit": 37.92083955641838,
+        "bankroll_after": 111.45355397765465
+      },
+      {
+        "date": "2020-05-18",
+        "match": "DRX vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8672871890633083,
+        "market_odds": 2.1197245116312247,
+        "bet_amount": 27.863388494413662,
+        "edge": 0.9303304089453006,
+        "won": false,
+        "profit": -27.863388494413662,
+        "bankroll_after": 83.59016548324098
+      },
+      {
+        "date": "2020-05-21",
+        "match": "Hanwha Life Esports vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8629945153211224,
+        "market_odds": 2.58842350347519,
+        "bet_amount": 20.897541370810245,
+        "edge": 1.3454850511687422,
+        "won": false,
+        "profit": -20.897541370810245,
+        "bankroll_after": 62.692624112430735
+      },
+      {
+        "date": "2020-05-24",
+        "match": "Gen.G vs Hanwha Life Esports",
+        "team_bet": "blue",
+        "predicted_prob": 0.8245333827281224,
+        "market_odds": 2.566395963723931,
+        "bet_amount": 15.673156028107684,
+        "edge": 1.221883102658547,
+        "won": false,
+        "profit": -15.673156028107684,
+        "bankroll_after": 47.01946808432305
+      },
+      {
+        "date": "2020-05-27",
+        "match": "T1 vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.740354675446089,
+        "market_odds": 1.461109538872069,
+        "bet_amount": 8.33497698481544,
+        "edge": 0.13582624236495633,
+        "won": false,
+        "profit": -8.33497698481544,
+        "bankroll_after": 38.68449109950761
+      },
+      {
+        "date": "2020-06-02",
+        "match": "Kwangdong Freecs vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.8212380371524497,
+        "market_odds": 1.5275807011502902,
+        "bet_amount": 9.671122774876903,
+        "edge": 0.3172327454348587,
+        "won": true,
+        "profit": 5.102297734480096,
+        "bankroll_after": 43.78678883398771
+      },
+      {
+        "date": "2020-06-08",
+        "match": "Kwangdong Freecs vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.9236106707706855,
+        "market_odds": 1.4544817897751012,
+        "bet_amount": 10.946697208496927,
+        "edge": 0.4105436465518246,
+        "won": true,
+        "profit": 4.975074539443788,
+        "bankroll_after": 48.761863373431495
+      },
+      {
+        "date": "2020-06-14",
+        "match": "DRX vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.8038654156972677,
+        "market_odds": 2.1861250414760334,
+        "bet_amount": 12.190465843357874,
+        "edge": 0.8452178309939551,
+        "won": true,
+        "profit": 14.459416804065027,
+        "bankroll_after": 63.221280177496524
+      },
+      {
+        "date": "2020-06-17",
+        "match": "DRX vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8672871890633083,
+        "market_odds": 1.632143952160991,
+        "bet_amount": 15.805320044374131,
+        "edge": 0.4863144174372038,
+        "won": false,
+        "profit": -15.805320044374131,
+        "bankroll_after": 47.4159601331224
+      },
+      {
+        "date": "2020-06-20",
+        "match": "Kwangdong Freecs vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.9236106707706855,
+        "market_odds": 2.866836316650065,
+        "bet_amount": 11.8539900332806,
+        "edge": 1.7802326440814742,
+        "won": true,
+        "profit": 22.129459091336134,
+        "bankroll_after": 69.54541922445853
+      },
+      {
+        "date": "2020-06-26",
+        "match": "KT Rolster vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7212396365604204,
+        "market_odds": 1.40756257023642,
+        "bet_amount": 2.591967944596741,
+        "edge": 0.06594941242303531,
+        "won": true,
+        "profit": 1.0563891174702587,
+        "bankroll_after": 70.60180834192879
+      },
+      {
+        "date": "2020-06-29",
+        "match": "Gen.G vs Hanwha Life Esports",
+        "team_bet": "blue",
+        "predicted_prob": 0.8245333827281224,
+        "market_odds": 2.491501411075689,
+        "bet_amount": 17.650452085482197,
+        "edge": 1.157042390873435,
+        "won": false,
+        "profit": -17.650452085482197,
+        "bankroll_after": 52.95135625644659
+      },
+      {
+        "date": "2020-07-02",
+        "match": "Hanwha Life Esports vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.7925890935749555,
+        "market_odds": 2.070922524500058,
+        "bet_amount": 13.237839064111647,
+        "edge": 0.7234601368853326,
+        "won": true,
+        "profit": 14.17670002946393,
+        "bankroll_after": 67.12805628591052
+      },
+      {
+        "date": "2020-07-08",
+        "match": "T1 vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.740354675446089,
+        "market_odds": 2.673433867586575,
+        "bet_amount": 16.78201407147763,
+        "edge": 1.0782537265318233,
+        "won": true,
+        "profit": 28.083590713525137,
+        "bankroll_after": 95.21164699943566
+      },
+      {
+        "date": "2020-07-11",
+        "match": "KT Rolster vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7221234352078032,
+        "market_odds": 1.7205676359773523,
+        "bet_amount": 23.802911749858914,
+        "edge": 0.30458532238930136,
+        "won": true,
+        "profit": 17.15160784897338,
+        "bankroll_after": 112.36325484840904
+      },
+      {
+        "date": "2020-07-14",
+        "match": "KT Rolster vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.7722859039168549,
+        "market_odds": 1.6063812594358482,
+        "bet_amount": 28.09081371210226,
+        "edge": 0.30261488312743556,
+        "won": false,
+        "profit": -28.09081371210226,
+        "bankroll_after": 84.27244113630678
+      },
+      {
+        "date": "2020-07-17",
+        "match": "Kwangdong Freecs vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8612260473945553,
+        "market_odds": 2.11040706843502,
+        "bet_amount": 21.068110284076695,
+        "edge": 0.9084144148389137,
+        "won": true,
+        "profit": 23.394178578007295,
+        "bankroll_after": 107.66661971431408
+      },
+      {
+        "date": "2020-07-20",
+        "match": "Hanwha Life Esports vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7690364307263002,
+        "market_odds": 2.895970268938145,
+        "bet_amount": 26.91665492857852,
+        "edge": 1.3384619710693584,
+        "won": false,
+        "profit": -26.91665492857852,
+        "bankroll_after": 80.74996478573556
+      },
+      {
+        "date": "2020-07-23",
+        "match": "T1 vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.6623637078444721,
+        "market_odds": 1.797552270346142,
+        "bet_amount": 19.30110394756343,
+        "edge": 0.2501650561722555,
+        "won": false,
+        "profit": -19.30110394756343,
+        "bankroll_after": 61.44886083817212
+      },
+      {
+        "date": "2020-07-26",
+        "match": "Hanwha Life Esports vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7610366599774293,
+        "market_odds": 3.0096581916922283,
+        "bet_amount": 15.36221520954303,
+        "edge": 1.4049832287731214,
+        "won": false,
+        "profit": -15.36221520954303,
+        "bankroll_after": 46.08664562862909
+      },
+      {
+        "date": "2020-07-29",
+        "match": "DRX vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8525666556258262,
+        "market_odds": 1.4083302533085782,
+        "bet_amount": 11.521661407157273,
+        "edge": 0.2607301847839656,
+        "won": true,
+        "profit": 4.7046429209201985,
+        "bankroll_after": 50.79128854954929
+      },
+      {
+        "date": "2020-08-01",
+        "match": "Gen.G vs Hanwha Life Esports",
+        "team_bet": "blue",
+        "predicted_prob": 0.8245333827281224,
+        "market_odds": 1.5240473297334536,
+        "bet_amount": 12.697822137387323,
+        "edge": 0.31945929523403094,
+        "won": true,
+        "profit": 6.654259784528161,
+        "bankroll_after": 57.44554833407746
+      },
+      {
+        "date": "2020-08-04",
+        "match": "Gen.G vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7607709307525695,
+        "market_odds": 2.7844373320331783,
+        "bet_amount": 14.361387083519364,
+        "edge": 1.2242349297487367,
+        "won": false,
+        "profit": -14.361387083519364,
+        "bankroll_after": 43.0841612505581
+      },
+      {
+        "date": "2020-08-07",
+        "match": "Kwangdong Freecs vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8612260473945553,
+        "market_odds": 2.127532649488302,
+        "bet_amount": 10.771040312639524,
+        "edge": 0.9239008611427599,
+        "won": false,
+        "profit": -10.771040312639524,
+        "bankroll_after": 32.31312093791857
+      },
+      {
+        "date": "2020-08-10",
+        "match": "T1 vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.6895992078828901,
+        "market_odds": 2.928883715568882,
+        "bet_amount": 8.078280234479642,
+        "edge": 1.1207436847492667,
+        "won": true,
+        "profit": 15.58206319408975,
+        "bankroll_after": 47.89518413200832
+      },
+      {
+        "date": "2020-08-13",
+        "match": "T1 vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.740354675446089,
+        "market_odds": 1.3988758861572654,
+        "bet_amount": 4.282405638779886,
+        "edge": 0.0874475178195886,
+        "won": true,
+        "profit": 1.7081483440531973,
+        "bankroll_after": 49.60333247606152
+      },
+      {
+        "date": "2020-08-16",
+        "match": "Gen.G vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7607709307525695,
+        "market_odds": 2.536025973268271,
+        "bet_amount": 12.40083311901538,
+        "edge": 1.0258015821007933,
+        "won": true,
+        "profit": 19.048001760973005,
+        "bankroll_after": 68.65133423703452
+      },
+      {
+        "date": "2020-08-19",
+        "match": "Kwangdong Freecs vs DRX",
+        "team_bet": "red",
+        "predicted_prob": 0.8028080556540896,
+        "market_odds": 2.277065958392485,
+        "bet_amount": 17.16283355925863,
+        "edge": 0.9194492393858464,
+        "won": true,
+        "profit": 21.918070488085323,
+        "bankroll_after": 90.56940472511984
+      },
+      {
+        "date": "2020-08-22",
+        "match": "Gen.G vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7607709307525695,
+        "market_odds": 1.7011300549454875,
+        "bet_amount": 22.64235118127996,
+        "edge": 0.35887880999365085,
+        "won": false,
+        "profit": -22.64235118127996,
+        "bankroll_after": 67.92705354383988
+      },
+      {
+        "date": "2020-08-25",
+        "match": "T1 vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7275889591205529,
+        "market_odds": 2.005675597416716,
+        "bet_amount": 16.98176338595997,
+        "edge": 0.5322727912708178,
+        "won": true,
+        "profit": 17.07814503836461,
+        "bankroll_after": 85.00519858220449
+      },
+      {
+        "date": "2020-08-31",
+        "match": "Kwangdong Freecs vs DRX",
+        "team_bet": "red",
+        "predicted_prob": 0.8028080556540896,
+        "market_odds": 2.254604067087673,
+        "bet_amount": 21.25129964555112,
+        "edge": 0.9005150227368803,
+        "won": true,
+        "profit": 26.661966966207256,
+        "bankroll_after": 111.66716554841175
+      },
+      {
+        "date": "2020-09-03",
+        "match": "Kwangdong Freecs vs DRX",
+        "team_bet": "red",
+        "predicted_prob": 0.8028080556540896,
+        "market_odds": 1.7050930076792543,
+        "bet_amount": 27.916791387102936,
+        "edge": 0.4373055223145843,
+        "won": false,
+        "profit": -27.916791387102936,
+        "bankroll_after": 83.75037416130881
+      },
+      {
+        "date": "2020-09-09",
+        "match": "T1 vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.740354675446089,
+        "market_odds": 2.1067887669619263,
+        "bet_amount": 20.937593540327203,
+        "edge": 0.6377594594874414,
+        "won": true,
+        "profit": 23.17349333764874,
+        "bankroll_after": 106.92386749895755
+      },
+      {
+        "date": "2020-09-12",
+        "match": "Kwangdong Freecs vs DRX",
+        "team_bet": "red",
+        "predicted_prob": 0.8028080556540896,
+        "market_odds": 1.5155505431510423,
+        "bet_amount": 26.730966874739387,
+        "edge": 0.27753099403221726,
+        "won": false,
+        "profit": -26.730966874739387,
+        "bankroll_after": 80.19290062421817
+      },
+      {
+        "date": "2020-09-15",
+        "match": "Hanwha Life Esports vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.7925890935749555,
+        "market_odds": 1.8011862467253803,
+        "bet_amount": 20.048225156054542,
+        "edge": 0.4989806033843329,
+        "won": true,
+        "profit": 16.06236226628469,
+        "bankroll_after": 96.25526289050286
+      },
+      {
+        "date": "2020-09-18",
+        "match": "Kwangdong Freecs vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.8212380371524497,
+        "market_odds": 2.496764634302146,
+        "bet_amount": 24.063815722625716,
+        "edge": 1.1529599918812456,
+        "won": true,
+        "profit": 36.017868339990116,
+        "bankroll_after": 132.273131230493
+      },
+      {
+        "date": "2020-09-21",
+        "match": "Gen.G vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.7603632193536234,
+        "market_odds": 2.9366525187709733,
+        "bet_amount": 33.06828280762325,
+        "edge": 1.344568691460406,
+        "won": false,
+        "profit": -33.06828280762325,
+        "bankroll_after": 99.20484842286974
+      },
+      {
+        "date": "2020-09-24",
+        "match": "Kwangdong Freecs vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.8212380371524497,
+        "market_odds": 1.5645428232791925,
+        "bet_amount": 24.801212105717436,
+        "edge": 0.3491051810922938,
+        "won": false,
+        "profit": -24.801212105717436,
+        "bankroll_after": 74.4036363171523
+      },
+      {
+        "date": "2020-09-27",
+        "match": "KT Rolster vs Hanwha Life Esports",
+        "team_bet": "blue",
+        "predicted_prob": 0.6898192001405171,
+        "market_odds": 1.6716741404580633,
+        "bet_amount": 16.965271342307346,
+        "edge": 0.21081056438968604,
+        "won": false,
+        "profit": -16.965271342307346,
+        "bankroll_after": 57.43836497484496
+      },
+      {
+        "date": "2020-09-30",
+        "match": "DRX vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.6864126291422286,
+        "market_odds": 2.210655422573896,
+        "bet_amount": 14.35959124371124,
+        "edge": 0.5932928907732957,
+        "won": false,
+        "profit": -14.35959124371124,
+        "bankroll_after": 43.07877373113372
+      },
+      {
+        "date": "2020-10-03",
+        "match": "Hanwha Life Esports vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7610366599774293,
+        "market_odds": 1.4755049890693952,
+        "bet_amount": 10.76969343278343,
+        "edge": 0.17905905809447642,
+        "won": true,
+        "profit": 5.121042958036423,
+        "bankroll_after": 48.19981668917015
+      },
+      {
+        "date": "2020-10-06",
+        "match": "Kwangdong Freecs vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7538193835811712,
+        "market_odds": 1.4097900656872275,
+        "bet_amount": 7.378006273055254,
+        "edge": 0.11586343220996498,
+        "won": true,
+        "profit": 3.0234336752760895,
+        "bankroll_after": 51.22325036444624
+      },
+      {
+        "date": "2020-10-09",
+        "match": "DRX vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8672871890633083,
+        "market_odds": 1.528995451201345,
+        "bet_amount": 12.80581259111156,
+        "edge": 0.3923820753111493,
+        "won": true,
+        "profit": 6.774216609634925,
+        "bankroll_after": 57.99746697408116
+      },
+      {
+        "date": "2020-10-12",
+        "match": "KT Rolster vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7221234352078032,
+        "market_odds": 1.4838466049610604,
+        "bet_amount": 8.572970112398732,
+        "edge": 0.12509642808071275,
+        "won": true,
+        "profit": 4.148002483316766,
+        "bankroll_after": 62.14546945739793
+      },
+      {
+        "date": "2020-10-15",
+        "match": "Gen.G vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7607709307525695,
+        "market_odds": 1.599108523564809,
+        "bet_amount": 15.536367364349482,
+        "edge": 0.2773830438391054,
+        "won": true,
+        "profit": 9.307970113215902,
+        "bankroll_after": 71.45343957061382
+      },
+      {
+        "date": "2020-10-18",
+        "match": "Hanwha Life Esports vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7610366599774293,
+        "market_odds": 1.955917490188504,
+        "bet_amount": 17.863359892653456,
+        "edge": 0.5629511596207202,
+        "won": false,
+        "profit": -17.863359892653456,
+        "bankroll_after": 53.59007967796037
+      },
+      {
+        "date": "2020-10-21",
+        "match": "Kwangdong Freecs vs DRX",
+        "team_bet": "red",
+        "predicted_prob": 0.8028080556540896,
+        "market_odds": 1.4598411314787003,
+        "bet_amount": 13.397519919490092,
+        "edge": 0.23057083134259582,
+        "won": true,
+        "profit": 6.16073071878675,
+        "bankroll_after": 59.75081039674712
+      },
+      {
+        "date": "2020-10-24",
+        "match": "Gen.G vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7607709307525695,
+        "market_odds": 2.76613947097561,
+        "bet_amount": 14.93770259918678,
+        "edge": 1.2096184249218118,
+        "won": false,
+        "profit": -14.93770259918678,
+        "bankroll_after": 44.81310779756034
+      },
+      {
+        "date": "2020-10-27",
+        "match": "Hanwha Life Esports vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.7438277351511648,
+        "market_odds": 1.4457422291271602,
+        "bet_amount": 7.578716595959238,
+        "edge": 0.12915232629925466,
+        "won": true,
+        "profit": 3.3781540294058745,
+        "bankroll_after": 48.19126182696622
+      },
+      {
+        "date": "2020-10-30",
+        "match": "Kwangdong Freecs vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.9236106707706855,
+        "market_odds": 2.193017960095103,
+        "bet_amount": 12.047815456741555,
+        "edge": 1.1267695285923787,
+        "won": false,
+        "profit": -12.047815456741555,
+        "bankroll_after": 36.143446370224666
+      },
+      {
+        "date": "2020-11-02",
+        "match": "Gen.G vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.6906374841325114,
+        "market_odds": 2.7663860978321884,
+        "bet_amount": 9.035861592556166,
+        "edge": 1.0060984314832768,
+        "won": true,
+        "profit": 15.96082029902703,
+        "bankroll_after": 52.1042666692517
+      },
+      {
+        "date": "2020-11-05",
+        "match": "KT Rolster vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.7722859039168549,
+        "market_odds": 1.4231805464522078,
+        "bet_amount": 12.202005490535456,
+        "edge": 0.15405738849141337,
+        "won": false,
+        "profit": -12.202005490535456,
+        "bankroll_after": 39.902261178716245
+      },
+      {
+        "date": "2020-11-08",
+        "match": "T1 vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7275889591205529,
+        "market_odds": 2.962618663570603,
+        "bet_amount": 9.975565294679061,
+        "edge": 1.263347061183382,
+        "won": true,
+        "profit": 19.578230627004306,
+        "bankroll_after": 59.48049180572055
+      },
+      {
+        "date": "2020-11-11",
+        "match": "KT Rolster vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7212396365604204,
+        "market_odds": 1.5142514406408831,
+        "bet_amount": 10.657088266491508,
+        "edge": 0.14674506664436993,
+        "won": true,
+        "profit": 5.4804229940803095,
+        "bankroll_after": 64.96091479980086
+      },
+      {
+        "date": "2020-11-14",
+        "match": "DRX vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8525666556258262,
+        "market_odds": 2.5236212444746853,
+        "bet_amount": 16.240228699950215,
+        "edge": 1.2591330906914724,
+        "won": true,
+        "profit": 24.743957462371647,
+        "bankroll_after": 89.7048722621725
+      },
+      {
+        "date": "2020-11-17",
+        "match": "Hanwha Life Esports vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7690364307263002,
+        "market_odds": 2.3906788637735743,
+        "bet_amount": 22.426218065543125,
+        "edge": 0.9304450974296985,
+        "won": false,
+        "profit": -22.426218065543125,
+        "bankroll_after": 67.27865419662938
+      },
+      {
+        "date": "2020-11-20",
+        "match": "KT Rolster vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7212396365604204,
+        "market_odds": 1.4533246987089308,
+        "bet_amount": 7.152754187027561,
+        "edge": 0.10060514637616746,
+        "won": true,
+        "profit": 3.242520136773312,
+        "bankroll_after": 70.52117433340268
+      },
+      {
+        "date": "2020-11-23",
+        "match": "T1 vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.6895992078828901,
+        "market_odds": 2.790176339603049,
+        "bet_amount": 17.63029358335067,
+        "edge": 1.0203085633260365,
+        "won": false,
+        "profit": -17.63029358335067,
+        "bankroll_after": 52.89088075005201
+      },
+      {
+        "date": "2020-11-26",
+        "match": "Kwangdong Freecs vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8612260473945553,
+        "market_odds": 1.5986946000494104,
+        "bet_amount": 13.222720187513003,
+        "edge": 0.4456793029611521,
+        "won": true,
+        "profit": 7.916371174228363,
+        "bankroll_after": 60.80725192428038
+      },
+      {
+        "date": "2020-11-29",
+        "match": "Hanwha Life Esports vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8629945153211224,
+        "market_odds": 1.8603414054710792,
+        "bet_amount": 15.201812981070095,
+        "edge": 0.6857376510236459,
+        "won": true,
+        "profit": 13.078749145842341,
+        "bankroll_after": 73.88600107012272
+      },
+      {
+        "date": "2020-12-02",
+        "match": "Kwangdong Freecs vs DRX",
+        "team_bet": "red",
+        "predicted_prob": 0.8028080556540896,
+        "market_odds": 2.14907774438954,
+        "bet_amount": 18.47150026753068,
+        "edge": 0.8115617716939851,
+        "won": true,
+        "profit": 21.225189862904937,
+        "bankroll_after": 95.11119093302766
+      },
+      {
+        "date": "2020-12-05",
+        "match": "Hanwha Life Esports vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7610366599774293,
+        "market_odds": 1.7389738721204897,
+        "bet_amount": 23.777797733256914,
+        "edge": 0.38959401079792455,
+        "won": true,
+        "profit": 17.571171261442665,
+        "bankroll_after": 112.68236219447033
+      },
+      {
+        "date": "2020-12-08",
+        "match": "DRX vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8672871890633083,
+        "market_odds": 1.8166437242139064,
+        "bet_amount": 28.170590548617582,
+        "edge": 0.6543294205581276,
+        "won": true,
+        "profit": 23.005335978928134,
+        "bankroll_after": 135.68769817339847
+      },
+      {
+        "date": "2020-12-11",
+        "match": "Kwangdong Freecs vs DRX",
+        "team_bet": "red",
+        "predicted_prob": 0.8028080556540896,
+        "market_odds": 1.6780622625065682,
+        "bet_amount": 33.92192454334962,
+        "edge": 0.41451999734087064,
+        "won": false,
+        "profit": -33.92192454334962,
+        "bankroll_after": 101.76577363004886
+      },
+      {
+        "date": "2020-12-14",
+        "match": "KT Rolster vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7221234352078032,
+        "market_odds": 1.9862618757740464,
+        "bet_amount": 25.441443407512214,
+        "edge": 0.5060425614040618,
+        "won": false,
+        "profit": -25.441443407512214,
+        "bankroll_after": 76.32433022253664
+      },
+      {
+        "date": "2020-12-17",
+        "match": "Kwangdong Freecs vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.8212380371524497,
+        "market_odds": 1.5667194757576068,
+        "bet_amount": 19.08108255563416,
+        "edge": 0.3509821083916769,
+        "won": true,
+        "profit": 10.813621102816608,
+        "bankroll_after": 87.13795132535326
+      },
+      {
+        "date": "2020-12-23",
+        "match": "Kwangdong Freecs vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.8212380371524497,
+        "market_odds": 1.424796854917774,
+        "bet_amount": 21.784487831338314,
+        "edge": 0.22860224109733895,
+        "won": false,
+        "profit": -21.784487831338314,
+        "bankroll_after": 65.35346349401495
+      },
+      {
+        "date": "2020-12-26",
+        "match": "DRX vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8672871890633083,
+        "market_odds": 1.5217734467262534,
+        "bet_amount": 16.338365873503736,
+        "edge": 0.38580534575251413,
+        "won": false,
+        "profit": -16.338365873503736,
+        "bankroll_after": 49.01509762051121
+      },
+      {
+        "date": "2020-12-29",
+        "match": "T1 vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.6895992078828901,
+        "market_odds": 1.7906307029561128,
+        "bet_amount": 12.253774405127803,
+        "edge": 0.29655839008778395,
+        "won": false,
+        "profit": -12.253774405127803,
+        "bankroll_after": 36.76132321538341
+      },
+      {
+        "date": "2021-01-01",
+        "match": "Kwangdong Freecs vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.9236106707706855,
+        "market_odds": 1.4043491747711911,
+        "bet_amount": 9.190330803845853,
+        "edge": 0.3619254774720124,
+        "won": false,
+        "profit": -9.190330803845853,
+        "bankroll_after": 27.57099241153756
+      },
+      {
+        "date": "2021-01-04",
+        "match": "DRX vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8672871890633083,
+        "market_odds": 1.6217523883540363,
+        "bet_amount": 6.89274810288439,
+        "edge": 0.47685132376489303,
+        "won": true,
+        "profit": 4.285582595291123,
+        "bankroll_after": 31.856575006828685
+      },
+      {
+        "date": "2021-01-10",
+        "match": "Kwangdong Freecs vs DRX",
+        "team_bet": "red",
+        "predicted_prob": 0.8028080556540896,
+        "market_odds": 2.6714010616170927,
+        "bet_amount": 7.964143751707171,
+        "edge": 1.2518534067565437,
+        "won": false,
+        "profit": -7.964143751707171,
+        "bankroll_after": 23.892431255121515
+      },
+      {
+        "date": "2021-01-13",
+        "match": "KT Rolster vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7221234352078032,
+        "market_odds": 1.7409026638582246,
+        "bet_amount": 5.973107813780379,
+        "edge": 0.32000394258710263,
+        "won": false,
+        "profit": -5.973107813780379,
+        "bankroll_after": 17.919323441341135
+      },
+      {
+        "date": "2021-01-16",
+        "match": "Hanwha Life Esports vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.7925890935749555,
+        "market_odds": 2.102184727540891,
+        "bet_amount": 4.479830860335284,
+        "edge": 0.749477122115187,
+        "won": true,
+        "profit": 4.937601156227919,
+        "bankroll_after": 22.856924597569055
+      },
+      {
+        "date": "2021-01-19",
+        "match": "KT Rolster vs Hanwha Life Esports",
+        "team_bet": "blue",
+        "predicted_prob": 0.6898192001405171,
+        "market_odds": 1.8095205066043605,
+        "bet_amount": 5.714231149392264,
+        "edge": 0.3106540879288675,
+        "won": false,
+        "profit": -5.714231149392264,
+        "bankroll_after": 17.142693448176793
+      },
+      {
+        "date": "2021-01-22",
+        "match": "Hanwha Life Esports vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.7610366599774293,
+        "market_odds": 1.6243333683146153,
+        "bet_amount": 4.285673362044198,
+        "edge": 0.2979861033776441,
+        "won": false,
+        "profit": -4.285673362044198,
+        "bankroll_after": 12.857020086132595
+      },
+      {
+        "date": "2021-01-25",
+        "match": "Gen.G vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.7607709307525695,
+        "market_odds": 1.60009139776342,
+        "bet_amount": 3.2142550215331487,
+        "edge": 0.2781681730639398,
+        "won": true,
+        "profit": 1.9288467886399185,
+        "bankroll_after": 14.785866874772513
+      },
+      {
+        "date": "2021-01-28",
+        "match": "Gen.G vs KT Rolster",
+        "team_bet": "red",
+        "predicted_prob": 0.5518204383865511,
+        "market_odds": 2.8810663426503447,
+        "bet_amount": 3.696466718693128,
+        "edge": 0.6693228568331535,
+        "won": false,
+        "profit": -3.696466718693128,
+        "bankroll_after": 11.089400156079385
+      },
+      {
+        "date": "2021-01-31",
+        "match": "Hanwha Life Esports vs Kwangdong Freecs",
+        "team_bet": "blue",
+        "predicted_prob": 0.7925890935749555,
+        "market_odds": 2.4568930051197904,
+        "bet_amount": 2.7723500390198463,
+        "edge": 1.0446719299354705,
+        "won": false,
+        "profit": -2.7723500390198463,
+        "bankroll_after": 8.317050117059539
+      },
+      {
+        "date": "2021-02-03",
+        "match": "Hanwha Life Esports vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8629945153211224,
+        "market_odds": 1.578425131184051,
+        "bet_amount": 2.0792625292648848,
+        "edge": 0.430280842609702,
+        "won": true,
+        "profit": 1.2026977012561224,
+        "bankroll_after": 9.519747818315661
+      },
+      {
+        "date": "2021-02-06",
+        "match": "Kwangdong Freecs vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.8212380371524497,
+        "market_odds": 1.396402107880775,
+        "bet_amount": 2.3799369545789153,
+        "edge": 0.2041174524591285,
+        "won": true,
+        "profit": 0.943412025418434,
+        "bankroll_after": 10.463159843734095
+      },
+      {
+        "date": "2021-02-09",
+        "match": "DRX vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8525666556258262,
+        "market_odds": 1.9344806883896952,
+        "bet_amount": 2.615789960933524,
+        "edge": 0.7317374174168061,
+        "won": true,
+        "profit": 2.444405203376013,
+        "bankroll_after": 12.907565047110108
+      },
+      {
+        "date": "2021-02-15",
+        "match": "Gen.G vs Hanwha Life Esports",
+        "team_bet": "blue",
+        "predicted_prob": 0.8245333827281224,
+        "market_odds": 2.027516186680797,
+        "bet_amount": 3.226891261777527,
+        "edge": 0.7553425189369378,
+        "won": false,
+        "profit": -3.226891261777527,
+        "bankroll_after": 9.68067378533258
+      },
+      {
+        "date": "2021-02-18",
+        "match": "DRX vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.8525666556258262,
+        "market_odds": 1.56295341425945,
+        "bet_amount": 2.420168446333145,
+        "edge": 0.3991480635588529,
+        "won": false,
+        "profit": -2.420168446333145,
+        "bankroll_after": 7.260505338999435
+      },
+      {
+        "date": "2021-02-21",
+        "match": "T1 vs DRX",
+        "team_bet": "blue",
+        "predicted_prob": 0.6895992078828901,
+        "market_odds": 1.7826358177263464,
+        "bet_amount": 1.8151263347498587,
+        "edge": 0.2907694602401443,
+        "won": false,
+        "profit": -1.8151263347498587,
+        "bankroll_after": 5.445379004249576
+      },
+      {
+        "date": "2021-02-24",
+        "match": "T1 vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.7275889591205529,
+        "market_odds": 1.707365090800569,
+        "bet_amount": 1.361344751062394,
+        "edge": 0.3043729887170721,
+        "won": true,
+        "profit": 0.9629677534461284,
+        "bankroll_after": 6.408346757695704
+      },
+      {
+        "date": "2021-02-27",
+        "match": "Hanwha Life Esports vs Gen.G",
+        "team_bet": "red",
+        "predicted_prob": 0.8629945153211224,
+        "market_odds": 1.6506656111288962,
+        "bet_amount": 1.602086689423926,
+        "edge": 0.4957411374850973,
+        "won": true,
+        "profit": 1.042422714855489,
+        "bankroll_after": 7.450769472551193
+      },
+      {
+        "date": "2021-03-02",
+        "match": "Kwangdong Freecs vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.8212380371524497,
+        "market_odds": 1.501116963956233,
+        "bet_amount": 1.8626923681377983,
+        "edge": 0.2944130664664444,
+        "won": false,
+        "profit": -1.8626923681377983,
+        "bankroll_after": 5.588077104413395
+      },
+      {
+        "date": "2021-03-05",
+        "match": "DRX vs Hanwha Life Esports",
+        "team_bet": "red",
+        "predicted_prob": 0.6864126291422286,
+        "market_odds": 2.0978534237512343,
+        "bet_amount": 1.3970192761033486,
+        "edge": 0.511992738359716,
+        "won": false,
+        "profit": -1.3970192761033486,
+        "bankroll_after": 4.191057828310046
+      },
+      {
+        "date": "2021-03-08",
+        "match": "KT Rolster vs T1",
+        "team_bet": "red",
+        "predicted_prob": 0.7722859039168549,
+        "market_odds": 1.589972356013891,
+        "bet_amount": 1.0477644570775115,
+        "edge": 0.28930890007534926,
+        "won": false,
+        "profit": -1.0477644570775115,
+        "bankroll_after": 3.1432933712325344
+      }
+    ],
+    "bankroll_history": [
+      {
+        "date": "2020-01-01",
+        "bankroll": 1264.894236078718,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2020-01-04",
+        "bankroll": 948.6706770590386,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2020-01-07",
+        "bankroll": 1097.8957399865728,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-01-10",
+        "bankroll": 823.4218049899296,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2020-01-13",
+        "bankroll": 1002.4077355564623,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2020-01-16",
+        "bankroll": 1445.52783792643,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-01-19",
+        "bankroll": 1824.6308278154402,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2020-01-22",
+        "bankroll": 1368.4731208615801,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2020-01-25",
+        "bankroll": 1026.354840646185,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2020-01-28",
+        "bankroll": 1026.354840646185,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2020-01-31",
+        "bankroll": 1163.24338934975,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2020-02-03",
+        "bankroll": 1407.3219034250783,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2020-02-06",
+        "bankroll": 1407.3219034250783,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2020-02-09",
+        "bankroll": 1647.4162739414903,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-02-12",
+        "bankroll": 1235.5622054561177,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2020-02-15",
+        "bankroll": 1235.5622054561177,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-02-18",
+        "bankroll": 1623.1406573983154,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2020-02-21",
+        "bankroll": 2152.553918241247,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2020-02-24",
+        "bankroll": 1614.4154386809355,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2020-02-27",
+        "bankroll": 2079.5817612190044,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2020-03-01",
+        "bankroll": 2079.5817612190044,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-03-04",
+        "bankroll": 1559.6863209142534,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2020-03-07",
+        "bankroll": 1169.76474068569,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2020-03-10",
+        "bankroll": 1295.5256508715102,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2020-03-13",
+        "bankroll": 971.6442381536326,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2020-03-16",
+        "bankroll": 728.7331786152245,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2020-03-19",
+        "bankroll": 921.8343901765778,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2020-03-22",
+        "bankroll": 1071.2026029987426,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2020-03-25",
+        "bankroll": 803.4019522490569,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2020-03-28",
+        "bankroll": 602.5514641867926,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-03-31",
+        "bankroll": 709.8673151702899,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2020-04-03",
+        "bankroll": 532.4004863777175,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2020-04-06",
+        "bankroll": 399.3003647832881,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2020-04-09",
+        "bankroll": 332.51938974432665,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-04-12",
+        "bankroll": 438.7789065530277,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-04-15",
+        "bankroll": 329.08417991477074,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-04-18",
+        "bankroll": 356.25849683402475,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2020-04-21",
+        "bankroll": 425.64966514014463,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2020-04-24",
+        "bankroll": 319.2372488551085,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2020-04-27",
+        "bankroll": 239.42793664133137,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2020-04-30",
+        "bankroll": 179.57095248099853,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2020-05-03",
+        "bankroll": 173.68965939785772,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2020-05-06",
+        "bankroll": 130.2672445483933,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2020-05-09",
+        "bankroll": 97.70043341129498,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2020-05-12",
+        "bankroll": 73.53271442123628,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-05-15",
+        "bankroll": 111.45355397765465,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2020-05-18",
+        "bankroll": 83.59016548324098,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2020-05-21",
+        "bankroll": 62.692624112430735,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2020-05-24",
+        "bankroll": 47.01946808432305,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-05-27",
+        "bankroll": 38.68449109950761,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-05-30",
+        "bankroll": 38.68449109950761,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-06-02",
+        "bankroll": 43.78678883398771,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-06-05",
+        "bankroll": 43.78678883398771,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-06-08",
+        "bankroll": 48.761863373431495,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2020-06-11",
+        "bankroll": 48.761863373431495,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2020-06-14",
+        "bankroll": 63.221280177496524,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2020-06-17",
+        "bankroll": 47.4159601331224,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2020-06-20",
+        "bankroll": 69.54541922445853,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2020-06-23",
+        "bankroll": 69.54541922445853,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2020-06-26",
+        "bankroll": 70.60180834192879,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2020-06-29",
+        "bankroll": 52.95135625644659,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-07-02",
+        "bankroll": 67.12805628591052,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-07-05",
+        "bankroll": 67.12805628591052,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2020-07-08",
+        "bankroll": 95.21164699943566,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-07-11",
+        "bankroll": 112.36325484840904,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2020-07-14",
+        "bankroll": 84.27244113630678,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2020-07-17",
+        "bankroll": 107.66661971431408,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2020-07-20",
+        "bankroll": 80.74996478573556,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2020-07-23",
+        "bankroll": 61.44886083817212,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-07-26",
+        "bankroll": 46.08664562862909,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2020-07-29",
+        "bankroll": 50.79128854954929,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2020-08-01",
+        "bankroll": 57.44554833407746,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-08-04",
+        "bankroll": 43.0841612505581,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2020-08-07",
+        "bankroll": 32.31312093791857,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2020-08-10",
+        "bankroll": 47.89518413200832,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2020-08-13",
+        "bankroll": 49.60333247606152,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-08-16",
+        "bankroll": 68.65133423703452,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2020-08-19",
+        "bankroll": 90.56940472511984,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2020-08-22",
+        "bankroll": 67.92705354383988,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2020-08-25",
+        "bankroll": 85.00519858220449,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2020-08-28",
+        "bankroll": 85.00519858220449,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-08-31",
+        "bankroll": 111.66716554841175,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2020-09-03",
+        "bankroll": 83.75037416130881,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2020-09-06",
+        "bankroll": 83.75037416130881,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2020-09-09",
+        "bankroll": 106.92386749895755,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-09-12",
+        "bankroll": 80.19290062421817,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2020-09-15",
+        "bankroll": 96.25526289050286,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-09-18",
+        "bankroll": 132.273131230493,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-09-21",
+        "bankroll": 99.20484842286974,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2020-09-24",
+        "bankroll": 74.4036363171523,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-09-27",
+        "bankroll": 57.43836497484496,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-09-30",
+        "bankroll": 43.07877373113372,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-10-03",
+        "bankroll": 48.19981668917015,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2020-10-06",
+        "bankroll": 51.22325036444624,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2020-10-09",
+        "bankroll": 57.99746697408116,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2020-10-12",
+        "bankroll": 62.14546945739793,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2020-10-15",
+        "bankroll": 71.45343957061382,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2020-10-18",
+        "bankroll": 53.59007967796037,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2020-10-21",
+        "bankroll": 59.75081039674712,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2020-10-24",
+        "bankroll": 44.81310779756034,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2020-10-27",
+        "bankroll": 48.19126182696622,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2020-10-30",
+        "bankroll": 36.143446370224666,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2020-11-02",
+        "bankroll": 52.1042666692517,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-11-05",
+        "bankroll": 39.902261178716245,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2020-11-08",
+        "bankroll": 59.48049180572055,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2020-11-11",
+        "bankroll": 64.96091479980086,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2020-11-14",
+        "bankroll": 89.7048722621725,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2020-11-17",
+        "bankroll": 67.27865419662938,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2020-11-20",
+        "bankroll": 70.52117433340268,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2020-11-23",
+        "bankroll": 52.89088075005201,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2020-11-26",
+        "bankroll": 60.80725192428038,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2020-11-29",
+        "bankroll": 73.88600107012272,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2020-12-02",
+        "bankroll": 95.11119093302766,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2020-12-05",
+        "bankroll": 112.68236219447033,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2020-12-08",
+        "bankroll": 135.68769817339847,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2020-12-11",
+        "bankroll": 101.76577363004886,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2020-12-14",
+        "bankroll": 76.32433022253664,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2020-12-17",
+        "bankroll": 87.13795132535326,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-12-20",
+        "bankroll": 87.13795132535326,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2020-12-23",
+        "bankroll": 65.35346349401495,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2020-12-26",
+        "bankroll": 49.01509762051121,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2020-12-29",
+        "bankroll": 36.76132321538341,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2021-01-01",
+        "bankroll": 27.57099241153756,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2021-01-04",
+        "bankroll": 31.856575006828685,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2021-01-07",
+        "bankroll": 31.856575006828685,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-01-10",
+        "bankroll": 23.892431255121515,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2021-01-13",
+        "bankroll": 17.919323441341135,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2021-01-16",
+        "bankroll": 22.856924597569055,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-01-19",
+        "bankroll": 17.142693448176793,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-01-22",
+        "bankroll": 12.857020086132595,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2021-01-25",
+        "bankroll": 14.785866874772513,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2021-01-28",
+        "bankroll": 11.089400156079385,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2021-01-31",
+        "bankroll": 8.317050117059539,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-02-03",
+        "bankroll": 9.519747818315661,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2021-02-06",
+        "bankroll": 10.463159843734095,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-02-09",
+        "bankroll": 12.907565047110108,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2021-02-12",
+        "bankroll": 12.907565047110108,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-02-15",
+        "bankroll": 9.68067378533258,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-02-18",
+        "bankroll": 7.260505338999435,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2021-02-21",
+        "bankroll": 5.445379004249576,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2021-02-24",
+        "bankroll": 6.408346757695704,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2021-02-27",
+        "bankroll": 7.450769472551193,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2021-03-02",
+        "bankroll": 5.588077104413395,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-03-05",
+        "bankroll": 4.191057828310046,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-03-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2021-03-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2021-03-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2021-03-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2021-03-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-03-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2021-03-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2021-03-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2021-04-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2021-04-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2021-04-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-04-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2021-04-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2021-04-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2021-04-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-04-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2021-04-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-04-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-05-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2021-05-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-05-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2021-05-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-05-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2021-05-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-05-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-05-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2021-05-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2021-05-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2021-05-31",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2021-06-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-06-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2021-06-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-06-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2021-06-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2021-06-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-06-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2021-06-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2021-06-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-06-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2021-07-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2021-07-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2021-07-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2021-07-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2021-07-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-07-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2021-07-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2021-07-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-07-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2021-07-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2021-08-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2021-08-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-08-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2021-08-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-08-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2021-08-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-08-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2021-08-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2021-08-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-08-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2021-09-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2021-09-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2021-09-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2021-09-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-09-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2021-09-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2021-09-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2021-09-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2021-09-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2021-09-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2021-10-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2021-10-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-10-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2021-10-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-10-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2021-10-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2021-10-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-10-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2021-10-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2021-10-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2021-10-31",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2021-11-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-11-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2021-11-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-11-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-11-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2021-11-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2021-11-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-11-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-11-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2021-11-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2021-12-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2021-12-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2021-12-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2021-12-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2021-12-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-12-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-12-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2021-12-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2021-12-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2021-12-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2022-01-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-01-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2022-01-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2022-01-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-01-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-01-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2022-01-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2022-01-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2022-01-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-01-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-02-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2022-02-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-02-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-02-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-02-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2022-02-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-02-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2022-02-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-02-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-02-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2022-03-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-03-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2022-03-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2022-03-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2022-03-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-03-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2022-03-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2022-03-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2022-03-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-03-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2022-04-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-04-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2022-04-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-04-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-04-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2022-04-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2022-04-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2022-04-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2022-04-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-04-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-05-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-05-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-05-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2022-05-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2022-05-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-05-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-05-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-05-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2022-05-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2022-05-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-06-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-06-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-06-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2022-06-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2022-06-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2022-06-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-06-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2022-06-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2022-06-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2022-06-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-07-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-07-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-07-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-07-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2022-07-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2022-07-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2022-07-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-07-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2022-07-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-07-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2022-07-31",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-08-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2022-08-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-08-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2022-08-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2022-08-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-08-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2022-08-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-08-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2022-08-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2022-08-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-09-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2022-09-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-09-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-09-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2022-09-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2022-09-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-09-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2022-09-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-09-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-09-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2022-10-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-10-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2022-10-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2022-10-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2022-10-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-10-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-10-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2022-10-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2022-10-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2022-10-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-11-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-11-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2022-11-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2022-11-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-11-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-11-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2022-11-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2022-11-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2022-11-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2022-11-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2022-12-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-12-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2022-12-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2022-12-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-12-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2022-12-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2022-12-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2022-12-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2022-12-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2022-12-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2022-12-31",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-01-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-01-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-01-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-01-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2023-01-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2023-01-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2023-01-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2023-01-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2023-01-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2023-01-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2023-02-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-02-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2023-02-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-02-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2023-02-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2023-02-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2023-02-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-02-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-02-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2023-03-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-03-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-03-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2023-03-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2023-03-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-03-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-03-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-03-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2023-03-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-03-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2023-03-31",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-04-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-04-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2023-04-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2023-04-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2023-04-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-04-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2023-04-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-04-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-04-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-04-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2023-05-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2023-05-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-05-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-05-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-05-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2023-05-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2023-05-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2023-05-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2023-05-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2023-05-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2023-06-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2023-06-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-06-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-06-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2023-06-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-06-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2023-06-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2023-06-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2023-06-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-06-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2023-07-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2023-07-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-07-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2023-07-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2023-07-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2023-07-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2023-07-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2023-07-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2023-07-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2023-07-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2023-08-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-08-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-08-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-08-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-08-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2023-08-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2023-08-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2023-08-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs KT Rolster"
+      },
+      {
+        "date": "2023-08-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2023-08-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-08-31",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs KT Rolster"
+      },
+      {
+        "date": "2023-09-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-09-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2023-09-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-09-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2023-09-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-09-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2023-09-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2023-09-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-09-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2023-09-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2023-10-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2023-10-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Gen.G"
+      },
+      {
+        "date": "2023-10-09",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2023-10-12",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-10-15",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2023-10-18",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2023-10-21",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs DRX"
+      },
+      {
+        "date": "2023-10-24",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2023-10-27",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2023-10-30",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2023-11-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2023-11-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs T1"
+      },
+      {
+        "date": "2023-11-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2023-11-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-11-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs DRX"
+      },
+      {
+        "date": "2023-11-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs T1"
+      },
+      {
+        "date": "2023-11-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-11-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs Gen.G"
+      },
+      {
+        "date": "2023-11-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs KT Rolster"
+      },
+      {
+        "date": "2023-11-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2023-12-02",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      },
+      {
+        "date": "2023-12-05",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2023-12-08",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2023-12-11",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Kwangdong Freecs"
+      },
+      {
+        "date": "2023-12-14",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2023-12-17",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs T1"
+      },
+      {
+        "date": "2023-12-20",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2023-12-23",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2023-12-26",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs Gen.G"
+      },
+      {
+        "date": "2023-12-29",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs DRX"
+      },
+      {
+        "date": "2024-01-01",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Hanwha Life Esports vs DRX"
+      },
+      {
+        "date": "2024-01-04",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs T1"
+      },
+      {
+        "date": "2024-01-07",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Hanwha Life Esports"
+      },
+      {
+        "date": "2024-01-10",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Gen.G"
+      },
+      {
+        "date": "2024-01-13",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2024-01-16",
+        "bankroll": 3.1432933712325344,
+        "match_id": "T1 vs Hanwha Life Esports"
+      },
+      {
+        "date": "2024-01-19",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2024-01-22",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Kwangdong Freecs vs KT Rolster"
+      },
+      {
+        "date": "2024-01-25",
+        "bankroll": 3.1432933712325344,
+        "match_id": "Gen.G vs KT Rolster"
+      },
+      {
+        "date": "2024-01-28",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs Gen.G"
+      },
+      {
+        "date": "2024-01-31",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs Hanwha Life Esports"
+      },
+      {
+        "date": "2024-02-03",
+        "bankroll": 3.1432933712325344,
+        "match_id": "DRX vs T1"
+      },
+      {
+        "date": "2024-02-06",
+        "bankroll": 3.1432933712325344,
+        "match_id": "KT Rolster vs DRX"
+      }
+    ],
+    "final_bankroll": 3.1432933712325344
+  },
+  "analysis": {
+    "summary": {
+      "total_bets": 131,
+      "winning_bets": 65,
+      "losing_bets": 66,
+      "win_rate": 0.4961832061068702,
+      "total_profit": -996.8567066287673,
+      "total_wagered": 10702.673386167486,
+      "roi": -9.314090701087265,
+      "avg_bet_size": 81.69979684097318,
+      "avg_profit_per_bet": -7.609593180372269,
+      "biggest_win": 529.4132608429319,
+      "biggest_loss": -538.1384795603118,
+      "avg_odds": 1.9738069681677783,
+      "avg_edge": 0.6111475006719531
+    },
+    "time_series": {
+      "start_bankroll": 1264.894236078718,
+      "end_bankroll": 3.1432933712325344,
+      "peak_bankroll": 2152.553918241247,
+      "lowest_bankroll": 3.1432933712325344,
+      "volatility": 0.12706970130687145,
+      "best_month": 1.1672399630521926,
+      "worst_month": -1.1916836974777247,
+      "positive_months": 7,
+      "negative_months": 8
+    },
+    "bet_analysis": {
+      "team_preferences": {
+        

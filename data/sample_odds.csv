@@ -1,0 +1,201 @@
+bookmaker,commence_time,team1,team2,team1_odds,team2_odds
+Sample Bookmaker,2025-04-09T02:13:51.211510,KT Rolster,Gen.G,1.67,1.33
+Sample Bookmaker,2025-04-09T02:13:51.211510,Gen.G,Dplus KIA,1.69,2.05
+Sample Bookmaker,2025-04-10T02:13:51.211510,Kwangdong Freecs,OKSavingsBank BRION,1.68,1.37
+Sample Bookmaker,2025-04-10T02:13:51.211510,KT Rolster,DRX,1.38,2.83
+Sample Bookmaker,2025-04-11T02:13:51.211510,Gen.G,Chinese Taipei (National Team),2.75,1.4
+Sample Bookmaker,2025-04-11T02:13:51.211510,Gen.G,Kwangdong Freecs,2.63,1.31
+Sample Bookmaker,2025-04-12T02:13:51.211510,Nongshim RedForce,BNK FEARX,1.67,2.08
+Sample Bookmaker,2025-04-12T02:13:51.211510,Gen.G,Chinese Taipei (National Team),1.39,1.45
+Sample Bookmaker,2025-04-13T02:13:51.211510,Hanwha Life Esports,OKSavingsBank BRION,1.56,2.28
+Sample Bookmaker,2025-04-13T02:13:51.211510,BNK FEARX,DRX,1.61,2.18
+Sample Bookmaker,2025-04-14T02:13:51.211510,Gen.G,OKSavingsBank BRION,1.29,3.26
+Sample Bookmaker,2025-04-14T02:13:51.211510,Gen.G,Chinese Taipei (National Team),2.38,1.52
+Sample Bookmaker,2025-04-15T02:13:51.211510,Dplus KIA,KT Rolster,1.65,2.11
+Sample Bookmaker,2025-04-15T02:13:51.211510,Nongshim RedForce,KT Rolster,1.47,2.51
+Sample Bookmaker,2025-04-16T02:13:51.211510,KT Rolster,Nongshim RedForce,1.82,1.72
+Sample Bookmaker,2025-04-16T02:13:51.211510,BNK FEARX,Nongshim RedForce,2.27,1.51
+Sample Bookmaker,2025-04-17T02:13:51.211510,Kwangdong Freecs,Dplus KIA,2.18,1.61
+Sample Bookmaker,2025-04-17T02:13:51.211510,KT Rolster,Hanwha Life Esports,1.85,1.85
+Sample Bookmaker,2025-04-18T02:13:51.211510,BNK FEARX,Dplus KIA,1.6,2.19
+Sample Bookmaker,2025-04-18T02:13:51.211510,BNK FEARX,KT Rolster,1.3,3.24
+Sample Bookmaker,2025-04-19T02:13:51.211510,Chinese Taipei (National Team),Hanwha Life Esports,1.64,2.12
+Sample Bookmaker,2025-04-19T02:13:51.211510,DRX,Nongshim RedForce,1.66,1.87
+Sample Bookmaker,2025-04-20T02:13:51.211510,DRX,Kwangdong Freecs,2.52,1.46
+Sample Bookmaker,2025-04-20T02:13:51.211510,BNK FEARX,Nongshim RedForce,1.76,1.95
+Sample Bookmaker,2025-04-21T02:13:51.211510,Dplus KIA,Kwangdong Freecs,1.69,2.04
+Sample Bookmaker,2025-04-21T02:13:51.211510,Hanwha Life Esports,OKSavingsBank BRION,1.44,1.46
+Sample Bookmaker,2025-04-22T02:13:51.211510,DRX,BNK FEARX,2.13,1.64
+Sample Bookmaker,2025-04-22T02:13:51.211510,Dplus KIA,DRX,1.59,1.94
+Sample Bookmaker,2025-04-23T02:13:51.211510,Dplus KIA,BNK FEARX,1.54,2.32
+Sample Bookmaker,2025-04-23T02:13:51.211510,DRX,Nongshim RedForce,1.64,2.12
+Sample Bookmaker,2025-04-24T02:13:51.211510,Kwangdong Freecs,Dplus KIA,1.53,2.35
+Sample Bookmaker,2025-04-24T02:13:51.211510,Hanwha Life Esports,Dplus KIA,1.35,2.35
+Sample Bookmaker,2025-04-25T02:13:51.211510,Nongshim RedForce,KT Rolster,1.76,1.83
+Sample Bookmaker,2025-04-25T02:13:51.211510,Chinese Taipei (National Team),Dplus KIA,2.39,1.51
+Sample Bookmaker,2025-04-26T02:13:51.211510,Nongshim RedForce,DRX,1.57,2.26
+Sample Bookmaker,2025-04-26T02:13:51.211510,Hanwha Life Esports,Chinese Taipei (National Team),2.36,1.52
+Sample Bookmaker,2025-04-27T02:13:51.211510,DRX,Kwangdong Freecs,1.92,1.79
+Sample Bookmaker,2025-04-27T02:13:51.211510,DRX,Chinese Taipei (National Team),2.29,1.56
+Sample Bookmaker,2025-04-28T02:13:51.211510,Hanwha Life Esports,BNK FEARX,1.36,2.89
+Sample Bookmaker,2025-04-28T02:13:51.211510,Chinese Taipei (National Team),Hanwha Life Esports,1.92,1.79
+Sample Bookmaker,2025-04-29T02:13:51.211510,Gen.G,DRX,1.42,2.68
+Sample Bookmaker,2025-04-29T02:13:51.211510,Chinese Taipei (National Team),Gen.G,2.02,1.52
+Sample Bookmaker,2025-04-30T02:13:51.211510,Kwangdong Freecs,OKSavingsBank BRION,1.81,1.89
+Sample Bookmaker,2025-04-30T02:13:51.211510,Dplus KIA,Nongshim RedForce,1.89,1.82
+Sample Bookmaker,2025-05-01T02:13:51.211510,Hanwha Life Esports,DRX,1.47,2.51
+Sample Bookmaker,2025-05-01T02:13:51.211510,Kwangdong Freecs,Gen.G,1.53,1.79
+Sample Bookmaker,2025-05-02T02:13:51.211510,Gen.G,Hanwha Life Esports,2.02,1.71
+Sample Bookmaker,2025-05-02T02:13:51.211510,Chinese Taipei (National Team),DRX,1.94,1.77
+Sample Bookmaker,2025-05-03T02:13:51.211510,Kwangdong Freecs,DRX,1.56,2.28
+Sample Bookmaker,2025-05-03T02:13:51.211510,BNK FEARX,Chinese Taipei (National Team),2.38,1.52
+Sample Bookmaker,2025-05-04T02:13:51.211510,Dplus KIA,Chinese Taipei (National Team),1.98,1.74
+Sample Bookmaker,2025-05-04T02:13:51.211510,DRX,Chinese Taipei (National Team),2.67,1.41
+Sample Bookmaker,2025-05-05T02:13:51.211510,OKSavingsBank BRION,Nongshim RedForce,1.67,2.08
+Sample Bookmaker,2025-05-05T02:13:51.211510,Gen.G,Hanwha Life Esports,1.56,2.27
+Sample Bookmaker,2025-05-06T02:13:51.211510,BNK FEARX,Chinese Taipei (National Team),2.62,1.33
+Sample Bookmaker,2025-05-06T02:13:51.211510,Dplus KIA,BNK FEARX,1.51,1.62
+Sample Bookmaker,2025-05-07T02:13:51.211510,Nongshim RedForce,Kwangdong Freecs,1.38,2.82
+Sample Bookmaker,2025-05-07T02:13:51.211510,Kwangdong Freecs,Gen.G,2.23,1.56
+Sample Bookmaker,2025-05-08T02:13:51.211510,BNK FEARX,KT Rolster,1.97,1.75
+Sample Bookmaker,2025-05-08T02:13:51.211510,OKSavingsBank BRION,Hanwha Life Esports,1.76,1.96
+Sample Bookmaker,2025-05-09T02:13:51.211510,Nongshim RedForce,Dplus KIA,2.68,1.42
+Sample Bookmaker,2025-05-09T02:13:51.211510,BNK FEARX,Nongshim RedForce,1.41,2.0
+Sample Bookmaker,2025-05-10T02:13:51.211510,BNK FEARX,OKSavingsBank BRION,1.69,2.05
+Sample Bookmaker,2025-05-10T02:13:51.211510,Nongshim RedForce,Gen.G,2.01,1.71
+Sample Bookmaker,2025-05-11T02:13:51.211510,KT Rolster,Dplus KIA,1.57,2.27
+Sample Bookmaker,2025-05-11T02:13:51.211510,KT Rolster,Dplus KIA,2.52,1.44
+Sample Bookmaker,2025-05-12T02:13:51.211510,KT Rolster,Kwangdong Freecs,1.67,2.12
+Sample Bookmaker,2025-05-12T02:13:51.211510,Dplus KIA,OKSavingsBank BRION,1.55,2.31
+Sample Bookmaker,2025-05-13T02:13:51.211510,Chinese Taipei (National Team),Hanwha Life Esports,1.68,2.06
+Sample Bookmaker,2025-05-13T02:13:51.211510,BNK FEARX,Hanwha Life Esports,2.16,1.62
+Sample Bookmaker,2025-05-14T02:13:51.211510,Chinese Taipei (National Team),Nongshim RedForce,1.65,2.11
+Sample Bookmaker,2025-05-14T02:13:51.211510,Gen.G,Nongshim RedForce,1.63,2.14
+Sample Bookmaker,2025-05-15T02:13:51.211510,BNK FEARX,Kwangdong Freecs,1.95,1.77
+Sample Bookmaker,2025-05-15T02:13:51.211510,KT Rolster,OKSavingsBank BRION,1.77,1.94
+Sample Bookmaker,2025-05-16T02:13:51.211510,Hanwha Life Esports,Nongshim RedForce,2.06,1.68
+Sample Bookmaker,2025-05-16T02:13:51.211510,Chinese Taipei (National Team),Gen.G,1.82,1.88
+Sample Bookmaker,2025-05-17T02:13:51.211510,BNK FEARX,Kwangdong Freecs,1.35,3.02
+Sample Bookmaker,2025-05-17T02:13:51.211510,DRX,OKSavingsBank BRION,2.52,1.46
+Sample Bookmaker,2025-05-18T02:13:51.211510,DRX,BNK FEARX,2.01,1.71
+Sample Bookmaker,2025-05-18T02:13:51.211510,KT Rolster,DRX,2.18,1.61
+Sample Bookmaker,2025-05-19T02:13:51.211510,Dplus KIA,Kwangdong Freecs,2.42,1.5
+Sample Bookmaker,2025-05-19T02:13:51.211510,Nongshim RedForce,Chinese Taipei (National Team),1.4,2.72
+Sample Bookmaker,2025-05-20T02:13:51.211510,KT Rolster,Hanwha Life Esports,2.18,1.61
+Sample Bookmaker,2025-05-20T02:13:51.211510,Kwangdong Freecs,KT Rolster,2.39,1.51
+Sample Bookmaker,2025-05-21T02:13:51.211510,Chinese Taipei (National Team),Kwangdong Freecs,2.53,1.46
+Sample Bookmaker,2025-05-21T02:13:51.211510,Gen.G,Dplus KIA,1.5,2.43
+Sample Bookmaker,2025-05-22T02:13:51.211510,OKSavingsBank BRION,Dplus KIA,1.62,2.17
+Sample Bookmaker,2025-05-22T02:13:51.211510,BNK FEARX,Gen.G,2.82,1.38
+Sample Bookmaker,2025-05-23T02:13:51.211510,Chinese Taipei (National Team),Nongshim RedForce,2.18,1.61
+Sample Bookmaker,2025-05-23T02:13:51.211510,OKSavingsBank BRION,BNK FEARX,1.81,1.9
+Sample Bookmaker,2025-05-24T02:13:51.211510,DRX,KT Rolster,2.14,1.63
+Sample Bookmaker,2025-05-24T02:13:51.211510,Nongshim RedForce,Gen.G,1.52,2.4
+Sample Bookmaker,2025-05-25T02:13:51.211510,Chinese Taipei (National Team),DRX,1.73,1.99
+Sample Bookmaker,2025-05-25T02:13:51.211510,Gen.G,Chinese Taipei (National Team),2.1,1.66
+Sample Bookmaker,2025-05-26T02:13:51.211510,OKSavingsBank BRION,KT Rolster,2.61,1.44
+Sample Bookmaker,2025-05-26T02:13:51.211510,Gen.G,OKSavingsBank BRION,2.37,1.52
+Sample Bookmaker,2025-05-27T02:13:51.211510,BNK FEARX,Nongshim RedForce,1.51,2.39
+Sample Bookmaker,2025-05-27T02:13:51.211510,Gen.G,KT Rolster,1.97,1.75
+Sample Bookmaker,2025-05-28T02:13:51.211510,BNK FEARX,KT Rolster,1.98,1.74
+Sample Bookmaker,2025-05-28T02:13:51.211510,DRX,Kwangdong Freecs,2.37,1.52
+Sample Bookmaker,2025-05-29T02:13:51.211510,Dplus KIA,Nongshim RedForce,2.28,1.56
+Sample Bookmaker,2025-05-29T02:13:51.211510,DRX,OKSavingsBank BRION,2.39,1.46
+Sample Bookmaker,2025-05-30T02:13:51.211510,OKSavingsBank BRION,Nongshim RedForce,1.46,2.57
+Sample Bookmaker,2025-05-30T02:13:51.211510,OKSavingsBank BRION,Dplus KIA,1.63,2.15
+Sample Bookmaker,2025-05-31T02:13:51.211510,Hanwha Life Esports,BNK FEARX,1.51,2.4
+Sample Bookmaker,2025-05-31T02:13:51.211510,DRX,Kwangdong Freecs,2.42,1.5
+Sample Bookmaker,2025-06-01T02:13:51.211510,Gen.G,Kwangdong Freecs,2.22,1.59
+Sample Bookmaker,2025-06-01T02:13:51.211510,Kwangdong Freecs,BNK FEARX,1.65,2.11
+Sample Bookmaker,2025-06-02T02:13:51.211510,Hanwha Life Esports,DRX,1.87,1.59
+Sample Bookmaker,2025-06-02T02:13:51.211510,Gen.G,Chinese Taipei (National Team),1.33,3.04
+Sample Bookmaker,2025-06-03T02:13:51.211510,BNK FEARX,Dplus KIA,1.89,1.82
+Sample Bookmaker,2025-06-03T02:13:51.211510,OKSavingsBank BRION,Hanwha Life Esports,1.59,2.21
+Sample Bookmaker,2025-06-04T02:13:51.211510,OKSavingsBank BRION,BNK FEARX,1.3,3.22
+Sample Bookmaker,2025-06-04T02:13:51.211510,Hanwha Life Esports,Chinese Taipei (National Team),2.58,1.45
+Sample Bookmaker,2025-06-05T02:13:51.211510,BNK FEARX,OKSavingsBank BRION,1.29,3.29
+Sample Bookmaker,2025-06-05T02:13:51.211510,Hanwha Life Esports,Kwangdong Freecs,1.5,2.42
+Sample Bookmaker,2025-06-06T02:13:51.211510,DRX,Kwangdong Freecs,1.49,1.31
+Sample Bookmaker,2025-06-06T02:13:51.211510,Hanwha Life Esports,Kwangdong Freecs,1.58,2.25
+Sample Bookmaker,2025-06-07T02:13:51.211510,Dplus KIA,Gen.G,1.81,1.9
+Sample Bookmaker,2025-06-07T02:13:51.211510,Chinese Taipei (National Team),Hanwha Life Esports,1.32,3.09
+Sample Bookmaker,2025-06-08T02:13:51.211510,OKSavingsBank BRION,KT Rolster,1.64,2.12
+Sample Bookmaker,2025-06-08T02:13:51.211510,KT Rolster,Kwangdong Freecs,1.45,2.56
+Sample Bookmaker,2025-06-09T02:13:51.211510,KT Rolster,Hanwha Life Esports,2.26,1.49
+Sample Bookmaker,2025-06-09T02:13:51.211510,DRX,Gen.G,1.78,1.93
+Sample Bookmaker,2025-06-10T02:13:51.211510,Gen.G,KT Rolster,1.62,1.61
+Sample Bookmaker,2025-06-10T02:13:51.211510,Chinese Taipei (National Team),Dplus KIA,1.45,2.57
+Sample Bookmaker,2025-06-11T02:13:51.211510,Gen.G,DRX,1.83,1.63
+Sample Bookmaker,2025-06-11T02:13:51.211510,KT Rolster,OKSavingsBank BRION,1.78,1.93
+Sample Bookmaker,2025-06-12T02:13:51.211510,BNK FEARX,Kwangdong Freecs,1.95,1.76
+Sample Bookmaker,2025-06-12T02:13:51.211510,Chinese Taipei (National Team),DRX,2.61,1.37
+Sample Bookmaker,2025-06-13T02:13:51.211510,Nongshim RedForce,DRX,1.67,2.08
+Sample Bookmaker,2025-06-13T02:13:51.211510,Hanwha Life Esports,Dplus KIA,1.96,1.75
+Sample Bookmaker,2025-06-14T02:13:51.211510,Hanwha Life Esports,Gen.G,2.64,1.43
+Sample Bookmaker,2025-06-14T02:13:51.211510,Hanwha Life Esports,Chinese Taipei (National Team),1.83,1.88
+Sample Bookmaker,2025-06-15T02:13:51.211510,Gen.G,BNK FEARX,2.65,1.42
+Sample Bookmaker,2025-06-15T02:13:51.211510,Gen.G,Kwangdong Freecs,1.58,2.23
+Sample Bookmaker,2025-06-16T02:13:51.211510,DRX,Hanwha Life Esports,1.79,1.92
+Sample Bookmaker,2025-06-16T02:13:51.211510,OKSavingsBank BRION,Kwangdong Freecs,2.12,1.64
+Sample Bookmaker,2025-06-17T02:13:51.211510,BNK FEARX,Dplus KIA,1.83,1.88
+Sample Bookmaker,2025-06-17T02:13:51.211510,Nongshim RedForce,Gen.G,2.12,1.66
+Sample Bookmaker,2025-06-18T02:13:51.211510,KT Rolster,OKSavingsBank BRION,1.87,1.83
+Sample Bookmaker,2025-06-18T02:13:51.211510,Hanwha Life Esports,OKSavingsBank BRION,1.41,1.71
+Sample Bookmaker,2025-06-19T02:13:51.211510,Gen.G,Kwangdong Freecs,1.73,1.94
+Sample Bookmaker,2025-06-19T02:13:51.211510,Gen.G,BNK FEARX,1.61,2.18
+Sample Bookmaker,2025-06-20T02:13:51.211510,Nongshim RedForce,Dplus KIA,2.94,1.35
+Sample Bookmaker,2025-06-20T02:13:51.211510,Chinese Taipei (National Team),KT Rolster,1.46,2.53
+Sample Bookmaker,2025-06-21T02:13:51.211510,DRX,Hanwha Life Esports,1.64,2.12
+Sample Bookmaker,2025-06-21T02:13:51.211510,DRX,Kwangdong Freecs,1.94,1.85
+Sample Bookmaker,2025-06-22T02:13:51.211510,Chinese Taipei (National Team),OKSavingsBank BRION,1.42,1.5
+Sample Bookmaker,2025-06-22T02:13:51.211510,Gen.G,OKSavingsBank BRION,1.52,2.37
+Sample Bookmaker,2025-06-23T02:13:51.211510,Hanwha Life Esports,Dplus KIA,1.47,2.51
+Sample Bookmaker,2025-06-23T02:13:51.211510,Nongshim RedForce,BNK FEARX,1.62,2.16
+Sample Bookmaker,2025-06-24T02:13:51.211510,DRX,Chinese Taipei (National Team),1.67,2.08
+Sample Bookmaker,2025-06-24T02:13:51.211510,Nongshim RedForce,Dplus KIA,2.98,1.34
+Sample Bookmaker,2025-06-25T02:13:51.211510,BNK FEARX,Gen.G,1.88,1.82
+Sample Bookmaker,2025-06-25T02:13:51.211510,KT Rolster,Dplus KIA,1.64,1.8
+Sample Bookmaker,2025-06-26T02:13:51.211510,OKSavingsBank BRION,KT Rolster,1.76,1.82
+Sample Bookmaker,2025-06-26T02:13:51.211510,DRX,Kwangdong Freecs,1.73,1.99
+Sample Bookmaker,2025-06-27T02:13:51.211510,BNK FEARX,OKSavingsBank BRION,2.14,1.63
+Sample Bookmaker,2025-06-27T02:13:51.211510,Dplus KIA,Gen.G,1.99,1.73
+Sample Bookmaker,2025-06-28T02:13:51.211510,BNK FEARX,Gen.G,1.81,1.9
+Sample Bookmaker,2025-06-28T02:13:51.211510,Chinese Taipei (National Team),Kwangdong Freecs,2.11,1.65
+Sample Bookmaker,2025-06-29T02:13:51.211510,OKSavingsBank BRION,Gen.G,2.69,1.41
+Sample Bookmaker,2025-06-29T02:13:51.211510,OKSavingsBank BRION,Chinese Taipei (National Team),2.36,1.52
+Sample Bookmaker,2025-06-30T02:13:51.211510,Gen.G,Dplus KIA,1.36,2.91
+Sample Bookmaker,2025-06-30T02:13:51.211510,Chinese Taipei (National Team),Kwangdong Freecs,1.96,1.76
+Sample Bookmaker,2025-07-01T02:13:51.211510,OKSavingsBank BRION,DRX,1.48,2.46
+Sample Bookmaker,2025-07-01T02:13:51.211510,Gen.G,DRX,1.71,2.03
+Sample Bookmaker,2025-07-02T02:13:51.211510,OKSavingsBank BRION,Dplus KIA,1.37,2.87
+Sample Bookmaker,2025-07-02T02:13:51.211510,Dplus KIA,Gen.G,1.38,2.46
+Sample Bookmaker,2025-07-03T02:13:51.211510,BNK FEARX,Chinese Taipei (National Team),1.43,2.64
+Sample Bookmaker,2025-07-03T02:13:51.211510,KT Rolster,Kwangdong Freecs,2.15,1.63
+Sample Bookmaker,2025-07-04T02:13:51.211510,Hanwha Life Esports,BNK FEARX,1.37,1.74
+Sample Bookmaker,2025-07-04T02:13:51.211510,Chinese Taipei (National Team),KT Rolster,1.48,2.11
+Sample Bookmaker,2025-07-05T02:13:51.211510,Kwangdong Freecs,KT Rolster,2.5,1.43
+Sample Bookmaker,2025-07-05T02:13:51.211510,Nongshim RedForce,KT Rolster,1.99,1.73
+Sample Bookmaker,2025-07-06T02:13:51.211510,OKSavingsBank BRION,Chinese Taipei (National Team),2.03,1.7
+Sample Bookmaker,2025-07-06T02:13:51.211510,KT Rolster,Dplus KIA,1.97,1.75
+Sample Bookmaker,2025-07-07T02:13:51.211510,OKSavingsBank BRION,Dplus KIA,1.95,1.77
+Sample Bookmaker,2025-07-07T02:13:51.211510,Hanwha Life Esports,Kwangdong Freecs,1.6,2.19
+Sample Bookmaker,2025-07-08T02:13:51.211510,OKSavingsBank BRION,Nongshim RedForce,1.36,2.92
+Sample Bookmaker,2025-07-08T02:13:51.211510,Chinese Taipei (National Team),KT Rolster,1.78,1.93
+Sample Bookmaker,2025-07-09T02:13:51.211510,Chinese Taipei (National Team),Gen.G,2.13,1.64
+Sample Bookmaker,2025-07-09T02:13:51.211510,Hanwha Life Esports,Chinese Taipei (National Team),2.03,1.72
+Sample Bookmaker,2025-07-10T02:13:51.211510,Gen.G,Dplus KIA,1.63,2.15
+Sample Bookmaker,2025-07-10T02:13:51.211510,Chinese Taipei (National Team),Gen.G,1.48,2.47
+Sample Bookmaker,2025-07-11T02:13:51.211510,Nongshim RedForce,BNK FEARX,1.56,1.4
+Sample Bookmaker,2025-07-11T02:13:51.211510,Chinese Taipei (National Team),Nongshim RedForce,1.49,2.44
+Sample Bookmaker,2025-07-12T02:13:51.211510,Chinese Taipei (National Team),OKSavingsBank BRION,2.38,1.46
+Sample Bookmaker,2025-07-12T02:13:51.211510,KT Rolster,Kwangdong Freecs,1.58,2.23
+Sample Bookmaker,2025-07-13T02:13:51.211510,Dplus KIA,Kwangdong Freecs,1.75,1.96
+Sample Bookmaker,2025-07-13T02:13:51.211510,KT Rolster,Gen.G,1.95,1.77
+Sample Bookmaker,2025-07-14T02:13:51.211510,Dplus KIA,Hanwha Life Esports,2.06,1.68
+Sample Bookmaker,2025-07-14T02:13:51.211510,BNK FEARX,KT Rolster,2.35,1.53
+Sample Bookmaker,2025-07-15T02:13:51.211510,Dplus KIA,Chinese Taipei (National Team),1.98,1.74
+Sample Bookmaker,2025-07-15T02:13:51.211510,Chinese Taipei (National Team),Gen.G,2.31,1.52
+Sample Bookmaker,2025-07-16T02:13:51.211510,BNK FEARX,Nongshim RedForce,1.79,1.91
+Sample Bookmaker,2025-07-16T02:13:51.211510,Gen.G,DRX,1.76,1.96
+Sample Bookmaker,2025-07-17T02:13:51.211510,Hanwha Life Esports,DRX,2.42,1.5
+Sample Bookmaker,2025-07-17T02:13:51.211510,DRX,KT Rolster,1.87,1.58

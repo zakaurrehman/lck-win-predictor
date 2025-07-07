@@ -1,0 +1,26 @@
+{
+  "config": {
+    "name": "period_2019",
+    "odds_file": "data/odds/historical_odds.csv",
+    "matches_file": "data/matches/match_results.csv",
+    "initial_bankroll": 1000.0,
+    "min_edge": 0.05,
+    "min_probability": 0.55,
+    "use_kelly": true,
+    "start_date": "2019-01-01",
+    "end_date": "2019-12-31"
+  },
+  "results": {
+    "performance_metrics": {},
+    "bets": [],
+    "bankroll_history": [],
+    "final_bankroll": 1000.0
+  },
+  "analysis": {
+    "summary": {},
+    "time_series": {},
+    "bet_analysis": {},
+    "risk_metrics": {},
+    "model_performance": {}
+  }
+}
